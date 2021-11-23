@@ -71,7 +71,7 @@ const Navbar = () => {
 							tag={Link}
 							onClick={scrollUp}
 						>
-							<span>Gonzalo Salvador Corvalán</span>
+							<span>Home</span>
 						</NavbarBrand>
 						<button
 							aria-expanded={collapseOpen}
@@ -94,7 +94,7 @@ const Navbar = () => {
 							<Row>
 								<Col className="collapse-brand" xs="6">
 									<a href="#pablo" onClick={(e) => e.preventDefault()}>
-										Opciones
+										Options
 									</a>
 								</Col>
 								<Col className="collapse-close text-right" xs="6">
@@ -109,30 +109,6 @@ const Navbar = () => {
 							</Row>
 						</div>
 						<Nav navbar>
-							<NavItem className="p-0">
-								<NavLink
-									id="linkedin"
-									href="https://www.linkedin.com/in/gonzalo-salvador-corvalan"
-									target="_blank"
-									onClick={scrollUp}
-								>
-									<i className="fab fa-linkedin" />
-									<p className="d-lg-none d-xl-none">Linkedin</p>
-								</NavLink>
-							</NavItem>
-
-							<NavItem className="p-0">
-								<NavLink
-									id="github"
-									href="https://github.com/TheMrCorvy"
-									target="_blank"
-									onClick={scrollUp}
-								>
-									<i className="fab fa-github" />
-									<p className="d-lg-none d-xl-none">GitHub</p>
-								</NavLink>
-							</NavItem>
-
 							<NavItem>
 								<NavLink
 									className="btn btn-link"
@@ -141,29 +117,29 @@ const Navbar = () => {
 									id="CV"
 									onClick={scrollUp}
 								>
-									Mi CV
+									My CV
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink
 									className="btn btn-link"
 									tag={Link}
-									to="/beneficios"
-									id="beneficios"
+									to="/about-me"
+									id="about-me"
 									onClick={scrollUp}
 								>
-									Qué beneficios me trae?
+									About Me
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink
 									className="btn btn-link"
 									tag={Link}
-									to="/pricing"
-									id="pricing"
+									to="/login"
+									id="login"
 									onClick={scrollUp}
 								>
-									Paquetes y Servicios
+									Login
 								</NavLink>
 							</NavItem>
 						</Nav>
@@ -171,29 +147,15 @@ const Navbar = () => {
 				</Container>
 
 				<UncontrolledTooltip placement="bottom" target="CV" delay={0}>
-					{/*el delay en milisegundos */}
-					Más información acerca de mí
+					Know more about my professional experience
 				</UncontrolledTooltip>
 
-				<UncontrolledTooltip placement="bottom" target="beneficios" delay={0}>
-					Echá un vistazo
+				<UncontrolledTooltip placement="bottom" target="about-me" delay={0}>
+					My hobbies, things I like, and more
 				</UncontrolledTooltip>
 
-				<UncontrolledTooltip placement="bottom" target="pricing" delay={0}>
-					{/*el delay en milisegundos */}
-					¿Qúe servicios ofrezco?
-				</UncontrolledTooltip>
-
-				<UncontrolledTooltip placement="bottom" target="linkedin" delay={0}>
-					Visitá mi Linkedin
-				</UncontrolledTooltip>
-
-				<UncontrolledTooltip placement="bottom" target="github" delay={0}>
-					Revisá mi GitHub
-				</UncontrolledTooltip>
-
-				<UncontrolledTooltip placement="bottom" target="Home" delay={0}>
-					Home Page
+				<UncontrolledTooltip placement="bottom" target="login" delay={0}>
+					Only Admins allowed!
 				</UncontrolledTooltip>
 			</ReactstraptNavbar>
 		</>
