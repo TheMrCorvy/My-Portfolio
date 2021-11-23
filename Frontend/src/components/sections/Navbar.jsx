@@ -15,8 +15,11 @@ import {
 	UncontrolledTooltip,
 } from "reactstrap"
 
+import LoginModal from "./LoginModal"
+
 const Navbar = () => {
 	const [collapseOpen, setCollapseOpen] = useState(false)
+	const [open, setOpen] = useState(false)
 	const [collapseOut, setCollapseOut] = useState("")
 	const [color, setColor] = useState("navbar-transparent")
 
@@ -57,6 +60,10 @@ const Navbar = () => {
 		})
 
 		toggleCollapse()
+	}
+
+	const toggleModal = () => {
+		setOpen(!open)
 	}
 
 	return (
@@ -132,13 +139,7 @@ const Navbar = () => {
 								</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink
-									className="btn btn-link"
-									tag={Link}
-									to="/login"
-									id="login"
-									onClick={scrollUp}
-								>
+								<NavLink className="btn btn-link" id="login" onClick={toggleModal}>
 									Login
 								</NavLink>
 							</NavItem>
@@ -158,6 +159,8 @@ const Navbar = () => {
 					Only Admins allowed!
 				</UncontrolledTooltip>
 			</ReactstraptNavbar>
+
+			<LoginModal toggleModalLogin={toggleModal} modalLogin={open} />
 		</>
 	)
 }
