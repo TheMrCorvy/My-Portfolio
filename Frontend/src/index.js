@@ -17,7 +17,7 @@ import Animes from "./views/Privado/Animes"
 import Mundos from "./views/Privado/Mundos"
 import Admin from "./views/Privado/Admin"
 
-import Layout from "./components/Layout/Layout.js"
+import Layout from "./components/utils/Layout.jsx"
 
 import * as ServiceWorker from "./serviceWorker"
 
@@ -50,4 +50,10 @@ ReactDOM.render(
 	document.getElementById("root")
 )
 
-ServiceWorker.register()
+if (process.env.NODE_ENV === "development") {
+	console.log("service worker unregistered")
+
+	ServiceWorker.unregister()
+} else {
+	ServiceWorker.register()
+}

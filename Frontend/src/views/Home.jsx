@@ -1,12 +1,12 @@
 import React from "react";
 
 // core components
-import PageHeader from "../components/Sections/PageHeader.jsx";
+import PageHeader from "../old/components/Sections/PageHeader.jsx";
 
-import MiTrabajo from "../components/Sections/MiTrabajo.jsx"
-import Tecnologias from "../components/Sections/Tecnologias.jsx"
-import SectionContacto from "../components/Sections/SectionContacto.jsx"
-import PaquetesBasicos from "../components/Sections/PaquetesBasicos.jsx"
+import MiTrabajo from "../old/components/Sections/MiTrabajo.jsx"
+import Tecnologias from "../old/components/Sections/Tecnologias.jsx"
+import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
+import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
 class Index extends React.Component {
   componentDidMount() {
