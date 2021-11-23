@@ -4,7 +4,7 @@ import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import ListaMundos from "components/Privado/Sections/ListaMundos"
+import ListaMundos from "../../components/Privado/Sections/ListaMundos"
 
 class Animes extends React.Component {
     componentDidMount() {
@@ -44,7 +44,7 @@ class Animes extends React.Component {
                 </Breadcrumb>
             </Container>
             
-            <img alt="..." className="path" src={require("assets/img/path4.png")}/>
+            <img alt="..." className="path" src={require("../../assets/img/path4.png")}/>
             
             <Container>
                 <Row className="justify-content-center" style={{ height: "35vh"}}>

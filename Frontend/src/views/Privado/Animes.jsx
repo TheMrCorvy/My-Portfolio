@@ -4,7 +4,7 @@ import { Container, Breadcrumb, BreadcrumbItem } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import ListaAnimes from "components/Privado/Sections/ListaAnimes"
+import ListaAnimes from "../../components/Privado/Sections/ListaAnimes"
 
 class Animes extends React.Component {
     constructor(props) {
@@ -44,7 +44,7 @@ class Animes extends React.Component {
                 </Breadcrumb>
             </Container>
             
-            <img alt="..." className="path" style={{ zIndex: '-1' }} src={require("assets/img/path4.png")}/>
+            <img alt="..." className="path" style={{ zIndex: '-1' }} src={require("../../assets/img/path4.png")}/>
             
             <ListaAnimes/>
         

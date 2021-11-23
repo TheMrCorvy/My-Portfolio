@@ -4,7 +4,7 @@ import { Container, Breadcrumb, BreadcrumbItem, Row, Col, Card, CardHeader, Card
 
 import { Link } from "react-router-dom";
 
-import SectionContacto from "components/Sections/SectionContacto"
+import SectionContacto from "../components/Sections/SectionContacto"
 
 class Combos extends React.Component {
 
@@ -44,7 +44,7 @@ class Combos extends React.Component {
                     <BreadcrumbItem active >{this.props.match.params.combo}</BreadcrumbItem>
                 </Breadcrumb>
             </Container>
-            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em", zIndex: "-1" }} src={require("assets/img/path5.png")} />
+            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em", zIndex: "-1" }} src={require("../assets/img/path5.png")} />
 
             <Container>
                 {/* <PaquetesBasicosSeparado paramsUrl={this.props.match.params.combo}/> */}
@@ -56,7 +56,7 @@ class Combos extends React.Component {
                         <Col md="4">
                             <Card className="card-coin card-plain">
                                 <CardHeader>
-                                    <img alt="..." className="img-center img-fluid" src={require("assets/img/etherum.png")} />
+                                    <img alt="..." className="img-center img-fluid" src={require("../assets/img/etherum.png")} />
                                 </CardHeader>
                                 
                                 <CardBody>
@@ -129,7 +129,7 @@ class Combos extends React.Component {
                         <Col md="4">
                             <Card className="card-coin card-plain">
                                 <CardHeader>
-                                    <img alt="..." className="img-center img-fluid" src={require("assets/img/ripp.png")} />
+                                    <img alt="..." className="img-center img-fluid" src={require("../assets/img/ripp.png")} />
                                 </CardHeader>
                                 
                                 <CardBody>
@@ -205,7 +205,7 @@ class Combos extends React.Component {
                         <Col md="4">
                             <Card className="card-coin card-plain">
                                 <CardHeader>
-                                    <img alt="..." className="img-center img-fluid" src={require("assets/img/bitcoin.png")} />
+                                    <img alt="..." className="img-center img-fluid" src={require("../assets/img/bitcoin.png")} />
                                 </CardHeader>
                                         
                                 <CardBody>

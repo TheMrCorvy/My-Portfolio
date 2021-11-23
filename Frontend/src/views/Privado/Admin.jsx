@@ -4,13 +4,13 @@ import { Container, Breadcrumb, BreadcrumbItem, } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import AnimesForm from "components/Privado/Otros/AnimesForm"
-import DomainForm from "components/Privado/Otros/DomainForm"
-import ServiceForm from "components/Privado/Otros/ServiceForm"
-import ProjectForm from "components/Privado/Otros/ProjectForm"
-import WebsiteForm from "components/Privado/Otros/WebsiteForm"
+import AnimesForm from "../../components/Privado/Otros/AnimesForm"
+import DomainForm from "../../components/Privado/Otros/DomainForm"
+import ServiceForm from "../../components/Privado/Otros/ServiceForm"
+import ProjectForm from "../../components/Privado/Otros/ProjectForm"
+import WebsiteForm from "../../components/Privado/Otros/WebsiteForm"
 
-import {GetPage} from "components/Ajax/AjaxAirport"
+import {GetPage} from "../../components/Ajax/AjaxAirport"
 
 class Animes extends React.Component {
     constructor(props) {
@@ -89,7 +89,7 @@ class Animes extends React.Component {
                 </Breadcrumb>
             </Container>
             
-            <img alt="..." className="path" style={{ zIndex: '-1' }} src={require("assets/img/path4.png")}/>
+            <img alt="..." className="path" style={{ zIndex: '-1' }} src={require("../../assets/img/path4.png")}/>
             {this.state.isAdmin && 
                 <Container>
                     <AnimesForm/>

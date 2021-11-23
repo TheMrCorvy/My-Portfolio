@@ -1,12 +1,12 @@
 import React from "react";
 
 // core components
-import PageHeader from "components/Sections/PageHeader.jsx";
+import PageHeader from "../components/Sections/PageHeader.jsx";
 
-import MiTrabajo from "components/Sections/MiTrabajo.jsx"
-import Tecnologias from "components/Sections/Tecnologias.jsx"
-import SectionContacto from "components/Sections/SectionContacto.jsx"
-import PaquetesBasicos from "components/Sections/PaquetesBasicos.jsx"
+import MiTrabajo from "../components/Sections/MiTrabajo.jsx"
+import Tecnologias from "../components/Sections/Tecnologias.jsx"
+import SectionContacto from "../components/Sections/SectionContacto.jsx"
+import PaquetesBasicos from "../components/Sections/PaquetesBasicos.jsx"
 
 class Index extends React.Component {
   componentDidMount() {
@@ -21,7 +21,7 @@ class Index extends React.Component {
         <PageHeader />
 
         <section className="section section-basic wrapper justify-content-between">
-          <img alt="..." className="path" src={require("assets/img/path1.png")} />
+          <img alt="..." className="path" src={require("../assets/img/path1.png")} />
 
           <section className="section section-lg">
             <MiTrabajo />
@@ -29,13 +29,13 @@ class Index extends React.Component {
 
           <section className="section section-lg">
 
-            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em" }} src={require("assets/img/path2.png")} />
+            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em" }} src={require("../assets/img/path2.png")} />
             <Tecnologias />
           </section>
 
         </section>
 
-        <img alt="..." className="path" src={require("assets/img/path4.png")} />
+        <img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
         <PaquetesBasicos />
 

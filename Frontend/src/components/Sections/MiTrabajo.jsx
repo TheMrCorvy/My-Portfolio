@@ -4,9 +4,9 @@ import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import CardImage from "components/otros/CardImage.js"
+import CardImage from "../otros/CardImage.js"
 
-import {GetPage} from "components/Ajax/AjaxAirport"
+import {GetPage} from "../Ajax/AjaxAirport"
 
 function MiTrabajo(){
 

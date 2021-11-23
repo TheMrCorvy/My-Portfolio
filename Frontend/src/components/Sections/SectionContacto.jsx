@@ -2,7 +2,7 @@ import React from "react"
 
 import { Container, Row, Col } from "reactstrap"
 
-import FormContacto from "components/otros/FormContacto.js"
+import FormContacto from "../otros/FormContacto.js"
 
 function SectionContacto() {
     return (

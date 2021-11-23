@@ -2,7 +2,7 @@ import React from "react"
 
 import { Row, Col, Card, CardBody, CardTitle, CardFooter, Pagination, PaginationItem, PaginationLink, Container, Button, } from "reactstrap"
 
-import {GetPage} from "components/Ajax/AjaxAirport"
+import {GetPage} from "../../Ajax/AjaxAirport"
 
 import classnames from "classnames";
 

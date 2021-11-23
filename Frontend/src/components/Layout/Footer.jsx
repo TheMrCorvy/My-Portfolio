@@ -11,9 +11,9 @@ import {
   Modal
 } from "reactstrap";
 
-import FormLogin from "components/otros/FormLogin.js"
+import FormLogin from "../otros/FormLogin.js"
 
-import {Login} from "components/Ajax/AjaxAirport"
+import {Login} from "../Ajax/AjaxAirport"
 
 class Footer extends React.Component {
     constructor(props) {

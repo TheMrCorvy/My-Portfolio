@@ -1,16 +1,16 @@
 import React from "react";
 
-import PaquetesBasicos from "components/Sections/PaquetesBasicos.jsx"
+import PaquetesBasicos from "../components/Sections/PaquetesBasicos.jsx"
 
-import SectionContacto from "components/Sections/SectionContacto.jsx"
+import SectionContacto from "../components/Sections/SectionContacto.jsx"
 
-import DescripcionServicios from "components/Sections/DescripcionServicios.js"
+import DescripcionServicios from "../components/Sections/DescripcionServicios.js"
 
-import Tecnologias from "components/Sections/Tecnologias.jsx"
+import Tecnologias from "../components/Sections/Tecnologias.jsx"
 
-import InfoPrecios from "components/Sections/InfoPrecios.js"
+import InfoPrecios from "../components/Sections/InfoPrecios.js"
 
-import InfoPrecioFinal from "components/Sections/InfoPrecioFinal"
+import InfoPrecioFinal from "../components/Sections/InfoPrecioFinal"
 
 import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap"
 
@@ -33,7 +33,7 @@ class PricingPage extends React.Component {
                 </Breadcrumb>
             </Container>
             
-            <img alt="..." className="path" src={require("assets/img/path4.png")}/>
+            <img alt="..." className="path" src={require("../assets/img/path4.png")}/>
             
             <Container>
                 <Row className="justify-content-center" style={{ height: "35vh"}}>
@@ -45,13 +45,13 @@ class PricingPage extends React.Component {
             
             <PaquetesBasicos className="mb-5 pb-5" />
 
-            <img alt="..." className="path" src={require("assets/img/path2.png")} />
+            <img alt="..." className="path" src={require("../assets/img/path2.png")} />
 
             <DescripcionServicios/>
 
             <InfoPrecios/>
 
-            <img alt="..." className="path" src={require("assets/img/path5.png")} style={{zIndex: "-1"}}/>
+            <img alt="..." className="path" src={require("../assets/img/path5.png")} style={{zIndex: "-1"}}/>
 
             <InfoPrecioFinal/>
 

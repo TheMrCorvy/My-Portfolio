@@ -4,10 +4,10 @@ import { Container, Breadcrumb, BreadcrumbItem, } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import SectionContacto from "components/Sections/SectionContacto"
+import SectionContacto from "../components/Sections/SectionContacto"
 
-import Chart from "components/Sections/Chart"
-import BeneficiosInfo from "components/Sections/BeneficiosInfo"
+import Chart from "../components/Sections/Chart"
+import BeneficiosInfo from "../components/Sections/BeneficiosInfo"
 
 class Beneficios extends React.Component {
 
@@ -36,11 +36,11 @@ class Beneficios extends React.Component {
                     <BreadcrumbItem active className="text-capitalize">Los beneficios para tu negocio</BreadcrumbItem>
                 </Breadcrumb>
             </Container>
-            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em", zIndex: "-1" }} src={require("assets/img/path5.png")} />
+            <img alt="..." className="path" style={{ transform: 'scale(0.7)', left: '-15em', top: "-7em", zIndex: "-1" }} src={require("../assets/img/path5.png")} />
             
             <Chart/>
 
-            <img alt="..." className="path" style={{ transform: 'scale(0.7)', zIndex: "-1" }} src={require("assets/img/path1.png")} />
+            <img alt="..." className="path" style={{ transform: 'scale(0.7)', zIndex: "-1" }} src={require("../assets/img/path1.png")} />
 
             <BeneficiosInfo/>
 

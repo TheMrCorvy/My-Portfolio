@@ -14,7 +14,7 @@ import {
     Alert
 } from "reactstrap"
 
-import {GenerateResource} from "components/Ajax/AjaxAirport"
+import {GenerateResource} from "../../Ajax/AjaxAirport"
 
 class DomainForm extends React.Component {
     constructor(props) {

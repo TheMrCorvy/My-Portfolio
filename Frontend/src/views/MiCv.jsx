@@ -1,6 +1,6 @@
 import React from "react";
 
-import MiTrabajo from "components/Sections/MiTrabajo.jsx"
+import MiTrabajo from "../components/Sections/MiTrabajo.jsx"
 
 import { Link } from "react-router-dom";
 
@@ -10,12 +10,12 @@ import {
   Container
 } from "reactstrap"
 
-import Tecnologias from "components/Sections/Tecnologias"
+import Tecnologias from "../components/Sections/Tecnologias"
 import MiExperiencia from "../components/Sections/MiExperiencia";
 
-import SectionContacto from "components/Sections/SectionContacto.jsx"
+import SectionContacto from "../components/Sections/SectionContacto.jsx"
 
-import LanguajesTable from "components/otros/LanguajesTable.js"
+import LanguajesTable from "../components/otros/LanguajesTable.js"
 
 class MasInfo extends React.Component {
   componentDidMount() {
@@ -34,7 +34,7 @@ class MasInfo extends React.Component {
             </Breadcrumb>
           </Container>
 
-          <img alt="..." className="path" src={require("assets/img/path1.png")} />
+          <img alt="..." className="path" src={require("../assets/img/path1.png")} />
           <section className="section-lg section mb-5">
           
             <MiTrabajo />
@@ -43,11 +43,11 @@ class MasInfo extends React.Component {
           
           <MiExperiencia/>
           
-          <img alt="..." className="path" src={require("assets/img/path4.png")}/>
+          <img alt="..." className="path" src={require("../assets/img/path4.png")}/>
           
           <Tecnologias />
 
-          <img alt="..." className="path" style={{zIndex: "-1", marginTop: "-50vw"}} src={require("assets/img/path2.png")}/>
+          <img alt="..." className="path" style={{zIndex: "-1", marginTop: "-50vw"}} src={require("../assets/img/path2.png")}/>
           
           <LanguajesTable/>
           
