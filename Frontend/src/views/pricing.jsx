@@ -1,16 +1,16 @@
 import React from "react";
 
-import PaquetesBasicos from "../components/Sections/PaquetesBasicos.jsx"
+import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
-import SectionContacto from "../components/Sections/SectionContacto.jsx"
+import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
-import DescripcionServicios from "../components/Sections/DescripcionServicios.js"
+import DescripcionServicios from "../old/components/Sections/DescripcionServicios.js"
 
-import Tecnologias from "../components/Sections/Tecnologias.jsx"
+import Tecnologias from "../old/components/Sections/Tecnologias.jsx"
 
-import InfoPrecios from "../components/Sections/InfoPrecios.js"
+import InfoPrecios from "../old/components/Sections/InfoPrecios.js"
 
-import InfoPrecioFinal from "../components/Sections/InfoPrecioFinal"
+import InfoPrecioFinal from "../old/components/Sections/InfoPrecioFinal"
 
 import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap"
 

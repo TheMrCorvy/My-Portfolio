@@ -4,7 +4,7 @@ import { Container, Breadcrumb, BreadcrumbItem } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import ListaAnimes from "../../components/Privado/Sections/ListaAnimes"
+import ListaAnimes from "../../old/components/Privado/Sections/ListaAnimes"
 
 class Animes extends React.Component {
     constructor(props) {

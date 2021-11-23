@@ -13,7 +13,7 @@ import {
 // import CardImage from "components/otros/CardImage.js"
 // import InfoArea from "components/otros/InfoArea.js"
 
-import { GetPage } from "..//Ajax/AjaxAirport"
+import { GetPage } from "../Ajax/AjaxAirport"
 
 function MiExperiencia() {
 	const token = null

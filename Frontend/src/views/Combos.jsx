@@ -4,7 +4,7 @@ import { Container, Breadcrumb, BreadcrumbItem, Row, Col, Card, CardHeader, Card
 
 import { Link } from "react-router-dom";
 
-import SectionContacto from "../components/Sections/SectionContacto"
+import SectionContacto from "../old/components/Sections/SectionContacto"
 
 class Combos extends React.Component {
 

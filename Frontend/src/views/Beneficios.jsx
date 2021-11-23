@@ -4,10 +4,10 @@ import { Container, Breadcrumb, BreadcrumbItem, } from "reactstrap"
 
 import { Link } from "react-router-dom";
 
-import SectionContacto from "../components/Sections/SectionContacto"
+import SectionContacto from "../old/components/Sections/SectionContacto"
 
-import Chart from "../components/Sections/Chart"
-import BeneficiosInfo from "../components/Sections/BeneficiosInfo"
+import Chart from "../old/components/Sections/Chart"
+import BeneficiosInfo from "../old/components/Sections/BeneficiosInfo"
 
 class Beneficios extends React.Component {
 

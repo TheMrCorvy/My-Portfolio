@@ -1,6 +1,6 @@
 import React from "react";
 
-import MiTrabajo from "../components/Sections/MiTrabajo.jsx"
+import MiTrabajo from "../old/components/Sections/MiTrabajo.jsx"
 
 import { Link } from "react-router-dom";
 
@@ -10,12 +10,12 @@ import {
   Container
 } from "reactstrap"
 
-import Tecnologias from "../components/Sections/Tecnologias"
-import MiExperiencia from "../components/Sections/MiExperiencia";
+import Tecnologias from "../old/components/Sections/Tecnologias"
+import MiExperiencia from "../old/components/Sections/MiExperiencia";
 
-import SectionContacto from "../components/Sections/SectionContacto.jsx"
+import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
-import LanguajesTable from "../components/otros/LanguajesTable.js"
+import LanguajesTable from "../old/components/otros/LanguajesTable.js"
 
 class MasInfo extends React.Component {
   componentDidMount() {

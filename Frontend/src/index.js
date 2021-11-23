@@ -17,7 +17,7 @@ import Animes from "./views/Privado/Animes"
 import Mundos from "./views/Privado/Mundos"
 import Admin from "./views/Privado/Admin"
 
-import Layout from "./components/Layout/Layout.js"
+import Layout from "./old/components/Layout/Layout.js"
 
 import * as ServiceWorker from "./serviceWorker"
 
