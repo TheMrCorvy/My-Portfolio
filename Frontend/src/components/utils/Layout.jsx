@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 
-import Navbar from "./Navbar.jsx"
+import Navbar from "../sections/Navbar.jsx"
 import Footer from "../../old/components/Layout/Footer.jsx"
 
 const Layout = (props) => {
