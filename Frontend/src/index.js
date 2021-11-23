@@ -50,4 +50,10 @@ ReactDOM.render(
 	document.getElementById("root")
 )
 
-ServiceWorker.register()
+if (process.env.NODE_ENV === "development") {
+	console.log("service worker unregistered")
+
+	ServiceWorker.unregister()
+} else {
+	ServiceWorker.register()
+}
