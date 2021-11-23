@@ -5,10 +5,10 @@ import Footer from "../../old/components/Layout/Footer.jsx"
 
 const Layout = (props) => {
 	useEffect(() => {
-		document.body.classList.toggle("index-page")
+		document.body.classList.add("index-page")
 
 		return () => {
-			document.body.classList.toggle("index-page")
+			document.body.classList.remove("index-page")
 		}
 	}, [])
 
