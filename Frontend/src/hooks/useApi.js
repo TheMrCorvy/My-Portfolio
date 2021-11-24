@@ -1,6 +1,10 @@
 export const useApi = async (request) => {
 	const { method, endpoint, body, token, apiUri, headers } = request
 
+	const local = process.env.NODE_ENV === "development"
+
+	const baseUri = local ? "http://localhost:5000/api" : "https://backend.corvalangonzalo.xyz/api"
+
 	const headerToken = { Authorization: token ? "Bearer " + token : "" }
 
 	const reqHeaders = headers
@@ -12,7 +16,7 @@ export const useApi = async (request) => {
 				...headerToken,
 		  })
 
-	const reqUrl = apiUri ? apiUri + endpoint : "/api" + endpoint
+	const reqUrl = apiUri ? apiUri + endpoint : baseUri + endpoint
 
 	return await fetch(reqUrl, { method, headers: reqHeaders, body: JSON.stringify(body) })
 		.then((res) => res.json())
