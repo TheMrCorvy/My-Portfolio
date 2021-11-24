@@ -5,6 +5,8 @@ import { Container } from "reactstrap"
 import Lottie from "react-lottie"
 import animationData from "../../assets/lottie-confetti"
 
+import CountUp from "react-countup"
+
 const Welcome = () => {
 	const [animate, setAnimate] = useState(false)
 
@@ -18,9 +20,9 @@ const Welcome = () => {
 	}
 
 	useEffect(() => {
-		setTimeout(() => {
-			setAnimate(true)
-		}, 3000)
+		// setTimeout(() => {
+		// 	setAnimate(true)
+		// }, 3000)
 	}, [])
 
 	return (
@@ -52,6 +54,7 @@ const Welcome = () => {
 							I'm a Fullstack Web Developer, specialized in Frontend development with
 							React JS and TypeScript.
 						</h4>
+						<CountUp end={10} duration={1.5} />
 					</div>
 				</Container>
 			</div>
