@@ -120,7 +120,7 @@ const Welcome = () => {
 						</h3>
 						<h4>
 							I'm a Fullstack Web Developer, specialized in Frontend development with
-							React JS and TypeScript.
+							React JS, TypeScript, and Material UI.
 						</h4>
 					</div>
 				</Container>
