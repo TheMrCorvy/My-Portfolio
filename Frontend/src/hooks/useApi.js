@@ -27,3 +27,30 @@ export const useApi = async (request) => {
 			return error
 		})
 }
+/***
+ * How to use this hook:
+ *
+ * 1) You first call it in the component, without instanciating it:
+ *
+ * const callApi = useApi
+ *
+ * 2) Then, you create the request object:
+ *
+ * const req = {
+ * 		method: "GET",
+ * 		endpoint: "/endpoint"
+ * }
+ *
+ * the "/"" in "/endpoint" is necesary
+ *
+ * 3) Lastly, you instanciate the hook with a .then() function:
+ *
+ * callApi(req).then(data => {
+ * 		if(data.status !== 200) handle the error
+ *
+ * 		the request was ok
+ * })
+ *
+ * since the .catch() in this hook returns the response, you'll have to handle the error when calling the api
+ * in a component
+ */
