@@ -39,6 +39,9 @@ const Welcome = () => {
 		setFinalNumbers(finalNumber)
 
 		console.error('("Hello there!" from the lnading section), Res: General Kenobi...')
+		console.log(
+			'If you are here because of the number in the landing section, you should consider watching "Steins;Gate"'
+		)
 	}, [])
 
 	useEffect(() => {
