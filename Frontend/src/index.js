@@ -6,10 +6,10 @@ import "./assets/css/nucleo-icons.css"
 import "./assets/scss/blk-design-system-react.scss?v=1.0.0"
 import "./assets/demo/demo.css"
 
-import Home from "./views/Home.jsx"
+import Home from "./pages/Home.jsx"
 import MiCv from "./views/MiCv.jsx"
 import PricingPage from "./views/pricing.jsx"
-import NotFound from "./views/NotFound.jsx"
+import NotFound from "./pages/NotFound.jsx"
 import Combos from "./views/Combos.jsx"
 import Beneficios from "./views/Beneficios.jsx"
 
@@ -27,11 +27,11 @@ ReactDOM.render(
 			<Switch>
 				<Route exact path="/" render={(props) => <Home {...props} />} />
 
-				<Route exact path="/mi-cv" render={(props) => <MiCv {...props} />} />
+				<Route exact path="/my-cv" render={(props) => <MiCv {...props} />} />
 
-				<Route exact path="/beneficios" render={(props) => <Beneficios {...props} />} />
+				<Route exact path="/about-me" render={(props) => <Beneficios {...props} />} />
 
-				<Route exact path="/pricing" render={(props) => <PricingPage {...props} />} />
+				{/* <Route exact path="/pricing" render={(props) => <PricingPage {...props} />} />
 
 				<Route exact path="/pricing/:combo" component={Combos} />
 
@@ -41,7 +41,7 @@ ReactDOM.render(
 
 				<Route exact path="/mundos" render={(props) => <Mundos {...props} />} />
 
-				<Route exact path="/admin" render={(props) => <Admin {...props} />} />
+				<Route exact path="/admin" render={(props) => <Admin {...props} />} /> */}
 
 				<Route component={NotFound} />
 			</Switch>
