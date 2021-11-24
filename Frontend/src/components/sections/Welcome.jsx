@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { Fragment, useEffect, useState } from "react"
 
 import { Container } from "reactstrap"
 
@@ -8,31 +8,99 @@ import animationData from "../../assets/lottie-confetti"
 import CountUp from "react-countup"
 
 const Welcome = () => {
-	const [animate, setAnimate] = useState(false)
-
-	const defaultOptions = {
+	const [animateOptions, setAnimateOptions] = useState({
 		loop: false,
-		autoplay: animate,
+		autoplay: false,
 		animationData: animationData,
 		rendererSettings: {
 			preserveAspectRatio: "xMidYMid slice",
 		},
-	}
+	})
+	const [finalNumbers, setFinalNumbers] = useState("")
+	const [componentIsLoaded, setComponentIsLoaded] = useState(false)
 
 	useEffect(() => {
-		// setTimeout(() => {
-		// 	setAnimate(true)
-		// }, 3000)
+		let finalNumber = []
+
+		;[...Array(7)].forEach((number, index) => {
+			let rand = Math.random() * (9 - 0) + 0
+
+			if (index === 0 || index === 1) {
+				rand = Math.random() * (1 - 0) + 0
+
+				finalNumber.push(Math.round(rand).toString() + ".")
+			} else {
+				finalNumber.push(Math.round(rand).toString())
+			}
+		})
+
+		finalNumber = finalNumber.join("")
+
+		setFinalNumbers(finalNumber)
+
+		console.error('("Hello there!" from the lnading section), Res: General Kenobi...')
 	}, [])
+
+	useEffect(() => {
+		if (finalNumbers) {
+			setComponentIsLoaded(true)
+
+			if (finalNumbers === "1.048596") {
+				const timer = setTimeout(() => {
+					setAnimateOptions({
+						...animateOptions,
+						autoplay: true,
+					})
+				}, 3000)
+
+				return () => {
+					clearTimeout(timer)
+				}
+			}
+		}
+	}, [finalNumbers])
 
 	return (
 		<>
 			<Lottie
-				options={defaultOptions}
+				options={animateOptions}
 				height={400}
 				width={400}
-				style={{ position: "absolute", top: 0, left: 0, height: "99vh", width: "99vw" }}
+				isStopped={!animateOptions.autoplay}
+				style={{ position: "absolute", top: 0, left: 0, height: "98vh", width: "98vw" }}
 			/>
+
+			{componentIsLoaded && (
+				<div
+					style={{
+						height: "3rem",
+						background: "#1d8cf8",
+						boxShadow: "13px 13px 77px -24px #1d8cf8",
+						position: "absolute",
+						borderTopRightRadius: 50,
+						borderBottomRightRadius: 50,
+						bottom: "10vh",
+						left: 0,
+						display: "flex",
+						alignItems: "center",
+						textAlign: "center",
+						justifyContent: "center",
+						paddingLeft: 15,
+						paddingRight: 15,
+					}}
+				>
+					<h3 style={{ marginBottom: 0, fontWeight: "bold", color: "#fff" }}>
+						{[...finalNumbers].map((number, index) => {
+							if (index === 1) {
+								return <Fragment key={index}>{"."}</Fragment>
+							}
+
+							return <CountUp key={index} end={Number(number)} duration={1.5} />
+						})}
+					</h3>
+				</div>
+			)}
+
 			<div className="page-header header-filter">
 				<div className="squares square1" />
 				<div className="squares square2" />
@@ -54,7 +122,6 @@ const Welcome = () => {
 							I'm a Fullstack Web Developer, specialized in Frontend development with
 							React JS and TypeScript.
 						</h4>
-						<CountUp end={10} duration={1.5} />
 					</div>
 				</Container>
 			</div>
