@@ -1,7 +1,6 @@
 import React from "react"
 
-import PageHeader from "../old/components/Sections/PageHeader.jsx"
-
+import Welcome from "../components/sections/Welcome.jsx"
 import MiTrabajo from "../old/components/Sections/MiTrabajo.jsx"
 import Tecnologias from "../old/components/Sections/Tecnologias.jsx"
 import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
@@ -10,7 +9,7 @@ import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 const Home = () => {
 	return (
 		<>
-			<PageHeader />
+			<Welcome />
 
 			<section className="section section-basic wrapper justify-content-between">
 				<img alt="..." className="path" src={require("../assets/img/path1.png")} />
