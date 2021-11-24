@@ -22,15 +22,22 @@ const Welcome = () => {
 	useEffect(() => {
 		let finalNumber = []
 
-		;[...Array(7)].forEach((number, index) => {
+		;[...Array(6)].forEach((number, index) => {
 			let rand = Math.random() * (9 - 0) + 0
 
-			if (index === 0 || index === 1) {
-				rand = Math.random() * (1 - 0) + 0
+			switch (index) {
+				case 0:
+					rand = Math.random() * (1 - 0) + 0
 
-				finalNumber.push(Math.round(rand).toString() + ".")
-			} else {
-				finalNumber.push(Math.round(rand).toString())
+					finalNumber.push(Math.round(rand).toString() + ".")
+					break
+
+				case 1:
+					finalNumber.push("0")
+
+				default:
+					finalNumber.push(Math.round(rand).toString())
+					break
 			}
 		})
 
@@ -54,7 +61,7 @@ const Welcome = () => {
 						...animateOptions,
 						autoplay: true,
 					})
-				}, 3000)
+				}, 2000)
 
 				return () => {
 					clearTimeout(timer)
