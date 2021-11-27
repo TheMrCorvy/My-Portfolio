@@ -7,7 +7,7 @@ import "./assets/scss/blk-design-system-react.scss?v=1.0.0"
 import "./assets/demo/demo.css"
 
 import Home from "./pages/Home.jsx"
-import MiCv from "./views/MiCv.jsx"
+import MyCv from "./pages/MyCv.jsx"
 import PricingPage from "./views/pricing.jsx"
 import NotFound from "./pages/NotFound.jsx"
 import Combos from "./views/Combos.jsx"
@@ -25,9 +25,9 @@ ReactDOM.render(
 	<BrowserRouter>
 		<Layout>
 			<Switch>
-				<Route exact path="/" render={(props) => <Home {...props} />} />
+				<Route exact path="/" render={() => <Home />} />
 
-				<Route exact path="/my-cv" render={(props) => <MiCv {...props} />} />
+				<Route exact path="/my-cv" render={() => <MyCv />} />
 
 				<Route exact path="/about-me" render={(props) => <Beneficios {...props} />} />
 

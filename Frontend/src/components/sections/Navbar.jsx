@@ -120,7 +120,7 @@ const Navbar = () => {
 								<NavLink
 									className="btn btn-link"
 									tag={Link}
-									to="/mi-cv"
+									to="/my-cv"
 									id="CV"
 									onClick={scrollUp}
 								>

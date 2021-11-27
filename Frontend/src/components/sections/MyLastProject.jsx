@@ -49,14 +49,6 @@ const MyLastProject = (props) => {
 							<p>{lastProject.description}</p>
 							<br />
 
-							{props.alt && (
-								<p>
-									Here you can also check out the rest of the projects I worked
-									on, as well as my studies up to date, and also my personal
-									projects.
-								</p>
-							)}
-
 							<Row>
 								<Col md="12" lg="6" xl="4" className="mb-3">
 									<Link
@@ -116,6 +108,18 @@ const MyLastProject = (props) => {
 									</Link>
 								</Col>
 							</Row>
+
+							{props.alt && (
+								<>
+									<br />
+									<br />
+									<p>
+										Here you can also check out the rest of the projects I
+										worked on, as well as my studies up to date, and also my
+										personal projects.
+									</p>
+								</>
+							)}
 						</div>
 					</Col>
 				</Row>
