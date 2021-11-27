@@ -6,10 +6,6 @@ import Footer from "../sections/Footer.jsx"
 const Layout = (props) => {
 	useEffect(() => {
 		document.body.classList.add("index-page")
-
-		return () => {
-			document.body.classList.remove("index-page")
-		}
 	}, [])
 
 	return (
