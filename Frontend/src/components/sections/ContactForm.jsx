@@ -11,12 +11,7 @@ const ContactForm = () => {
 						<div className="card card-contact card-raised" style={{ borderRadius: 10 }}>
 							<div className="row">
 								<div className="col-md-7">
-									<form
-										role="form"
-										className="p-3"
-										id="contact-form"
-										method="post"
-									>
+									<form className="p-3" id="contact-form" method="post">
 										<div className="card-header">
 											<h4 className="card-title">Send me a message</h4>
 										</div>
