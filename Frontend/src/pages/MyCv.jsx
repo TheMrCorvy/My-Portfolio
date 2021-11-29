@@ -6,14 +6,11 @@ import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
+import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
 
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
-
-import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
-
-import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
 
 const MyCv = () => {
 	return (
@@ -51,8 +48,6 @@ const MyCv = () => {
 			/>
 
 			<MyLanguages />
-
-			<SectionContacto />
 		</>
 	)
 }

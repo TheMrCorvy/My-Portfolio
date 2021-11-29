@@ -3,8 +3,7 @@ import React from "react"
 import Welcome from "../components/sections/Welcome.jsx"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
-import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
-import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
+import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
 const Home = () => {
@@ -34,10 +33,6 @@ const Home = () => {
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
 			<PaquetesBasicos />
-
-			<section className="section section-lg justify-content-center">
-				<SectionContacto />
-			</section>
 		</>
 	)
 }

@@ -19,7 +19,7 @@ const NotFound = () => {
 					className="content-center brand"
 					style={{ maxWidth: "90vw !important", minWidth: "20em !important" }}
 				>
-					<h1 className="h1-seo">Página no Encontrada.</h1>
+					<h1 className="h1-seo">Page Not Found.</h1>
 					<Link
 						className="font-weight-bold text-success mt-5"
 						to="/"
@@ -31,7 +31,7 @@ const NotFound = () => {
 						}}
 					>
 						<Button className="btn-simple" color="success" id="masinfo1">
-							Regresar a la página principal
+							Go Back To Home Page
 						</Button>
 					</Link>
 				</div>

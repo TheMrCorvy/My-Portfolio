@@ -9,7 +9,7 @@ import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 // import Tecnologias from "../old/components/Sections/Tecnologias"
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
 
-import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
+// import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
 import LanguajesTable from "../old/components/otros/LanguajesTable.js"
 
@@ -52,7 +52,7 @@ class MasInfo extends React.Component {
 
 				<LanguajesTable />
 
-				<SectionContacto />
+				{/* <SectionContacto /> */}
 			</React.Fragment>
 		)
 	}
