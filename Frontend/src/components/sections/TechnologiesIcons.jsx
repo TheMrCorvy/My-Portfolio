@@ -66,7 +66,7 @@ const TechnologiesIcons = () => {
 						<div className="icon icon-info">
 							<i className="tim-icons icon-book-bookmark" />
 						</div>
-						<h4 className="info-title">Git y GitHub</h4>
+						<h4 className="info-title">Git & GitHub</h4>
 						<hr className="line-info w-100" />
 					</div>
 				</Col>
@@ -131,7 +131,7 @@ const TechnologiesIcons = () => {
 						<div className="icon icon-primary">
 							<i className="tim-icons icon-pencil" />
 						</div>
-						<h4 className="info-title">CSS y CSS3</h4>
+						<h4 className="info-title">CSS & CSS3</h4>
 						<hr className="line-primary w-100" />
 					</div>
 				</Col>
