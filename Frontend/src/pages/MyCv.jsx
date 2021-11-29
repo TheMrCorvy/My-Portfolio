@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 
 import MyLastProject from "../components/sections/MyLastProject.jsx"
+import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 
 import Tecnologias from "../old/components/Sections/Tecnologias"
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
@@ -35,6 +36,7 @@ const MyCv = () => {
 
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
+			<MyKnowledge />
 			<Tecnologias />
 
 			<img
