@@ -2,7 +2,7 @@ import React from "react"
 
 import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
-import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
+// import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
 import DescripcionServicios from "../old/components/Sections/DescripcionServicios.js"
 
@@ -68,7 +68,7 @@ class PricingPage extends React.Component {
 				{/* <img alt="..." className="path" src={require("assets/img/path3.png")} /> */}
 				{/* <Tecnologias margen="15vh" /> */}
 
-				<SectionContacto />
+				{/* <SectionContacto /> */}
 			</React.Fragment>
 		)
 	}

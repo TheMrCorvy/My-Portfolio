@@ -4,7 +4,7 @@ import Welcome from "../components/sections/Welcome.jsx"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
-import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
+import ContactForm from "../components/sections/ContactForm.jsx"
 import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
 			<PaquetesBasicos />
 
 			<section className="section section-lg justify-content-center">
-				<SectionContacto />
+				<ContactForm />
 			</section>
 		</>
 	)
