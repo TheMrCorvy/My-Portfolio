@@ -4,7 +4,7 @@ import { Container, Col, Row } from "reactstrap"
 
 const TechnologiesIcons = () => {
 	return (
-		<Container className="mt-5">
+		<Container className="mt-5" style={{ paddingTop: "10vw" }}>
 			<Row className="justify-content-around">
 				<Col
 					xs="6"

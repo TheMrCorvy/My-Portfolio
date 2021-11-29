@@ -3,7 +3,7 @@ import React from "react"
 const MyKnowledge = () => {
 	return (
 		<>
-			<div className="">
+			<div style={{ paddingTop: "10vw" }}>
 				<div className="container" style={{ paddingBottom: "1.5rem" }}>
 					<div className="row">
 						<div className="col-md-6 mr-auto ml-auto">

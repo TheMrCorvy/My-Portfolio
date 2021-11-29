@@ -6,8 +6,8 @@ import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
+import Office from "../components/sections/Office.jsx"
 
-import Tecnologias from "../old/components/Sections/Tecnologias"
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
 
 import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
@@ -35,11 +35,13 @@ const MyCv = () => {
 
 			<MiExperiencia />
 
+			<MyKnowledge />
+
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
-			<MyKnowledge />
 			<TechnologiesIcons />
-			{/* <Tecnologias /> */}
+
+			<Office />
 
 			<img
 				alt="..."
