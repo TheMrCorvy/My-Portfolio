@@ -9,7 +9,6 @@ import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
 import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
-import ContactForm from "../components/sections/ContactForm.jsx"
 
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
 
@@ -49,8 +48,6 @@ const MyCv = () => {
 			/>
 
 			<MyLanguages />
-
-			<ContactForm />
 		</>
 	)
 }
