@@ -6,7 +6,7 @@ import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
-import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
+import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
 

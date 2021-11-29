@@ -3,7 +3,7 @@ import React from "react"
 import Welcome from "../components/sections/Welcome.jsx"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
-import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
+import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
 
 const Home = () => {
