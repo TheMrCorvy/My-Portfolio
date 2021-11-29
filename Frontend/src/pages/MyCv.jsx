@@ -13,6 +13,7 @@ import MiExperiencia from "../old/components/Sections/MiExperiencia"
 import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
 import LanguajesTable from "../old/components/otros/LanguajesTable.js"
+import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
 
 const MyCv = () => {
 	return (
@@ -37,7 +38,8 @@ const MyCv = () => {
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
 			<MyKnowledge />
-			<Tecnologias />
+			<TechnologiesIcons />
+			{/* <Tecnologias /> */}
 
 			<img
 				alt="..."
