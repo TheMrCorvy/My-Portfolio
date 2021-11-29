@@ -7,12 +7,12 @@ import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import Office from "../components/sections/Office.jsx"
+import MyLanguages from "../components/sections/MyLanguages.jsx"
 
 import MiExperiencia from "../old/components/Sections/MiExperiencia"
 
 import SectionContacto from "../old/components/Sections/SectionContacto.jsx"
 
-import LanguajesTable from "../old/components/otros/LanguajesTable.js"
 import TechnologiesIcons from "../components/sections/TechnologiesIcons.jsx"
 
 const MyCv = () => {
@@ -50,7 +50,7 @@ const MyCv = () => {
 				src={require("../assets/img/path2.png")}
 			/>
 
-			<LanguajesTable />
+			<MyLanguages />
 
 			<SectionContacto />
 		</>
