@@ -4,7 +4,7 @@ const MyKnowledge = () => {
 	return (
 		<>
 			<div className="">
-				<div className="container" style={{ paddingBottom: "10rem" }}>
+				<div className="container" style={{ paddingBottom: "1.5rem" }}>
 					<div className="row">
 						<div className="col-md-6 mr-auto ml-auto">
 							<h1 className="title">My Technical Knowledge</h1>
