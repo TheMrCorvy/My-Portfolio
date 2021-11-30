@@ -12,55 +12,49 @@ import {
 	Button,
 } from "reactstrap"
 
-import { Link } from "react-router-dom"
-
-const GlowingCard = () => {
+const GlowingCard = ({ color, imgUrl, title, subtitle, list }) => {
 	return (
-		<>
-			<Card className="card-coin card-plain glowing-card">
-				<CardHeader>
-					<img
-						alt="..."
-						className="img-center img-fluid"
-						src={require("../../assets/img/bitcoin.png")}
-					/>
-				</CardHeader>
-				<CardBody>
-					<Row>
-						<Col className="text-center" md="12">
-							<h4 className="text-uppercase">Combo Grande</h4>
-							<span className="text-primary">Plan E-comerce</span>
-							<hr className="line-primary" />
-						</Col>
-					</Row>
-					<Row>
-						<ListGroup>
-							<ListGroupItem>Web App de formato SPA</ListGroupItem>
-							<ListGroupItem>Dominio .com.ar o personalizado</ListGroupItem>
-							<ListGroupItem>Servicio de emails</ListGroupItem>
-							<ListGroupItem>Autoadministrable</ListGroupItem>
-							<ListGroupItem>Sistema de Login/Registro</ListGroupItem>
-						</ListGroup>
-					</Row>
-				</CardBody>
-				<CardFooter className="text-center">
-					<Link
-						className="font-weight-bold text-primary mt-5"
-						to="/pricing/combo-grande"
-						onClick={() => {
-							window.scrollTo({
-								top: 0,
-								left: 0,
-							})
-						}}
-					>
-						<Button className="btn-simple" color="white" id="masinfo3">
-							Más info
-						</Button>
-					</Link>
-				</CardFooter>
-			</Card>
-		</>
+		<Card className={`card-coin card-plain glowing-card glowing-card-${color}`}>
+			<CardHeader>
+				<img alt="..." className="img-center img-fluid" src={imgUrl} />
+			</CardHeader>
+			<CardBody>
+				<Row>
+					<Col className="text-center" md="12">
+						<h4 className="text-uppercase">{title}</h4>
+						{subtitle && (
+							<>
+								<span className="text-primary">Plan E-comerce</span>
+
+								<hr className="line-primary" />
+							</>
+						)}
+					</Col>
+				</Row>
+				<Row>
+					<ListGroup>
+						{list.map((listItem, index) => (
+							<ListGroupItem key={index + listItem}>{listItem}</ListGroupItem>
+						))}
+					</ListGroup>
+				</Row>
+			</CardBody>
+			<CardFooter className="text-center">
+				<Button
+					className="btn-simple"
+					color="primary"
+					style={{ color: "#fff" }}
+					onClick={() =>
+						document.getElementById("contact-section").scrollIntoView({
+							block: "start",
+							behavior: "smooth",
+						})
+					}
+				>
+					Contact Me
+				</Button>
+			</CardFooter>
+		</Card>
 	)
 }
 
