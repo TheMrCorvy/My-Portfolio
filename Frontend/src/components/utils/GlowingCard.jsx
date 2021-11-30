@@ -24,9 +24,9 @@ const GlowingCard = ({ color, imgUrl, title, subtitle, list }) => {
 						<h4 className="text-uppercase">{title}</h4>
 						{subtitle && (
 							<>
-								<span className="text-primary">Plan E-comerce</span>
+								<span className="text-warning">{subtitle}</span>
 
-								<hr className="line-primary" />
+								<hr className="line-warning" />
 							</>
 						)}
 					</Col>
@@ -43,7 +43,7 @@ const GlowingCard = ({ color, imgUrl, title, subtitle, list }) => {
 				<Button
 					className="btn-simple"
 					color="primary"
-					style={{ color: "#fff" }}
+					style={{ color: "#fff", border: "1px solid #fff" }}
 					onClick={() =>
 						document.getElementById("contact-section").scrollIntoView({
 							block: "start",
