@@ -1,16 +1,52 @@
-import React from "react"
+import React, { useState } from "react"
 
-import { Col, Container, Row } from "reactstrap"
+import { Col, Container, Row, Alert } from "reactstrap"
+
+import emailjs from "emailjs-com"
 
 const ContactForm = () => {
+	const [formData, setFormData] = useState({
+		from_name: "",
+		from_email: "",
+		from_company: "",
+		message: "",
+	})
+
+	const [loadingState, setLoadingState] = useState("") // loading, error, success
+
+	const handleChange = (e) => {
+		setFormData({
+			...formData,
+			[e.target.name]: e.target.value,
+		})
+	}
+
+	const handleSubmit = (e) => {
+		e.preventDefault()
+
+		setLoadingState("loading")
+
+		emailjs
+			.sendForm("service_b4s3gs9", "template_89o8c9l", e.target, "user_mMNITIgF6TFcu7x2W2gCo")
+			.then(
+				(res) => {
+					setLoadingState("success")
+					console.log(res)
+				},
+				(error) => {
+					setLoadingState("error")
+					console.log(error)
+				}
+			)
+	}
 	return (
 		<Container id="contact-section">
-			<Row>
+			<Row className="justify-content-center">
 				<div className="col-md-12 m-auto">
 					<div className="card card-contact card-raised" style={{ borderRadius: 10 }}>
 						<div className="row">
 							<div className="col-md-7">
-								<form className="p-3" id="contact-form" method="post">
+								<form className="p-3" onSubmit={(e) => handleSubmit(e)}>
 									<div className="card-header">
 										<h4 className="card-title">Send me a message</h4>
 									</div>
@@ -29,6 +65,9 @@ const ContactForm = () => {
 														className="form-control"
 														placeholder="Your Name..."
 														aria-label="Your Name..."
+														name="from_name"
+														value={formData.from_name}
+														onChange={(e) => handleChange(e)}
 													/>
 												</div>
 											</div>
@@ -46,6 +85,9 @@ const ContactForm = () => {
 															className="form-control"
 															placeholder="Company..."
 															aria-label="Company..."
+															value={formData.from_company}
+															onChange={(e) => handleChange(e)}
+															name="from_company"
 														/>
 													</div>
 												</div>
@@ -63,6 +105,9 @@ const ContactForm = () => {
 													type="text"
 													className="form-control"
 													placeholder="Email Here..."
+													name="from_email"
+													value={formData.from_email}
+													onChange={(e) => handleChange(e)}
 												/>
 											</div>
 										</div>
@@ -73,6 +118,9 @@ const ContactForm = () => {
 												className="form-control"
 												id="message"
 												rows="6"
+												name="message"
+												onChange={(e) => handleChange(e)}
+												value={formData.message}
 											></textarea>
 										</div>
 										<div className="row">
@@ -135,6 +183,21 @@ const ContactForm = () => {
 						</div>
 					</div>
 				</div>
+				{loadingState === "loading" && (
+					<Col xs="12" md="6" lg="4">
+						<Alert color="info">Now loading... Please wait...</Alert>
+					</Col>
+				)}
+				{loadingState === "error" && (
+					<Col xs="12" md="6" lg="4">
+						<Alert color="danger">Oops... Looks like something went wrong...</Alert>
+					</Col>
+				)}
+				{loadingState === "success" && (
+					<Col xs="12" md="6" lg="4">
+						<Alert color="success">Success! Message was sent successfully.</Alert>
+					</Col>
+				)}
 			</Row>
 		</Container>
 	)
