@@ -11,3 +11,14 @@
 		border-bottom-left-radius: 10px;
 	}
 }
+
+.glowing-card {
+	border-radius: 10px;
+	transition: 0.2s linear;
+}
+
+.glowing-card:hover {
+	background: #1d8cf8;
+	box-shadow: 13px 13px 77px -24px #1d8cf8;
+	border: 2px solid transparent;
+}
