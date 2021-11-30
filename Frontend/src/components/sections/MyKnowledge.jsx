@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Link } from "react-router-dom"
+
 const MyKnowledge = () => {
 	return (
 		<>
@@ -26,6 +28,7 @@ const MyKnowledge = () => {
 							>
 								<div className="icon icon-success">
 									<img
+										alt="..."
 										className="bg-blob"
 										style={{
 											marginLeft: -15,
@@ -47,9 +50,10 @@ const MyKnowledge = () => {
 										React-based technologies, such as React-JS, nextJS, among
 										other similar frameworks and libraries.
 									</p>
-									<a className="btn btn-info btn-link" href="javascript:;">
-										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
-									</a>
+									<Link to="/" className="btn btn-info btn-link">
+										Explore more{" "}
+										<i className="tim-icons icon-minimal-right"></i>{" "}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -64,6 +68,7 @@ const MyKnowledge = () => {
 							>
 								<div className="icon icon-warning">
 									<img
+										alt="..."
 										className="bg-blob"
 										style={{
 											marginLeft: -15,
@@ -89,9 +94,10 @@ const MyKnowledge = () => {
 										Nowadays I have learned Node JS, and when I work in Backend,
 										I usually make use of ExpressJS.
 									</p>
-									<a className="btn btn-info btn-link" href="javascript:;">
-										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
-									</a>
+									<Link to="/" className="btn btn-info btn-link">
+										Explore more{" "}
+										<i className="tim-icons icon-minimal-right"></i>{" "}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -108,6 +114,7 @@ const MyKnowledge = () => {
 							>
 								<div className="icon icon-primary">
 									<img
+										alt="..."
 										className="bg-blob"
 										style={{
 											marginLeft: -15,
@@ -129,9 +136,10 @@ const MyKnowledge = () => {
 										versions), as well as working with plain CSS, Styled
 										Components, and CSS in JS.
 									</p>
-									<a className="btn btn-info btn-link" href="javascript:;">
-										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
-									</a>
+									<Link to="/" className="btn btn-info btn-link">
+										Explore more{" "}
+										<i className="tim-icons icon-minimal-right"></i>{" "}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -146,6 +154,7 @@ const MyKnowledge = () => {
 							>
 								<div className="icon icon-info">
 									<img
+										alt="..."
 										className="bg-blob"
 										style={{
 											marginLeft: -15,
@@ -166,9 +175,10 @@ const MyKnowledge = () => {
 										the handling of States, and behaviors of the user
 										interface).
 									</p>
-									<a className="btn btn-info btn-link" href="javascript:;">
-										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
-									</a>
+									<Link to="/" className="btn btn-info btn-link">
+										Explore more{" "}
+										<i className="tim-icons icon-minimal-right"></i>{" "}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -185,6 +195,7 @@ const MyKnowledge = () => {
 							>
 								<div className="icon icon-danger">
 									<img
+										alt="..."
 										className="bg-blob"
 										style={{
 											marginLeft: -15,
@@ -203,9 +214,10 @@ const MyKnowledge = () => {
 										On the database side, I have experience working with MySQL,
 										as well as MongoDB.
 									</p>
-									<a className="btn btn-info btn-link" href="javascript:;">
-										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
-									</a>
+									<Link to="/" className="btn btn-info btn-link">
+										Explore more{" "}
+										<i className="tim-icons icon-minimal-right"></i>{" "}
+									</Link>
 								</div>
 							</div>
 						</div>

@@ -34,7 +34,11 @@ const MyLastProject = (props) => {
 			<Container>
 				<Row className="row-grid justify-content-between">
 					<Col className="mt-lg-5" md="5" id="projectImage">
-						<a href={lastProject.links.mainLink} target="_blank">
+						<a
+							href={lastProject.links.mainLink}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img
 								alt={lastProject.name}
 								className="img-raised"
