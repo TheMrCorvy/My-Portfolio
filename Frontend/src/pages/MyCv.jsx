@@ -32,7 +32,7 @@ const MyCv = () => {
 
 			<MiExperiencia />
 
-			<MyKnowledge />
+			<MyKnowledge alt />
 
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
