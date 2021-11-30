@@ -50,7 +50,16 @@ const MyKnowledge = () => {
 										React-based technologies, such as React-JS, nextJS, among
 										other similar frameworks and libraries.
 									</p>
-									<Link to="/" className="btn btn-info btn-link">
+									<Link
+										to="/my-cv"
+										onClick={() =>
+											window.scrollTo({
+												top: 0,
+												left: 0,
+											})
+										}
+										className="btn btn-info btn-link"
+									>
 										Explore more{" "}
 										<i className="tim-icons icon-minimal-right"></i>{" "}
 									</Link>
@@ -94,7 +103,16 @@ const MyKnowledge = () => {
 										Nowadays I have learned Node JS, and when I work in Backend,
 										I usually make use of ExpressJS.
 									</p>
-									<Link to="/" className="btn btn-info btn-link">
+									<Link
+										to="/my-cv"
+										onClick={() =>
+											window.scrollTo({
+												top: 0,
+												left: 0,
+											})
+										}
+										className="btn btn-info btn-link"
+									>
 										Explore more{" "}
 										<i className="tim-icons icon-minimal-right"></i>{" "}
 									</Link>
@@ -136,7 +154,16 @@ const MyKnowledge = () => {
 										versions), as well as working with plain CSS, Styled
 										Components, and CSS in JS.
 									</p>
-									<Link to="/" className="btn btn-info btn-link">
+									<Link
+										to="/my-cv"
+										onClick={() =>
+											window.scrollTo({
+												top: 0,
+												left: 0,
+											})
+										}
+										className="btn btn-info btn-link"
+									>
 										Explore more{" "}
 										<i className="tim-icons icon-minimal-right"></i>{" "}
 									</Link>
@@ -175,7 +202,16 @@ const MyKnowledge = () => {
 										the handling of States, and behaviors of the user
 										interface).
 									</p>
-									<Link to="/" className="btn btn-info btn-link">
+									<Link
+										to="/my-cv"
+										onClick={() =>
+											window.scrollTo({
+												top: 0,
+												left: 0,
+											})
+										}
+										className="btn btn-info btn-link"
+									>
 										Explore more{" "}
 										<i className="tim-icons icon-minimal-right"></i>{" "}
 									</Link>
@@ -214,7 +250,16 @@ const MyKnowledge = () => {
 										On the database side, I have experience working with MySQL,
 										as well as MongoDB.
 									</p>
-									<Link to="/" className="btn btn-info btn-link">
+									<Link
+										to="/my-cv"
+										onClick={() =>
+											window.scrollTo({
+												top: 0,
+												left: 0,
+											})
+										}
+										className="btn btn-info btn-link"
+									>
 										Explore more{" "}
 										<i className="tim-icons icon-minimal-right"></i>{" "}
 									</Link>
