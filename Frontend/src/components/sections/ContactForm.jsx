@@ -107,7 +107,7 @@ const ContactForm = () => {
 													</div>
 													<div className="description">
 														<h5 className="info-title">
-															+54 011 5048-8031
+															+54 9 11 5048-8031
 														</h5>
 													</div>
 												</div>
