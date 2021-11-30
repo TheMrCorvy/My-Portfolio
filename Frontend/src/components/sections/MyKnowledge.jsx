@@ -123,10 +123,11 @@ const MyKnowledge = () => {
 								<div className="description" style={{ paddingLeft: 10 }}>
 									<h3 className="info-title">UI / UX Design Frameworks</h3>
 									<p>
-										When it comes to designing interfaces, I have an extensive
-										experience in Design Frameworks, such as ReactJS' Material
-										UI, and Bootstrap (including their older and newer
-										versions).
+										When it comes to developing interfaces, I have vast
+										experience in Design Frameworks, such as Material UI for
+										React, and Bootstrap (including their older and newer
+										versions), as well as working with plain CSS, Styled
+										Components, and CSS in JS.
 									</p>
 									<a className="btn btn-info btn-link" href="javascript:;">
 										Explore now <i className="tim-icons icon-minimal-right"></i>{" "}
