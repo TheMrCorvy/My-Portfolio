@@ -11,7 +11,6 @@ import Home from "./pages/Home.jsx"
 import MyCv from "./pages/MyCv.jsx"
 import PricingPage from "./views/pricing.jsx"
 import NotFound from "./pages/NotFound.jsx"
-import Combos from "./views/Combos.jsx"
 import Beneficios from "./views/Beneficios.jsx"
 
 import Animes from "./views/Privado/Animes"
