@@ -40,7 +40,7 @@ const ContactForm = () => {
 			)
 	}
 	return (
-		<Container id="contact-section">
+		<Container id="contact-section" style={{ paddingTop: "3rem" }}>
 			<Row className="justify-content-center">
 				<div className="col-md-12 m-auto">
 					<div className="card card-contact card-raised" style={{ borderRadius: 10 }}>
@@ -118,7 +118,6 @@ const ContactForm = () => {
 												className="form-control"
 												id="message"
 												rows="6"
-												name="message"
 												onChange={(e) => handleChange(e)}
 												value={formData.message}
 											></textarea>
