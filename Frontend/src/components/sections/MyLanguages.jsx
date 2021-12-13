@@ -21,12 +21,13 @@ const MyLanguages = () => {
 									</CardTitle>
 								</CardHeader>
 								<CardText style={{ marginBottom: "1.5em" }}>
-									<p>
+									<span>
 										I have been studying the language continuously since
 										elementary school, although it was in 2018 when I began to
 										study seriously at the CUI (the University Center for
 										Languages of the Buenos Aires University in Argentina).{" "}
-									</p>
+									</span>
+									<br />
 									<br />
 									<span>
 										Since then I have been able to take the TOEFL IBT test, and
@@ -47,19 +48,20 @@ const MyLanguages = () => {
 									</CardTitle>
 								</CardHeader>
 								<CardText>
-									<p>
+									<span>
 										At the beginning of 2019 I began to study the language and,
 										although I'm skilled at an intermediate level (enough to
 										maintain conversations), I always keep studying and
 										practicing it at CUI (the University Center for Languages of
 										the Buenos Aires University in Argentina).
-									</p>
+									</span>
 									<br />
-									<p>
+									<br />
+									<span>
 										Thanks to that, I've managed to take and pass the
 										international certification exam Noryoku Shiken{" "}
 										<strong className="font-weight-bold title h4">N4</strong>.
-									</p>
+									</span>
 								</CardText>
 							</CardBody>
 						</Card>
@@ -73,16 +75,17 @@ const MyLanguages = () => {
 									</CardTitle>
 								</CardHeader>
 								<CardText>
-									<p>
+									<span>
 										Being from Argentina, this is my mother tongue, and the one
 										I master the best.
-									</p>
+									</span>
 									<br />
-									<p>
+									<br />
+									<span>
 										Despite speaking in the Argentine dialect, I am well versed
 										in Neutral Spanish, commonly used in dubbing and
 										translations aimed at Latin America in general.
-									</p>
+									</span>
 								</CardText>
 							</CardBody>
 						</Card>
