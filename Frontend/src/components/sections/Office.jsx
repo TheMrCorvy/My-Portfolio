@@ -8,7 +8,7 @@ const Office = () => {
 			<Row className="justify-content-center">
 				<Col lg="12">
 					<h1 className="text-center text-neutral" style={{ lineHeight: "1.5em" }}>
-						I also have experience using the following Microsoft Office tools
+						I also have experience using the following tools from Microsoft Office
 					</h1>
 					<Row className="row-grid justify-content-center">
 						<Col md="6">

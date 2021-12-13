@@ -1,4 +1,4 @@
-export const useApi = async (request) => {
+const useApi = async (request) => {
 	const { method, endpoint, body, token, apiUri, headers } = request
 
 	const local = process.env.NODE_ENV === "development"
@@ -58,3 +58,5 @@ export const useApi = async (request) => {
  * since the .catch() in this hook returns the response, you'll have to handle the error when calling the api
  * in a component
  */
+
+export default useApi

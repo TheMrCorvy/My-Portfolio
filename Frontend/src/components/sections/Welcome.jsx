@@ -34,7 +34,7 @@ const Welcome = () => {
 
 				case 1:
 					finalNumber.push("0")
-
+					break
 				default:
 					finalNumber.push(Math.round(rand).toString())
 					break

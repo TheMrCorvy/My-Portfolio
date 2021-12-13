@@ -34,7 +34,11 @@ const MyLastProject = (props) => {
 			<Container>
 				<Row className="row-grid justify-content-between">
 					<Col className="mt-lg-5" md="5" id="projectImage">
-						<a href={lastProject.links.mainLink} target="_blank">
+						<a
+							href={lastProject.links.mainLink}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img
 								alt={lastProject.name}
 								className="img-raised"
@@ -98,15 +102,17 @@ const MyLastProject = (props) => {
 										</Link>
 									</Col>
 								)}
-								<Col md="12" lg="6" xl="4" className="mb-3">
-									<Link
-										className="font-weight-bold text-info mt-5 ml-3"
-										to="my-cv"
-									>
-										Visit My CV
-										<i className="tim-icons icon-minimal-right text-info" />
-									</Link>
-								</Col>
+								{!props.alt && (
+									<Col md="12" lg="6" xl="4" className="mb-3">
+										<Link
+											className="font-weight-bold text-info mt-5 ml-3"
+											to="my-cv"
+										>
+											Visit My CV
+											<i className="tim-icons icon-minimal-right text-info" />
+										</Link>
+									</Col>
+								)}
 							</Row>
 
 							{props.alt && (

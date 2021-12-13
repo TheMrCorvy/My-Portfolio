@@ -4,7 +4,7 @@ import Welcome from "../components/sections/Welcome.jsx"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
-import PaquetesBasicos from "../old/components/Sections/PaquetesBasicos.jsx"
+import CryptoCards from "../components/sections/CryptoCards.jsx"
 
 const Home = () => {
 	return (
@@ -32,7 +32,7 @@ const Home = () => {
 
 			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
 
-			<PaquetesBasicos />
+			<CryptoCards />
 		</>
 	)
 }

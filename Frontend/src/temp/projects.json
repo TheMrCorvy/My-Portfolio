@@ -1,10 +1,10 @@
 {
 	"projects": [
 		{
+			"id": "jsdfsdouoxcuvosdh",
 			"name": "Salud y Derechos",
-			"dateOfStart": "xx/xx/xxxx",
-			"dateOfEnd": "xx/xx/xxxx",
-			"description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate atque, id officia qui voluptatem fugiat officiis temporibus voluptate nam accusamus pariatur vel voluptatum rerum.",
+			"date": "xx/xxxx",
+			"description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate atque, id officia qui voluptatem fugiat officiis temporibus voluptate nam accusamus pariatur vel voluptatum rerum.<br/><br/>hello world",
 			"image": "/images/saludyderechos.png",
 			"links": {
 				"github": "https://github.io",
@@ -12,9 +12,9 @@
 			}
 		},
 		{
+			"id": "s9djansdhkjn",
 			"name": "My Portfolio",
-			"dateOfStart": "xx/xx/xxxx",
-			"datePfEnd": "xx/xx/xxxx",
+			"date": "xx/xxxx",
 			"description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate atque, id officia qui voluptatem fugiat officiis temporibus voluptate nam accusamus pariatur vel voluptatum rerum.",
 			"image": "https://google.com",
 			"links": {
