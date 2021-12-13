@@ -3,6 +3,7 @@ import React, { useEffect } from "react"
 import Navbar from "../sections/Navbar.jsx"
 import Footer from "../sections/Footer.jsx"
 import ContactForm from "../sections/ContactForm.jsx"
+import BackToTop from "./BackToTop.jsx"
 
 const Layout = (props) => {
 	useEffect(() => {
@@ -17,6 +18,7 @@ const Layout = (props) => {
 				<ContactForm />
 			</section>
 			<Footer />
+			<BackToTop />
 		</>
 	)
 }
