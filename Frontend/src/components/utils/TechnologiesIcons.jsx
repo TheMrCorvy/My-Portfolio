@@ -176,6 +176,22 @@ const TechnologiesIcons = () => {
 					className="d-flex justify-content-center text-center"
 				>
 					<div className="info" style={{ paddingTop: "15%" }}>
+						<div className="icon icon-success">
+							<i className="tim-icons icon-send" />
+						</div>
+						<h4 className="info-title">PWA</h4>
+						<hr className="line-success w-100" />
+					</div>
+				</Col>
+				<Col
+					xs="6"
+					sm="6"
+					md="4"
+					lg="3"
+					xl="2"
+					className="d-flex justify-content-center text-center"
+				>
+					<div className="info" style={{ paddingTop: "15%" }}>
 						<div className="icon icon-info">
 							<i className="tim-icons icon-heart-2" />
 						</div>
