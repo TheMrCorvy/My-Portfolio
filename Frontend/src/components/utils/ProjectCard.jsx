@@ -27,7 +27,10 @@ const ProjectCard = ({ project }) => {
 						<i className="tim-icons icon-sound-wave"></i>
 					</h6>
 					<h5 className="card-title">{project.name}</h5>
-					<p className="card-description">{project.description}</p>
+					<p
+						className="card-description"
+						dangerouslySetInnerHTML={{ __html: project.description }}
+					></p>
 					<div className="card-footer">
 						<a
 							href={project.links.github}
