@@ -9,8 +9,7 @@ import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
-
-import MiExperiencia from "../old/components/Sections/MiExperiencia"
+import Projects from "../components/sections/Projects.jsx"
 
 const MyCv = () => {
 	return (
@@ -30,7 +29,7 @@ const MyCv = () => {
 				<MyLastProject alt={true} />
 			</section>
 
-			<MiExperiencia />
+			<Projects />
 
 			<MyKnowledge alt />
 
