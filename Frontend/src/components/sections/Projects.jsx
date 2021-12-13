@@ -11,15 +11,15 @@ const Projects = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false)
-		}, 5000)
+		}, 3000)
 	}, [])
 
 	return (
 		<Container style={{ paddingTop: "12vh", marginBottom: "15vh" }}>
-			<h1 className="mt-5 text-neutral text-center">
+			<h1 className="mt-5 text-neutral text-left">
 				Here is a list of the projects {"I've"} worked on
 			</h1>
-			<hr className="line-primary" />
+			<hr className="line-info" />
 			<Row className="row-grid justify-content-around" style={{ paddingTop: "5rem" }}>
 				{loading ? (
 					<Col sm="12" md="6" lg="4" className="mb-4">
