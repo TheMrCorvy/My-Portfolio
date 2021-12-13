@@ -48,7 +48,7 @@ const ContactForm = () => {
 							<div className="col-md-7">
 								<form className="p-3" onSubmit={(e) => handleSubmit(e)}>
 									<div className="card-header">
-										<h4 className="card-title">Send me a message</h4>
+										<h4 className="card-title">Send me an Email</h4>
 									</div>
 									<div className="card-body">
 										<div className="row">
