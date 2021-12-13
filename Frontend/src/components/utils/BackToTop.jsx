@@ -35,7 +35,7 @@ const BackToTop = () => {
 			className="btn-round"
 			onClick={scrollUp}
 		>
-			<i class="tim-icons icon-double-left" style={{ transform: "rotate(90deg)" }}></i>
+			<i className="tim-icons icon-double-left" style={{ transform: "rotate(90deg)" }}></i>
 		</Button>
 	)
 }
