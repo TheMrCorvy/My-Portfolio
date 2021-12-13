@@ -50,6 +50,11 @@ const MyKnowledge = ({ alt }) => {
 										React-based technologies, such as React-JS, nextJS, among
 										other similar frameworks and libraries.
 									</p>
+									<br />
+									<p>
+										I am also very skilled in what developing progressive web
+										apps concerns.
+									</p>
 									{!alt && (
 										<Link
 											to="/my-cv"
