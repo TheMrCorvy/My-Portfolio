@@ -10,6 +10,7 @@ import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
 import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
 import Projects from "../components/sections/Projects.jsx"
+import DownloadCV from "../components/sections/DownloadCV.jsx"
 
 const MyCv = () => {
 	return (
@@ -24,6 +25,8 @@ const MyCv = () => {
 			</Container>
 
 			<img alt="..." className="path" src={require("../assets/img/path1.png")} />
+
+			<DownloadCV />
 
 			<section className="section-lg section mb-5">
 				<MyLastProject alt={true} />
