@@ -31,13 +31,7 @@ const MyCv = () => {
 
 			<Projects />
 
-			<MyKnowledge alt />
-
-			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
-
-			<TechnologiesIcons />
-
-			<Office />
+			<MyLanguages />
 
 			<img
 				alt="..."
@@ -46,7 +40,13 @@ const MyCv = () => {
 				src={require("../assets/img/path2.png")}
 			/>
 
-			<MyLanguages />
+			<MyKnowledge alt />
+
+			<img alt="..." className="path" src={require("../assets/img/path4.png")} />
+
+			<TechnologiesIcons />
+
+			<Office />
 		</>
 	)
 }
