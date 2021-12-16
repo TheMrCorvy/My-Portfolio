@@ -11,6 +11,7 @@ import Office from "../components/sections/Office.jsx"
 import MyLanguages from "../components/sections/MyLanguages.jsx"
 import Projects from "../components/sections/Projects.jsx"
 import DownloadCV from "../components/sections/DownloadCV.jsx"
+import MyLastCertificate from "../components/sections/MyLastCertificate.jsx"
 
 const MyCv = () => {
 	return (
@@ -32,7 +33,11 @@ const MyCv = () => {
 				<MyLastProject alt={true} />
 			</section>
 
+			<img alt="..." className="path" src={require("../assets/img/path3.png")} />
+
 			<Projects />
+
+			<MyLastCertificate />
 
 			<MyLanguages />
 
