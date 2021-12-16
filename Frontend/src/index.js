@@ -23,6 +23,10 @@ import Layout from "./components/utils/Layout.jsx"
 
 import * as ServiceWorker from "./serviceWorker"
 
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { faUserGraduate, faFlag } from "@fortawesome/free-solid-svg-icons"
+library.add(faUserGraduate, faFlag)
+
 ReactDOM.render(
 	<BrowserRouter>
 		<Layout>
