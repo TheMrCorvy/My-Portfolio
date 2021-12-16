@@ -17,7 +17,8 @@ const MyStudies = () => {
 					contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
 					date="2011 - present"
 					dateClassName="text-white"
-					iconStyle={{ background: "rgb(33, 150, 243)" }}
+					iconClassName="timeline-icon"
+					icon={<i className="tim-icons icon-bulb-63" />}
 				>
 					<h3 className="vertical-timeline-element-title">Creative Director</h3>
 					<h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
