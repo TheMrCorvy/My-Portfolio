@@ -18,9 +18,9 @@ const MyStudies = () => {
 	return (
 		<Container
 			className="bg-default"
-			style={{ marginTop: "5rem", borderRadius: 15, maxWidth: "90%" }}
+			style={{ marginTop: "7rem", borderRadius: 15, maxWidth: "90%", overflowX: "hidden" }}
 		>
-			<VerticalTimeline animate={false}>
+			<VerticalTimeline>
 				{certificates.map((certificate, index) => (
 					<VerticalTimelineElement
 						key={index}
