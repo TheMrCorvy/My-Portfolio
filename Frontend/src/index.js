@@ -9,13 +9,15 @@ import "./assets/css/custom.css"
 
 import Home from "./pages/Home.jsx"
 import MyCv from "./pages/MyCv.jsx"
-import PricingPage from "./views/pricing.jsx"
 import NotFound from "./pages/NotFound.jsx"
+import MyStudies from "./pages/MyStudies"
+
 import Beneficios from "./views/Beneficios.jsx"
 
-import Animes from "./views/Privado/Animes"
-import Mundos from "./views/Privado/Mundos"
-import Admin from "./views/Privado/Admin"
+// import PricingPage from "./views/pricing.jsx"
+// import Animes from "./views/Privado/Animes"
+// import Mundos from "./views/Privado/Mundos"
+// import Admin from "./views/Privado/Admin"
 
 import Layout from "./components/utils/Layout.jsx"
 
@@ -28,6 +30,8 @@ ReactDOM.render(
 				<Route exact path="/" render={() => <Home />} />
 
 				<Route exact path="/my-cv" render={() => <MyCv />} />
+
+				<Route exact path="/my-studies" render={() => <MyStudies />} />
 
 				<Route exact path="/about-me" render={(props) => <Beneficios {...props} />} />
 
