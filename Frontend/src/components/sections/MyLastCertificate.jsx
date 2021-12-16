@@ -41,7 +41,16 @@ const MyLastCertificate = (props) => {
 							></p>
 							<br />
 
-							<Link className="font-weight-bold text-info mt-5 ml-3" to="my-studies">
+							<Link
+								className="font-weight-bold text-info mt-5 ml-3"
+								to="my-studies"
+								onClick={() =>
+									window.scrollTo({
+										top: 0,
+										left: 0,
+									})
+								}
+							>
 								See All My Certificates
 								<i className="tim-icons icon-minimal-right text-info" />
 							</Link>
