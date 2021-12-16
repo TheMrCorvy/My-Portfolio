@@ -16,7 +16,7 @@
 			"name": "My Portfolio",
 			"date": "xx/xxxx",
 			"description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat cupiditate atque, id officia qui voluptatem fugiat officiis temporibus voluptate nam accusamus pariatur vel voluptatum rerum.",
-			"image": "https://google.com",
+			"image": "/images/corvalangonzalo.png",
 			"links": {
 				"github": "https://github.io",
 				"mainLink": "https://corvalangonzalo.xyz"
