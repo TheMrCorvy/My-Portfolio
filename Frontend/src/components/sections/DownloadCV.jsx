@@ -8,7 +8,7 @@ const DownloadCV = () => {
 			<Row className="justify-content-between">
 				<Col xs="12" md="6" lg="4" className="hidden-on-mobile">
 					<a href="/downloads/corvalan%20gonzalo%20cv.pdf" download>
-						<Card className="bg-default text-white" style={{ borderRadius: 15 }}>
+						<Card className="text-white bg-transparent" style={{ borderRadius: 15 }}>
 							<CardImg src="/downloads/qr-code-for-downloads.png" />
 							<CardBody>
 								<h4>Feel free to scan with your smartphone to download my CV</h4>
@@ -30,10 +30,9 @@ const DownloadCV = () => {
 							</p>
 							<br />
 							<p>
-								In this page, you can also see more details about my professional
-								life. Including all the projects that{" I've "}worked on, all the
-								courses I took in order to grow as a programmer, my official
-								studies, the languages{" I've "}learned, and more.
+								Below in this page you will find more information about my
+								professional life. Including certificates of my studies, as wel as
+								all the projects{" I've "}worked on, and the languages I speak.
 							</p>
 						</CardBody>
 						<CardFooter className="text-center">
