@@ -4,11 +4,20 @@
 	border-bottom-left-radius: 0px;
 }
 
+.hidden-on-mobile {
+	display: block;
+	border-radius: 10px;
+}
+
 @media (max-width: 768px) {
 	.my-custom-class-hjshd {
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 10px;
 		border-bottom-left-radius: 10px;
+	}
+
+	.hidden-on-mobile {
+		display: none;
 	}
 }
 
@@ -20,26 +29,26 @@
 
 .glowing-card-success:hover {
 	background: #28a745;
-	box-shadow: 13px 13px 77px -24px #28a745;
+	box-shadow: 0px 0px 57px 1px #28a745;
 	border: 2px solid transparent;
 }
 .glowing-card-info:hover {
 	background: #1d8cf8;
-	box-shadow: 13px 13px 77px -24px #1d8cf8;
+	box-shadow: 0px 0px 57px 1px #1d8cf8;
 	border: 2px solid transparent;
 }
 .glowing-card-primary:hover {
 	background: #007bff;
-	box-shadow: 13px 13px 77px -24px #007bff;
+	box-shadow: 0px 0px 57px 1px #007bff;
 	border: 2px solid transparent;
 }
 .glowing-card-warning:hover {
 	background: #ffc107;
-	box-shadow: 13px 13px 77px -24px #ffc107;
+	box-shadow: 0px 0px 57px 1px #ffc107;
 	border: 2px solid transparent;
 }
 .glowing-card-danger:hover {
 	background: #dc3545;
-	box-shadow: 13px 13px 77px -24px #dc3545;
+	box-shadow: 0px 0px 57px 1px #dc3545;
 	border: 2px solid transparent;
 }

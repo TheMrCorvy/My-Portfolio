@@ -20,7 +20,7 @@ const MyLanguages = () => {
 										<h3>English</h3>
 									</CardTitle>
 								</CardHeader>
-								<CardText style={{ marginBottom: "1.5em" }}>
+								<CardText>
 									<span>
 										I have been studying the language continuously since
 										elementary school, although it was in 2018 when I began to

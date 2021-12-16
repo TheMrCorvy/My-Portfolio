@@ -50,7 +50,7 @@ const MyLastProject = (props) => {
 					<Col md="6" className="mt-4">
 						<div className="pl-md-5">
 							<h1>My Last Project</h1>
-							<p>{lastProject.description}</p>
+							<p dangerouslySetInnerHTML={{ __html: lastProject.description }}></p>
 							<br />
 
 							<Row>

@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 import "./assets/css/nucleo-icons.css"
 import "./assets/scss/blk-design-system-react.scss?v=1.0.0"
@@ -9,17 +9,23 @@ import "./assets/css/custom.css"
 
 import Home from "./pages/Home.jsx"
 import MyCv from "./pages/MyCv.jsx"
-import PricingPage from "./views/pricing.jsx"
 import NotFound from "./pages/NotFound.jsx"
+import MyStudies from "./pages/MyStudies"
+
 import Beneficios from "./views/Beneficios.jsx"
 
-import Animes from "./views/Privado/Animes"
-import Mundos from "./views/Privado/Mundos"
-import Admin from "./views/Privado/Admin"
+// import PricingPage from "./views/pricing.jsx"
+// import Animes from "./views/Privado/Animes"
+// import Mundos from "./views/Privado/Mundos"
+// import Admin from "./views/Privado/Admin"
 
 import Layout from "./components/utils/Layout.jsx"
 
 import * as ServiceWorker from "./serviceWorker"
+
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { faUserGraduate, faFlag } from "@fortawesome/free-solid-svg-icons"
+library.add(faUserGraduate, faFlag)
 
 ReactDOM.render(
 	<BrowserRouter>
@@ -28,6 +34,8 @@ ReactDOM.render(
 				<Route exact path="/" render={() => <Home />} />
 
 				<Route exact path="/my-cv" render={() => <MyCv />} />
+
+				<Route exact path="/my-studies" render={() => <MyStudies />} />
 
 				<Route exact path="/about-me" render={(props) => <Beneficios {...props} />} />
 
