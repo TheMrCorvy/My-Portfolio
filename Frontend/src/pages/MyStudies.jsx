@@ -8,6 +8,7 @@ import { CardImg, Container } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { projects } from "../temp/projects.json"
+import BreadCrumbs from "../components/utils/BreadCrumbs"
 
 const MyStudies = () => {
 	const [certificates, setCertificates] = useState([])
@@ -17,7 +18,13 @@ const MyStudies = () => {
 	}, [])
 	return (
 		<>
-			<Container style={{ marginTop: "7rem" }} className="text-center mb-4">
+			<BreadCrumbs
+				title="My Studies"
+				steps={{
+					"My CV": "my-cv",
+				}}
+			/>
+			<Container className="text-center mb-4">
 				<h2 className="title pb-0 mb-2">My Studies</h2>
 				<p>
 					This is the complete timeline listing all of my studies, be it with or without a
