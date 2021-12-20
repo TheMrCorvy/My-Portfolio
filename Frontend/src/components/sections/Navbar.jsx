@@ -124,7 +124,7 @@ const Navbar = () => {
 									id="CV"
 									onClick={scrollUp}
 								>
-									My CV
+									My Resume
 								</NavLink>
 							</NavItem>
 							<NavItem>
