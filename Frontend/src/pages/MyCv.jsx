@@ -1,9 +1,6 @@
 import React from "react"
 
-import { Link } from "react-router-dom"
-
-import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
-
+import BreadCrumbs from "../components/utils/BreadCrumbs.jsx"
 import MyLastProject from "../components/sections/MyLastProject.jsx"
 import MyKnowledge from "../components/sections/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
@@ -16,14 +13,7 @@ import MyLastCertificate from "../components/sections/MyLastCertificate.jsx"
 const MyCv = () => {
 	return (
 		<>
-			<Container className="mt-5 pt-5">
-				<Breadcrumb>
-					<BreadcrumbItem>
-						<Link to="/">Home Page</Link>
-					</BreadcrumbItem>
-					<BreadcrumbItem active>My CV</BreadcrumbItem>
-				</Breadcrumb>
-			</Container>
+			<BreadCrumbs title="My CV" steps={{}} />
 
 			<img alt="..." className="path" src={require("../assets/img/path1.png")} />
 
