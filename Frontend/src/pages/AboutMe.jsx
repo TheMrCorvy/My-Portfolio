@@ -8,7 +8,7 @@ import Yugioh from "../components/sections/about-me/Yugioh"
 
 const AboutMe = () => {
 	return (
-		<div>
+		<>
 			<BreadCrumbs title="About Me" steps={{}} />
 
 			<MyDescrption />
@@ -25,7 +25,7 @@ const AboutMe = () => {
 					</Row>
 				</Container>
 			</section>
-		</div>
+		</>
 	)
 }
 
