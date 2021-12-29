@@ -17,14 +17,14 @@ const MyDescrption = () => {
 										motivated by the curiosity to know how things work.
 									</p>
 								</li>
-								<li className="mt-4">
+								{/* <li className="mt-4">
 									<p>
 										I have been studying the languages of English and Japanese,
 										more for fun than anything else. I{"'"}ve always been
 										fascinated to find the similarities and differences between
 										the languages.
 									</p>
-								</li>
+								</li> */}
 								<li className="mt-4">
 									<p>
 										I have a very powerful imagination. I am always thinking of
@@ -38,12 +38,12 @@ const MyDescrption = () => {
 										desk clean and free of unnecessary things.
 									</p>
 								</li>
-								<li className="mt-4">
+								{/* <li className="mt-4">
 									<p>
 										I am a big lover of cats, you may have noticed that by the
 										image of my cat here aside.
 									</p>
-								</li>
+								</li> */}
 								<li className="mt-4">
 									<p>
 										I could never fully describe myself without saying that I am
@@ -51,18 +51,18 @@ const MyDescrption = () => {
 										hobbies.
 									</p>
 								</li>
-								<li className="mt-4">
+								{/* <li className="mt-4">
 									<p>
 										I am very passionate about the things that I am passionate
 										about, be it something related to programming, or one of my
 										hobbies, or whatever. I have to say that, the things that I
 										like, I like them a lot.
 									</p>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</Col>
-					<Col
+					{/* <Col
 						style={{
 							marginTop: "5vw",
 						}}
@@ -76,13 +76,13 @@ const MyDescrption = () => {
 							className="img-raised"
 							src="/images/about-me/leonard.jpg"
 						/>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 
-			<UncontrolledTooltip placement="top" target="leonard" delay={0}>
+			{/* <UncontrolledTooltip placement="top" target="leonard" delay={0}>
 				You might think this is an image of God, but its actually my cat, Leonard
-			</UncontrolledTooltip>
+			</UncontrolledTooltip> */}
 		</section>
 	)
 }
