@@ -4,7 +4,7 @@ import { Container, Row, Col, UncontrolledTooltip, Alert } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import projects from "../../temp/projects"
+import projects from "../../../temp/projects"
 
 const MyLastProject = (props) => {
 	const [lastProject, setLastProject] = useState(null)

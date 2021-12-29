@@ -1,14 +1,14 @@
 import React from "react"
 
 import BreadCrumbs from "../components/utils/BreadCrumbs.jsx"
-import MyLastProject from "../components/sections/MyLastProject.jsx"
-import MyKnowledge from "../components/sections/MyKnowledge.jsx"
+import MyLastProject from "../components/sections/landing-page/MyLastProject.jsx"
+import MyKnowledge from "../components/sections/my-resume/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
-import Office from "../components/sections/Office.jsx"
-import MyLanguages from "../components/sections/MyLanguages.jsx"
-import Projects from "../components/sections/Projects.jsx"
-import DownloadCV from "../components/sections/DownloadCV.jsx"
-import MyLastCertificate from "../components/sections/MyLastCertificate.jsx"
+import Office from "../components/sections/my-resume/Office.jsx"
+import MyLanguages from "../components/sections/my-resume/MyLanguages.jsx"
+import Projects from "../components/sections/my-resume/Projects.jsx"
+import DownloadCV from "../components/sections/my-resume/DownloadCV.jsx"
+import MyLastCertificate from "../components/sections/my-resume/MyLastCertificate.jsx"
 
 const MyCv = () => {
 	return (

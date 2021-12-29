@@ -4,7 +4,7 @@ import { Container, Row, Col, Alert } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import projects from "../../temp/projects"
+import projects from "../../../temp/projects"
 
 const MyLastCertificate = (props) => {
 	const [lastCertificate, setLastCertificate] = useState(null)

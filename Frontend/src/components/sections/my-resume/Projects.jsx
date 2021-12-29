@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 
 import { Container, Col, Row, Card, CardBody } from "reactstrap"
-import ProjectCard from "../utils/ProjectCard"
+import ProjectCard from "../../utils/ProjectCard"
 
-import { projects } from "../../temp/projects.json"
+import { projects } from "../../../temp/projects.json"
 
 const Projects = () => {
 	const [loading, setLoading] = useState(true)

@@ -1,10 +1,10 @@
 import React from "react"
 
-import Welcome from "../components/sections/Welcome.jsx"
-import MyLastProject from "../components/sections/MyLastProject.jsx"
-import MyKnowledge from "../components/sections/MyKnowledge.jsx"
+import Welcome from "../components/sections/landing-page/Welcome.jsx"
+import MyLastProject from "../components/sections/landing-page/MyLastProject.jsx"
+import MyKnowledge from "../components/sections/my-resume/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
-import CryptoCards from "../components/sections/CryptoCards.jsx"
+import CryptoCards from "../components/sections/landing-page/CryptoCards.jsx"
 
 const Home = () => {
 	return (

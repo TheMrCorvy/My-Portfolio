@@ -2,8 +2,8 @@ import React from "react"
 
 import { Row, Col, Container } from "reactstrap"
 
-import MyDescrption from "../components/sections/MyDescription"
-import Yugioh from "../components/sections/Yugioh"
+import MyDescrption from "../components/sections/about-me/MyDescription"
+import Yugioh from "../components/sections/about-me/Yugioh"
 
 const AboutMe = () => {
 	return (

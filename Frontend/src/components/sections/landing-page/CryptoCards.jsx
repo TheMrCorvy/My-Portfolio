@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Container, Row, Col } from "reactstrap"
-import GlowingCard from "../utils/GlowingCard"
+import GlowingCard from "../../utils/GlowingCard"
 
 const CryptoCards = () => {
 	return (
