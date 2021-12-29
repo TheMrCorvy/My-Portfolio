@@ -34,7 +34,7 @@ const Yugioh = () => {
 			</Col>
 			<Col xs="12" sm="6" md="4">
 				<p>
-					Since I was very little, I fell in love with the anime and since then I became a
+					Since I was very young, I fell in love with the anime and since then I became a
 					Yu-Gi-Oh! card collector.
 				</p>
 				<br />
