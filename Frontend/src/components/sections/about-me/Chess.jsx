@@ -13,9 +13,9 @@ const Chess = () => {
 						</Col>
 						<Col xs="12" sm="6" md="4">
 							<img
-								alt="an image of my cat"
+								alt="an image of chess"
 								className="img-raised"
-								src="/images/about-me/leonard.jpg"
+								src="/images/about-me/chess.jpeg"
 							/>
 						</Col>
 						<Col xs="12" sm="6" md="4" className="my-3">

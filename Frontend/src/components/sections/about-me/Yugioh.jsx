@@ -27,9 +27,9 @@ const Yugioh = () => {
 			</Col>
 			<Col xs="12" sm="6" md="4" className="my-3">
 				<img
-					alt="an image of my cat"
+					alt="an image of my yugioh card collection"
 					className="img-raised"
-					src="/images/about-me/leonard.jpg"
+					src="/images/about-me/yugioh.jpg"
 				/>
 			</Col>
 			<Col xs="12" sm="6" md="4">
