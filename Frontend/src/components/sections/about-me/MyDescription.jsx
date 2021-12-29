@@ -4,10 +4,10 @@ import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
 
 const MyDescrption = () => {
 	return (
-		<section className="section section-basic wrapper mt-5">
+		<section className="section section-basic wrapper ">
 			<Container>
 				<Row className="row-grid justify-content-center">
-					<Col xs="12" className="mt-4">
+					<Col xs="12">
 						<div className="pl-md-5">
 							<h1>How would I describe myself?</h1>
 							<ul>
