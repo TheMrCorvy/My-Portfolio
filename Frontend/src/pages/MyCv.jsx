@@ -1,29 +1,19 @@
 import React from "react"
 
-import { Link } from "react-router-dom"
-
-import { Breadcrumb, BreadcrumbItem, Container } from "reactstrap"
-
-import MyLastProject from "../components/sections/MyLastProject.jsx"
-import MyKnowledge from "../components/sections/MyKnowledge.jsx"
+import BreadCrumbs from "../components/utils/BreadCrumbs.jsx"
+import MyLastProject from "../components/sections/landing-page/MyLastProject.jsx"
+import MyKnowledge from "../components/sections/my-resume/MyKnowledge.jsx"
 import TechnologiesIcons from "../components/utils/TechnologiesIcons.jsx"
-import Office from "../components/sections/Office.jsx"
-import MyLanguages from "../components/sections/MyLanguages.jsx"
-import Projects from "../components/sections/Projects.jsx"
-import DownloadCV from "../components/sections/DownloadCV.jsx"
-import MyLastCertificate from "../components/sections/MyLastCertificate.jsx"
+import Office from "../components/sections/my-resume/Office.jsx"
+import MyLanguages from "../components/sections/my-resume/MyLanguages.jsx"
+import Projects from "../components/sections/my-resume/Projects.jsx"
+import DownloadCV from "../components/sections/my-resume/DownloadCV.jsx"
+import MyLastCertificate from "../components/sections/my-resume/MyLastCertificate.jsx"
 
 const MyCv = () => {
 	return (
 		<>
-			<Container className="mt-5 pt-5">
-				<Breadcrumb>
-					<BreadcrumbItem>
-						<Link to="/">Home Page</Link>
-					</BreadcrumbItem>
-					<BreadcrumbItem active>My CV</BreadcrumbItem>
-				</Breadcrumb>
-			</Container>
+			<BreadCrumbs title="My CV" steps={{}} />
 
 			<img alt="..." className="path" src={require("../assets/img/path1.png")} />
 

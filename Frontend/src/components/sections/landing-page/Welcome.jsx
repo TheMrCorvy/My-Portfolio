@@ -3,7 +3,7 @@ import React, { Fragment, useEffect, useState } from "react"
 import { Container } from "reactstrap"
 
 import Lottie from "react-lottie"
-import animationData from "../../assets/lottie-confetti"
+import animationData from "../../../assets/lottie-confetti"
 
 import CountUp from "react-countup"
 

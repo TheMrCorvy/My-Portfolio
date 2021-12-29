@@ -4,7 +4,7 @@ import { Container, Row, Col, UncontrolledTooltip, Alert } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import projects from "../../temp/projects"
+import projects from "../../../temp/projects"
 
 const MyLastProject = (props) => {
 	const [lastProject, setLastProject] = useState(null)
@@ -107,6 +107,12 @@ const MyLastProject = (props) => {
 										<Link
 											className="font-weight-bold text-info mt-5 ml-3"
 											to="my-cv"
+											onClick={() =>
+												window.scrollTo({
+													top: 0,
+													left: 0,
+												})
+											}
 										>
 											Visit My CV
 											<i className="tim-icons icon-minimal-right text-info" />
