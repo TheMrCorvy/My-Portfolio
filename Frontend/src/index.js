@@ -11,8 +11,9 @@ import Home from "./pages/Home.jsx"
 import MyCv from "./pages/MyCv.jsx"
 import NotFound from "./pages/NotFound.jsx"
 import MyStudies from "./pages/MyStudies"
+import AboutMe from "./pages/AboutMe"
 
-import Beneficios from "./views/Beneficios.jsx"
+// import Beneficios from "./views/Beneficios.jsx"
 
 // import PricingPage from "./views/pricing.jsx"
 // import Animes from "./views/Privado/Animes"
@@ -37,7 +38,7 @@ ReactDOM.render(
 
 				<Route exact path="/my-studies" render={() => <MyStudies />} />
 
-				<Route exact path="/about-me" render={(props) => <Beneficios {...props} />} />
+				<Route exact path="/about-me" render={() => <AboutMe />} />
 
 				{/* <Route exact path="/pricing" render={(props) => <PricingPage {...props} />} />
 
