@@ -6,7 +6,7 @@ const app = express()
 app.use(morgan("dev"))
 
 app.get("/", (req, res) => {
-	res.json("bienvenido")
+	res.json("testing heroku")
 })
 
 app.get("/api", (req, res) => {
