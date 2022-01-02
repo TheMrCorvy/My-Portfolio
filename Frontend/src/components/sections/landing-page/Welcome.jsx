@@ -124,7 +124,7 @@ const Welcome = () => {
 						className="content-center brand text-left"
 						style={{ maxWidth: "80vw !important", minWidth: "20em !important" }}
 					>
-						<h1 className="h1-seo text-center">Hello there!</h1>
+						<h1 className="h1-seo text-center">Testing Vercel</h1>
 						<h3>
 							My name is <span className="text-warning">Gonzalo</span>.
 						</h3>
