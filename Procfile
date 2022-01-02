@@ -1,1 +1,1 @@
-worker:node Backend/build/index.js
+worker:node src/index.js

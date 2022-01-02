@@ -1,2 +1,0 @@
-para generar codigos qr:
-    https://www.qrcodechimp.com/qr-code-generator-for-text
