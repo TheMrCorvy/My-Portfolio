@@ -29,7 +29,7 @@ const Yugioh = () => {
 				<img
 					alt="an image of my yugioh card collection"
 					className="img-raised"
-					src="/images/about-me/yugioh.jpg"
+					src="https://img.yugioh-card.com/ygo_cms/ygo/all/uploads/01_Intro.jpg"
 				/>
 			</Col>
 			<Col xs="12" sm="6" md="4">
