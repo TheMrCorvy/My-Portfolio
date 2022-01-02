@@ -11,7 +11,9 @@ const DownloadCV = () => {
 						<Card className="text-white bg-transparent" style={{ borderRadius: 15 }}>
 							<CardImg src="/downloads/qr-code-for-downloads.png" />
 							<CardBody>
-								<h4>Feel free to scan with your smartphone to download my CV</h4>
+								<h4>
+									Feel free to scan with your smartphone to download my Resume
+								</h4>
 							</CardBody>
 						</Card>
 					</a>
@@ -41,7 +43,7 @@ const DownloadCV = () => {
 								className="btn btn-warning"
 								download
 							>
-								Download CV
+								Download Resume
 							</a>
 						</CardFooter>
 					</Card>
