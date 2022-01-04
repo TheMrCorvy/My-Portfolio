@@ -1,16 +1,12 @@
 import express from "express"
 import morgan from "morgan"
 
+import projectRoutes from "./routes/projects.routes.js"
+
 const app = express()
 
 app.use(morgan("dev"))
 
-app.get("/", (req, res) => {
-	res.json("testing heroku")
-})
-
-app.get("/api", (req, res) => {
-	res.json("bienvenido a la api")
-})
+app.use("/projects", projectRoutes)
 
 export default app
