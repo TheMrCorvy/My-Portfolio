@@ -28,4 +28,8 @@ export const update = async (req, res) => {
 	return res.status(200).json(updatedProject)
 }
 
-export const deleteProject = async (req, res) => {}
+export const deleteProject = async (req, res) => {
+	await Project.findByIdAndDelete(req.params.projectId)
+
+	return res.status(204).json()
+}

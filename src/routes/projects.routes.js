@@ -11,4 +11,6 @@ router.post("/create", projectController.create)
 
 router.put("/update/:projectId", projectController.update)
 
+router.delete("/delete/:projectId", projectController.deleteProject)
+
 export default router
