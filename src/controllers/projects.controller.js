@@ -25,7 +25,7 @@ export const update = async (req, res) => {
 		new: true,
 	})
 
-	return res.status(204).json(updatedProject)
+	return res.status(200).json(updatedProject)
 }
 
 export const deleteProject = async (req, res) => {}
