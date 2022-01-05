@@ -2,7 +2,8 @@ import express from "express"
 import morgan from "morgan"
 import bodyParser from "body-parser"
 
-import projectRoutes from "./routes/projects.routes.js"
+import projectRoutes from "./routes/projects.routes"
+import authRoutes from "./routes/auth.routes"
 
 const app = express()
 
@@ -13,5 +14,7 @@ const jsonParser = bodyParser.json()
 app.use(morgan("dev"))
 
 app.use("/projects", jsonParser, projectRoutes)
+
+app.use("/auth", jsonParser, authRoutes)
 
 export default app
