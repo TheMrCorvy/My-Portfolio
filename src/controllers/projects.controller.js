@@ -16,10 +16,16 @@ export const get = async (req, res) => {
 	return res.json(projects)
 }
 
-export const getLast = (req, res) => {
+export const getLast = async (req, res) => {
 	return res.json("last project")
 }
 
-export const update = (req, res) => {}
+export const update = async (req, res) => {
+	const updatedProject = await Project.findByIdAndUpdate(req.params.projectId, req.body, {
+		new: true,
+	})
 
-export const deleteProject = (req, res) => {}
+	return res.status(204).json(updatedProject)
+}
+
+export const deleteProject = async (req, res) => {}

@@ -9,4 +9,6 @@ router.get("/last-project", projectController.getLast)
 
 router.post("/create", projectController.create)
 
+router.put("/update/:projectId", projectController.update)
+
 export default router
