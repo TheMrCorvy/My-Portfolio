@@ -1,11 +1,25 @@
-export const createProject = (req, res) => {}
+import Project from "../models/Project"
 
-export const getProjects = (req, res) => {}
+export const create = async (req, res) => {
+	const { name, imageUrl } = req.body
 
-export const getLastProject = (req, res) => {
+	const newProject = new Project({ name, imageUrl })
+
+	const projectCreated = await newProject.save()
+
+	return res.status(201).json(projectCreated)
+}
+
+export const get = async (req, res) => {
+	const projects = await Project.find()
+
+	return res.json(projects)
+}
+
+export const getLast = (req, res) => {
 	return res.json("last project")
 }
 
-export const updateProject = (req, res) => {}
+export const update = (req, res) => {}
 
 export const deleteProject = (req, res) => {}
