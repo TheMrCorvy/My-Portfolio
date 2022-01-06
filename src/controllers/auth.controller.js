@@ -1,16 +1,28 @@
 import User from "../models/User"
+import jwt from "jsonwebtoken"
+import config from "../config"
 
 export const register = async (req, res) => {
 	const { email, password } = req.body
 
-	const userCreated = new User({
+	const newUser = new User({
 		email,
-		password: User.encryptPassword(password),
+		password: await User.encryptPassword(password),
 	})
 
-	await userCreated.save()
+	const userCreated = await newUser.save()
 
-	return res.status(200).json(userCreated)
+	const token = jwt.sign(
+		{
+			id: userCreated._id,
+		},
+		config.SECRET,
+		{
+			expiresIn: config.tokenExpiresIn,
+		}
+	)
+
+	return res.status(200).json({ token })
 }
 
 export const login = async (req, res) => {}
