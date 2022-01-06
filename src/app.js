@@ -4,8 +4,10 @@ import bodyParser from "body-parser"
 
 import projectRoutes from "./routes/projects.routes"
 import authRoutes from "./routes/auth.routes"
+import { createUsers } from "./libs/initialSetup"
 
 const app = express()
+createUsers()
 
 // create application/json parser
 const jsonParser = bodyParser.json()
