@@ -29,17 +29,15 @@ export const login = async (req, res) => {
 	const userFound = await User.findOne({ email: req.body.email })
 
 	if (!userFound) {
-		return res.status(403).json({
+		return res.status(401).json({
 			message: "credentials do not match",
 		})
 	}
 
 	const passIsCorrect = await User.comparePassword(req.body.password, userFound.password)
 
-	console.log(passIsCorrect)
-
 	if (!passIsCorrect) {
-		return res.status(403).json({
+		return res.status(401).json({
 			message: "credentials do not match",
 		})
 	}
