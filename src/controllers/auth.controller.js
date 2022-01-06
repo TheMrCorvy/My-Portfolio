@@ -25,6 +25,36 @@ export const register = async (req, res) => {
 	return res.status(200).json({ token })
 }
 
-export const login = async (req, res) => {}
+export const login = async (req, res) => {
+	const userFound = await User.findOne({ email: req.body.email })
+
+	if (!userFound) {
+		return res.status(403).json({
+			message: "credentials do not match",
+		})
+	}
+
+	const passIsCorrect = await User.comparePassword(req.body.password, userFound.password)
+
+	console.log(passIsCorrect)
+
+	if (!passIsCorrect) {
+		return res.status(403).json({
+			message: "credentials do not match",
+		})
+	}
+
+	const token = jwt.sign(
+		{
+			id: userFound._id,
+		},
+		config.SECRET,
+		{
+			expiresIn: config.tokenExpiresIn,
+		}
+	)
+
+	return res.status(200).json({ token })
+}
 
 export const logout = async (req, res) => {}
