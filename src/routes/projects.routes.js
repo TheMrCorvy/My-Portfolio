@@ -1,6 +1,6 @@
 import { Router } from "express"
 import * as projectController from "../controllers/projects.controller"
-import { verifyToken } from "../middlewares"
+import { verifyToken } from "../middlewares/auth"
 
 const router = Router()
 
@@ -10,8 +10,8 @@ router.get("/last-project", projectController.getLast)
 
 router.post("/create", verifyToken, projectController.create)
 
-router.put("/update/:projectId", projectController.update)
+router.put("/update/:projectId", verifyToken, projectController.update)
 
-router.delete("/delete/:projectId", projectController.deleteProject)
+router.delete("/delete/:projectId", verifyToken, projectController.deleteProject)
 
 export default router
