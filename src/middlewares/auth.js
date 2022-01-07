@@ -1,8 +1,10 @@
 import jwt from "jsonwebtoken"
-import config from "../config"
+import dotenv from "dotenv"
 import User from "../models/User"
 
 export const verifyToken = async (req, res, next) => {
+	dotenv.config()
+
 	const token = req.headers["x-access-token"]
 
 	if (!token) {
@@ -11,7 +13,7 @@ export const verifyToken = async (req, res, next) => {
 
 	// LOS HIJOS DE MIL PUTA QUE HICIERON JWT HICIERON QUE TIRE UN ERROR CUANDO EL TOKEN ES INVALIDO...
 	try {
-		const tokenDecoded = jwt.verify(token, config.SECRET)
+		const tokenDecoded = jwt.verify(token, process.env.SECRET)
 
 		const user = await User.findById(tokenDecoded.id, { password: 0 })
 

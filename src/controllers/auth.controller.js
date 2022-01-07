@@ -1,8 +1,10 @@
 import User from "../models/User"
 import jwt from "jsonwebtoken"
-import config from "../config"
+import dotenv from "dotenv"
 
 export const register = async (req, res) => {
+	dotenv.config()
+
 	const { email, password } = req.body
 
 	const newUser = new User({
@@ -16,9 +18,9 @@ export const register = async (req, res) => {
 		{
 			id: userCreated._id,
 		},
-		config.SECRET,
+		process.env.SECRET,
 		{
-			expiresIn: config.tokenExpiresIn,
+			expiresIn: process.env.TOKEN_EXPIRES_IN,
 		}
 	)
 
@@ -26,6 +28,8 @@ export const register = async (req, res) => {
 }
 
 export const login = async (req, res) => {
+	dotenv.config()
+
 	const userFound = await User.findOne({ email: req.body.email })
 
 	if (!userFound) {
@@ -46,13 +50,13 @@ export const login = async (req, res) => {
 		{
 			id: userFound._id,
 		},
-		config.SECRET,
+		process.env.SECRET,
 		{
-			expiresIn: config.tokenExpiresIn,
+			expiresIn: process.env.TOKEN_EXPIRES_IN,
 		}
 	)
 
+	console.log(process.env.SECRET)
+
 	return res.status(200).json({ token })
 }
-
-export const logout = async (req, res) => {}
