@@ -56,7 +56,5 @@ export const login = async (req, res) => {
 		}
 	)
 
-	console.log(process.env.SECRET)
-
 	return res.status(200).json({ token })
 }

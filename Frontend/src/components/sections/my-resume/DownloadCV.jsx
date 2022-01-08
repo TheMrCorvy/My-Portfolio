@@ -8,7 +8,10 @@ const DownloadCV = () => {
 			<Row className="justify-content-between">
 				<Col xs="12" md="6" lg="4" className="hidden-on-mobile">
 					<a href="/downloads/corvalan%20gonzalo%20cv.pdf" download>
-						<Card className="text-white bg-transparent" style={{ borderRadius: 15 }}>
+						<Card
+							className="text-white bg-transparent"
+							style={{ borderRadius: 15, boxShadow: "none" }}
+						>
 							<CardImg src="/downloads/qr-code-for-downloads.png" />
 							<CardBody>
 								<h4>
