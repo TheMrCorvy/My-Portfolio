@@ -5,7 +5,7 @@ import bodyParser from "body-parser"
 import projectRoutes from "./routes/projects.routes"
 import authRoutes from "./routes/auth.routes"
 import certificatesRoutes from "./routes/certificates.routes"
-import animesRoutes from "./routes/auth.routes"
+import animesRoutes from "./routes/animes.routes"
 import worldsRoutes from "./routes/worlds.routes"
 
 import { createUsers } from "./libs/initialSetup"
