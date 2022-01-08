@@ -3,7 +3,17 @@ import { Schema, model } from "mongoose"
 const projectSchema = new Schema(
 	{
 		name: String,
-		imageUrl: String,
+		image: String,
+		date: String,
+		description: String,
+		links: {
+			github: {
+				type: String,
+			},
+			mainLink: {
+				type: String,
+			},
+		},
 	},
 	{
 		timestamps: true,
