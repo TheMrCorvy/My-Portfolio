@@ -6,4 +6,6 @@ const router = Router()
 
 router.post("/create", verifyToken, certificatesController.create)
 
+router.get("/last", certificatesController.getLast)
+
 export default router
