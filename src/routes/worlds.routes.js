@@ -10,6 +10,6 @@ const router = Router()
 
 router.post("/create", verifyToken, worldsController.create)
 
-router.put("/update/:animeId", verifyToken, worldsController.update)
+router.put("/update/:worldId", verifyToken, worldsController.update)
 
 export default router
