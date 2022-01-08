@@ -8,4 +8,10 @@ export const create = async (req, res) => {
 	return res.status(201).json(animeCreated)
 }
 
-export const update = async (req, res) => {}
+export const update = async (req, res) => {
+	const updatedAnime = await Anime.findByIdAndUpdate(req.params.animeId, req.body, {
+		new: true,
+	})
+
+	return res.status(200).json(updatedAnime)
+}
