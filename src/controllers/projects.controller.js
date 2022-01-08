@@ -1,9 +1,7 @@
 import Project from "../models/Project"
 
 export const create = async (req, res) => {
-	const { name, imageUrl } = req.body
-
-	const newProject = new Project({ name, imageUrl })
+	const newProject = new Project(req.body)
 
 	const projectCreated = await newProject.save()
 
