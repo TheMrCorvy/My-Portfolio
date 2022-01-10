@@ -2,12 +2,21 @@ import { Schema, model } from "mongoose"
 
 const worldSchema = new Schema(
 	{
-		godOnCharge: String,
+		godInCharge: String,
 		description: String,
+		status: Boolean,
 		jurisdiction: [
 			{
-				franchise: String,
-				position: String,
+				universe: Number,
+				bubble: [
+					{
+						franchise: String,
+						position: Number,
+						description: String,
+						positionInTimeline: Number,
+						original: Boolean,
+					},
+				],
 			},
 		],
 	},
