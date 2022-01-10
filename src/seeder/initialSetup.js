@@ -6,6 +6,7 @@ import World from "../models/World"
 
 import animes from "./animes.json"
 import certificates from "./certificates.json"
+import worlds from "./worlds.json"
 import userJson from "./users.json"
 
 export const createUsers = async () => {
@@ -50,6 +51,11 @@ export const createUsers = async () => {
 
 	console.log("- - - - - - - - - - - - - - -")
 	console.log("Inserted certificates.")
+
+	await World.insertMany(worlds.data)
+
+	console.log("- - - - - - - - - - - - - - -")
+	console.log("Inserted worlds.")
 
 	console.log("Database seded successfully.")
 }
