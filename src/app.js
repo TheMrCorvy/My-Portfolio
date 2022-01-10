@@ -8,7 +8,7 @@ import certificatesRoutes from "./routes/certificates.routes"
 import animesRoutes from "./routes/animes.routes"
 import worldsRoutes from "./routes/worlds.routes"
 
-import { createUsers } from "./libs/initialSetup"
+import { createUsers } from "./seeder/initialSetup"
 
 const app = express()
 createUsers()
