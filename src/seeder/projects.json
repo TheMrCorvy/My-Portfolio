@@ -57,7 +57,7 @@
 			"date": "Jun 2020 - Dec 2020",
 			"links": {
 				"github": "https://github.com/TheMrCorvy/ServicioAlToqueWeb",
-				"mainLink": ""
+				"mainLink": "https://servicioaltoque.herokuapp.com/"
 			}
 		},
 		{
@@ -66,8 +66,8 @@
 			"description": "A simple web page built with React JS and TypeScript, that serves as presentation for the agriculture-related products E-Commerce.",
 			"date": "Dec 2020",
 			"links": {
-				"github": "",
-				"mainLink": ""
+				"github": "https://github.com/TheMrCorvy/agromix",
+				"mainLink": "https://themrcorvy.github.io/agromix/"
 			}
 		},
 		{
