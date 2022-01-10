@@ -1,0 +1,1355 @@
+{
+	"data": [
+		{
+			"position": 1,
+			"name": "naruto shippuden",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 2,
+			"name": "sakura card captor",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 3,
+			"name": "senran kagura",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 4,
+			"name": "new game! 1 y 2",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 5,
+			"name": "owari no seraph",
+			"hasEnd": "0",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 6,
+			"name": "series fate",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados. en el anime crack de pika cheeks",
+			"date": "2016"
+		},
+		{
+			"position": 7,
+			"name": "dragon ball super",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 8,
+			"name": "one punch man",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 9,
+			"name": "sword art online",
+			"hasEnd": "0",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 10,
+			"name": "nanatsu no taizai",
+			"hasEnd": "0",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 11,
+			"name": "yugioh arc v / 5ds / duel monsters / link vrains",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 12,
+			"name": "evangelion",
+			"hasEnd": "1",
+			"description": "los animes de esta primera sección no estan ordenados",
+			"date": "2016"
+		},
+		{
+			"position": 13,
+			"name": "densetsu no yuusho no densetsu (leyenda de los heroes legendarios)",
+			"hasEnd": "0",
+			"description": "",
+			"date": "vacaciones de verano 2016-2017"
+		},
+		{
+			"position": 14,
+			"name": "kono subarashi sekai ni shukufuku wo! / 2",
+			"hasEnd": "0",
+			"description": "en el animecrack de pika cheeks",
+			"date": "vacaciones de verano 2016-2017"
+		},
+		{
+			"position": 15,
+			"name": "hagure yuusha no estetica",
+			"hasEnd": "0",
+			"description": "",
+			"date": "vacaciones de verano 2016-2017"
+		},
+		{
+			"position": 16,
+			"name": "sora no woto",
+			"hasEnd": "1",
+			"description": "",
+			"date": "vacaciones de verano 2016-2017"
+		},
+		{
+			"position": 17,
+			"name": "to aru majutsu no index / to aru kagaku no railgun / accelerator",
+			"hasEnd": "0",
+			"description": "",
+			"date": "antes de empezar el cbc 2"
+		},
+		{
+			"position": 18,
+			"name": "seirei tsukai no blade dance",
+			"hasEnd": "0",
+			"description": "sin final... otra vez...",
+			"date": "antes de empezar el cbc 2"
+		},
+		{
+			"position": 19,
+			"name": "katanagatari",
+			"hasEnd": "1",
+			"description": "",
+			"date": "antes de empezar el cbc 2"
+		},
+		{
+			"position": 20,
+			"name": "gabriel DropOut",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 21,
+			"name": "akame ga kill",
+			"hasEnd": "1",
+			"description": "en el anime crack de pika cheeks",
+			"date": "(cuando fui a mar del plata en 2017) despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 22,
+			"name": "tokyo ravens",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 23,
+			"name": "toradora!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 24,
+			"name": "mahouka koukou no rettousei",
+			"hasEnd": "0",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 25,
+			"name": "another",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 26,
+			"name": "Chuunibyou demo Koi ga Shitai!",
+			"hasEnd": "1",
+			"description": "en el anime crack de pika cheeks. (antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 27,
+			"name": "mirai nikki",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 28,
+			"name": "kobayashi-san chi no maid dragon",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 29,
+			"name": "shirobako",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 30,
+			"name": "big order",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 31,
+			"name": "campione!",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba)",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 32,
+			"name": "shakugan no shana",
+			"hasEnd": "1",
+			"description": "(antes expandir la lista estos estaban arriba) (la lolita dinamita) 32, PERO MADRE MIA...",
+			"date": "despues de empezar el cbc 2 (primer cuatrimestre)"
+		},
+		{
+			"position": 33,
+			"name": "roku de nashi majutsu koshi to akashic records",
+			"hasEnd": "0",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 34,
+			"name": "maho shojo ikusei keikaku",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 35,
+			"name": "eromanga sensei",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 36,
+			"name": "zero no tsukaima",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 37,
+			"name": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 38,
+			"name": "Re:Creators",
+			"hasEnd": "1",
+			"description": "(6 meses de espera valieron la pena)",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 39,
+			"name": "youjo senki",
+			"hasEnd": "0",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 40,
+			"name": "Taimadou Gakuen 35 Shiken Shoutai",
+			"hasEnd": "0",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 41,
+			"name": "bakuman!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre), (la segunda temporada la empecé a ver en la casa d ema 12/10/2017 hasta el 16/10/2017)"
+		},
+		{
+			"position": 42,
+			"name": "aldnoah.zero",
+			"hasEnd": "1",
+			"description": "en el anime crack de pika cheeks",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 43,
+			"name": "shiki",
+			"hasEnd": "1",
+			"description": "",
+			"date": "despues de empezar el cbc 2 (segundo cuatrimestre)"
+		},
+		{
+			"position": 44,
+			"name": "steins;gate y steins;gate zero",
+			"hasEnd": "1",
+			"description": "en el anime crack de pika cheeks",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 45,
+			"name": "tamako market + tamako love story (pelicula)",
+			"hasEnd": "1",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 46,
+			"name": "lucky star",
+			"hasEnd": "1",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 47,
+			"name": "Okami-san to Shichinin no Nakama-tachi",
+			"hasEnd": "1",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 48,
+			"name": "Inou-Battle wa Nichijou-kei no Naka de",
+			"hasEnd": "0",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 49,
+			"name": "Jinrui wa Suitai Shimashita",
+			"hasEnd": "1",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 50,
+			"name": "Machine-Doll wa Kizutsukanai",
+			"hasEnd": "0",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018, (los ultimos 3 caps. los vi el 23 y 24/12/2017)"
+		},
+		{
+			"position": 51,
+			"name": "Bungou Stray Dogs",
+			"hasEnd": "0",
+			"description": "",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 52,
+			"name": "sora wo miageru shoujo no hitomi ni utsuru sekai",
+			"hasEnd": "0",
+			"description": "(las ovas si que tienen final)",
+			"date": "vacaciones de verano 2017-2018"
+		},
+		{
+			"position": 53,
+			"name": "Ousama Game The Animation",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 54,
+			"name": "Net-juu no Susume",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 55,
+			"name": "Blend-S",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 56,
+			"name": "Cowboy Bebop + pelicula",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 57,
+			"name": "Acchi Kocchi",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 58,
+			"name": "zetsumetsu kigu shoujo amazing twins",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 59,
+			"name": "Dies Irae",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 60,
+			"name": "Corpse Party",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 61,
+			"name": "Kore Wa Zombie Desu Ka? y Of The Dead",
+			"hasEnd": "0",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 62,
+			"name": "Osake wa Fuufu ni Natte kara?",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 63,
+			"name": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+			"hasEnd": "1",
+			"description": "puta k sad...",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 64,
+			"name": "Zankyou No Terror o terror in resonance",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018, (lo empecé en la casa de ema del 5/2/2018 al 13/2/2018)"
+		},
+		{
+			"position": 65,
+			"name": "Evil Or Live",
+			"hasEnd": "1",
+			"description": "felicidades por la primera pantala completada 22/02/2018",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 66,
+			"name": "Death Parade",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 67,
+			"name": "Arve Rezzle: Kikaijikake no Yoseitachi",
+			"hasEnd": "0",
+			"description": "(1 solo cap)",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 68,
+			"name": "Little Wich Academia",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 69,
+			"name": "Sousei no Onmyouji",
+			"hasEnd": "1",
+			"description": "(que buen anime)",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 70,
+			"name": "Ansatsu Kyoushitsu (assessination classroom)",
+			"hasEnd": "1",
+			"description": "(final choto T-T))",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 71,
+			"name": "Hitsugi No Chaika",
+			"hasEnd": "1",
+			"description": "",
+			"date": "a partir de 2018"
+		},
+		{
+			"position": 72,
+			"name": "C: The Money of Soul and Possibility Control",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 73,
+			"name": "YuruYuri",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018, (durante el horrible periodo sin computadora por culpa de compumundo)"
+		},
+		{
+			"position": 74,
+			"name": "Violet Evergarden",
+			"hasEnd": "1",
+			"description": "(volvi a ver shana antes d ver este el 26/4/18)",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 75,
+			"name": "Hakata Tonkotsu Ramen",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 76,
+			"name": "K-On!",
+			"hasEnd": "1",
+			"description": "otro mas q nunca estuvo en la lista de pendientes...)",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 77,
+			"name": "Charlotte",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 78,
+			"name": "Mahoutsukai No Yome",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 79,
+			"name": "Konohana Kitan",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 80,
+			"name": "School Days",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 81,
+			"name": "Yuru Camp",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 82,
+			"name": "Angel Beats!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 83,
+			"name": "Black Bullet",
+			"hasEnd": "0",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 84,
+			"name": "Maho Shojo Madoka Magica",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 85,
+			"name": "Tokyo Magnitude 8.0",
+			"hasEnd": "1",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018, (justo despues de volver de lo de ema el 27/5/18)"
+		},
+		{
+			"position": 86,
+			"name": "Dance In The Vampire Bund",
+			"hasEnd": "0",
+			"description": "",
+			"date": "aproximadamente a partir de abril de 2018"
+		},
+		{
+			"position": 87,
+			"name": "Jigoku Shoujo",
+			"hasEnd": "1",
+			"description": "(todas las temporadas)",
+			"date": "junio 2018"
+		},
+		{
+			"position": 88,
+			"name": "Ghost Hound",
+			"hasEnd": "1",
+			"description": "17/6/18 a partir de aca todas las listas d anime estan en mega",
+			"date": "junio 2018"
+		},
+		{
+			"position": 89,
+			"name": "Mitsuboshi Colors",
+			"hasEnd": "1",
+			"description": "",
+			"date": "junio 2018"
+		},
+		{
+			"position": 90,
+			"name": "Nichijou",
+			"hasEnd": "1",
+			"description": "",
+			"date": "julio 2018"
+		},
+		{
+			"position": 91,
+			"name": "Ga Rei Zero",
+			"hasEnd": "0",
+			"description": "",
+			"date": "julio 2018"
+		},
+		{
+			"position": 92,
+			"name": "Occultic;Nine",
+			"hasEnd": "0",
+			"description": "",
+			"date": "julio 2018"
+		},
+		{
+			"position": 93,
+			"name": "Karakai Jouzu no Takagi-san",
+			"hasEnd": "0",
+			"description": "",
+			"date": "julio 2018"
+		},
+		{
+			"position": 94,
+			"name": "Aho Girl",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 95,
+			"name": "Inu To Hasami Wa Tsukaiyou",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 96,
+			"name": "Watamote!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 97,
+			"name": "Kokoro Connect + Michi Random",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 98,
+			"name": "Kantai Collection: KanColle",
+			"hasEnd": "0",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 99,
+			"name": "Kara No Kyoukai",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 100,
+			"name": "91 Days",
+			"hasEnd": "1",
+			"description": "(EL GRAN ANIME NUMERO 100!!!!)",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 101,
+			"name": "Death Note",
+			"hasEnd": "1",
+			"description": "",
+			"date": "agosto 2018"
+		},
+		{
+			"position": 102,
+			"name": "Grisaia No Kjitsu",
+			"hasEnd": "1",
+			"description": "(la loli colombiana valió la pena)",
+			"date": "septiembre 2018"
+		},
+		{
+			"position": 103,
+			"name": "Kiznaiver",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2018"
+		},
+		{
+			"position": 104,
+			"name": "Ergo Proxy",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2018"
+		},
+		{
+			"position": 105,
+			"name": "3D Kanojo Real Girl",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2018"
+		},
+		{
+			"position": 106,
+			"name": "Amaama To Inazuma",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2018"
+		},
+		{
+			"position": 107,
+			"name": "Hataraku Saibou",
+			"hasEnd": "1",
+			"description": "",
+			"date": "octubre 2018 (despues de rever 6, 12, 17, 44)"
+		},
+		{
+			"position": 108,
+			"name": "Rail Wars!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "noviembre 2018"
+		},
+		{
+			"position": 109,
+			"name": "Mekaku City Actors",
+			"hasEnd": "1",
+			"description": "",
+			"date": "noviembre 2018"
+		},
+		{
+			"position": 110,
+			"name": "Suzumiya Haruhi No Yuutsu // Nagato Yuki-chan no Shoushitsu",
+			"hasEnd": "1",
+			"description": "",
+			"date": "noviembre 2018"
+		},
+		{
+			"position": 111,
+			"name": "Zombieland Saga",
+			"hasEnd": "0",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 112,
+			"name": "Sakurasou No Pet Na Kanojo",
+			"hasEnd": "1",
+			"description": "en el animecrack de pika cheeks",
+			"date": "enero 2019"
+		},
+		{
+			"position": 113,
+			"name": "Happy Sugar Life",
+			"hasEnd": "1",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 114,
+			"name": "Irozuku Sekai No Ashita Kara",
+			"hasEnd": "1",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 115,
+			"name": "Barakamon",
+			"hasEnd": "1",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 116,
+			"name": "Nejimaki Seirei Senki Tenkyou No Alderamin",
+			"hasEnd": "0",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 117,
+			"name": "Btooom!",
+			"hasEnd": "0",
+			"description": "",
+			"date": "enero 2019"
+		},
+		{
+			"position": 118,
+			"name": "Kaguya-sama Love Is War",
+			"hasEnd": "1",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 119,
+			"name": "Rokka No Yuusha",
+			"hasEnd": "0",
+			"description": "malisimo...",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 120,
+			"name": "Yami Shibai",
+			"hasEnd": "1",
+			"description": "(las 6 temporadas)",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 121,
+			"name": "Kyoukai No Kanata",
+			"hasEnd": "1",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 122,
+			"name": "Yakusoku No Neverland",
+			"hasEnd": "0",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 123,
+			"name": "Kill Me Baby",
+			"hasEnd": "0",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 124,
+			"name": "Hyouka",
+			"hasEnd": "1",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 125,
+			"name": "Isekai Quartet",
+			"hasEnd": "1",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 126,
+			"name": "Overlord",
+			"hasEnd": "0",
+			"description": "",
+			"date": "febrero 2019, (lo empece en la casa d ema el 18/4/2019 hasta el 22/4/2019)"
+		},
+		{
+			"position": 127,
+			"name": "Princess Principal",
+			"hasEnd": "0",
+			"description": "",
+			"date": "febrero 2019"
+		},
+		{
+			"position": 128,
+			"name": "Joshiraku",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 129,
+			"name": "Girly Air Force",
+			"hasEnd": "0",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 130,
+			"name": "Tensei Shitara Slime Datta Ken",
+			"hasEnd": "0",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 131,
+			"name": "Dimension W",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 132,
+			"name": "Mikakunin De Shinkoukei",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 133,
+			"name": "Uchi No Maid Wa Uzasugiru!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 134,
+			"name": "Boogiepop Wa Warawanai",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 135,
+			"name": "Tate No Yuusha No Nariagari",
+			"hasEnd": "0",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 136,
+			"name": "Boku Dake Ga Inai Machi",
+			"hasEnd": "1",
+			"description": "en el animecrack de pika cheeks",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 137,
+			"name": "Sewayaki Kitsune No Senko-san",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 138,
+			"name": "Tonari No Kyuuketsuki-san",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 139,
+			"name": "Danganronpa The Animation",
+			"hasEnd": "0",
+			"description": "(lo empecé con biur)(solo la primera temporada)",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 140,
+			"name": "Isshukan Friends",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 141,
+			"name": "Watashi Ni Tenshi Ga Miorita!",
+			"hasEnd": "1",
+			"description": "",
+			"date": "mayo 2019"
+		},
+		{
+			"position": 142,
+			"name": "Marchen Madchen",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2019"
+		},
+		{
+			"position": 143,
+			"name": "Hitoribocchi No Seikatsu",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2019"
+		},
+		{
+			"position": 144,
+			"name": "Gosick",
+			"hasEnd": "1",
+			"description": "",
+			"date": "septiembre 2019"
+		},
+		{
+			"position": 145,
+			"name": "Yuyushiki",
+			"hasEnd": "1",
+			"description": "",
+			"date": "octubre 2019"
+		},
+		{
+			"position": 146,
+			"name": "Azur Lane",
+			"hasEnd": "1",
+			"description": "",
+			"date": "octubre 2019"
+		},
+		{
+			"position": 147,
+			"name": "Kimetsu No Yaiba",
+			"hasEnd": "0",
+			"description": "",
+			"date": "octubre 2019"
+		},
+		{
+			"position": 148,
+			"name": "Maria Holic y Maria Holic Alive",
+			"hasEnd": "1",
+			"description": "",
+			"date": "octubre 2019"
+		},
+		{
+			"position": 149,
+			"name": "Zero Kara Hajimeru Mahou No Sho",
+			"hasEnd": "1",
+			"description": "",
+			"date": "noviembre 2019"
+		},
+		{
+			"position": 150,
+			"name": "Dumbbell Nan Kilo Moteru?",
+			"hasEnd": "1",
+			"description": " EL FANTÁSTICO ANIME NÚMERO 150!!!!",
+			"date": "diciembre 2019"
+		},
+		{
+			"position": 151,
+			"name": "Monogatari Series",
+			"hasEnd": "1",
+			"description": "(completo hasta febrero del 2020)",
+			"date": "enero 2020"
+		},
+		{
+			"position": 152,
+			"name": "Asobi Asobase",
+			"hasEnd": "1",
+			"description": "Me había olvidado de ponerlo, supongo que lo ví después de ver Monogatari",
+			"date": "febrero 2020"
+		},
+		{
+			"position": 153,
+			"name": "Kyoukou Surui",
+			"hasEnd": "1",
+			"description": "(tambien puede sero kyoko surui, aunque asi no se escriba) nada muy destacable, mezcla de comedia y misterio",
+			"date": "7 de Mayo 2020, después de terminar la página de Yu-Gi-Oh! Para el pueblo"
+		},
+		{
+			"position": 154,
+			"name": "Machikado mazoku",
+			"hasEnd": "0",
+			"description": "Durante La Cuarentena",
+			"date": "Del 12 Al 17 De Mayo 2020"
+		},
+		{
+			"position": 155,
+			"name": "Gate: Jieitai Kanochi Nite, Kaku Tatakaeri Episodio",
+			"hasEnd": "1",
+			"description": "El Anime Del Portal Y Los Militares",
+			"date": "Del Viernes 22 Al Viernes 29 De Mayo 2020"
+		},
+		{
+			"position": 156,
+			"name": "NekoPara",
+			"hasEnd": "1",
+			"description": "",
+			"date": "junio 2020"
+		},
+		{
+			"position": 157,
+			"name": "22/7 (Nanabun No Nijyuuni)",
+			"hasEnd": "0",
+			"description": "Las Idols Que Trascienden Las Dimensiones",
+			"date": "Del 2 Al 4 De Julio 2020"
+		},
+		{
+			"position": 158,
+			"name": "Shoujo Shuumatsu Ryokou",
+			"hasEnd": "1",
+			"description": "Las 2 Lolis Sobreviviendo En El Fin Del Mundo",
+			"date": "Del 18 Al 25 Julio 2020"
+		},
+		{
+			"position": 159,
+			"name": "Princess Connect Re:Dive",
+			"hasEnd": "0",
+			"description": "Rip Off De Kono Suba 10/10",
+			"date": "Mier 29 De Julio A Mar 4 De Agosto"
+		},
+		{
+			"position": 160,
+			"name": "Seirei no moribito",
+			"hasEnd": "1",
+			"description": "Moribito Guardian of the Spirit. Malísimo, re lento y la historia prácticamente se terminó en el capítulo 5",
+			"date": null
+		},
+		{
+			"position": 161,
+			"name": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta...",
+			"hasEnd": "0",
+			"description": "Buenísimo, 10/10",
+			"date": "del 23 al 25 de agosto 2020"
+		},
+		{
+			"position": 162,
+			"name": "rolling girls",
+			"hasEnd": "1",
+			"description": "Lo retomé despues de ver seirei moribito y decidir que iba a terminar algunos animes dropeados. Empieza bien, y hasta el cap 9 no avanza la historia.",
+			"date": "desde el 26 de ago, hasta el 6 de sep"
+		},
+		{
+			"position": 163,
+			"name": "Seikaisuru Kado",
+			"hasEnd": "1",
+			"description": "La animacón da cáncer, la historia empieza espectacular, pero el final es malísimo",
+			"date": "desde el 11/09/2020 hasta el 12/09/2020"
+		},
+		{
+			"position": 164,
+			"name": "Uchouten Kazoku",
+			"hasEnd": "1",
+			"description": "El otro anime dropeado que retomé y este si resultó ser bueno. Éste debería haber sido el anime número 158",
+			"date": "desde el 12/09/2020 hasta el 25/09/2020"
+		},
+		{
+			"position": 165,
+			"name": "Id:Invaded",
+			"hasEnd": "1",
+			"description": "Malisimo, lleno de huecos argumentales",
+			"date": "del 19 al 20 de octubre 2020"
+		},
+		{
+			"position": 166,
+			"name": "Kanojo, Okarishimasu",
+			"hasEnd": "0",
+			"description": "Es coincidencialandia, pero es muy bueno, y tiene menos fanservice de lo q esperaba",
+			"date": "Lo vi entero el 22/octubre/2020"
+		},
+		{
+			"position": 167,
+			"name": "Kakushigoto",
+			"hasEnd": "1",
+			"description": "Vine buscando plata y encontré oro",
+			"date": "entre el vie 23 y el sab 24"
+		},
+		{
+			"position": 168,
+			"name": "gakkou gurashi!",
+			"hasEnd": "1",
+			"description": "Yo me esperaba un anime de zombies comun y corriente, y boludo... nunca me golpearon tan duro....",
+			"date": "El domingo 25 de octubre"
+		},
+		{
+			"position": 169,
+			"name": "bofuri la waifu del escudo",
+			"hasEnd": "0",
+			"description": "itai no wa iya nano de bougyoryoku ni kyokufuri shitai to omoimasu. Referencias por montones",
+			"date": "lo vi entero el 4/11/20"
+		},
+		{
+			"position": 170,
+			"name": "Darling In The Franxx",
+			"hasEnd": "1",
+			"description": "Era tan bueno.... Pero resultó ser otro anime arruinado por el cliché.....",
+			"date": "Del 6 al 7 de noviembre"
+		},
+		{
+			"position": 171,
+			"name": "SSSS.Gridman",
+			"hasEnd": "1",
+			"description": "Lo vi por los muslos de takarada rikka, al final era un supersentai XD",
+			"date": "Del 14/11 al 17/11 de 2020"
+		},
+		{
+			"position": 172,
+			"name": "Watashi, nouryoku wa heikichi de tte itta yo ne!",
+			"hasEnd": "0",
+			"description": "Muchas referencias por todos lados \"la gente muere cuando los asesinan\"",
+			"date": "Del 21 al 28 de nov 2020"
+		},
+		{
+			"position": 173,
+			"name": "darker than black",
+			"hasEnd": "0",
+			"description": null,
+			"date": "se que lo terminé el 27/dic/20"
+		},
+		{
+			"position": 174,
+			"name": "Endro~!",
+			"hasEnd": "1",
+			"description": null,
+			"date": "del 21 al 23 de diciembre 2020"
+		},
+		{
+			"position": 175,
+			"name": "Maou Gakuin no Futekigousha",
+			"hasEnd": "1",
+			"description": null,
+			"date": "lo vi entero el dom 31/01/2021"
+		},
+		{
+			"position": 176,
+			"name": "Boku wa tomodachi ga sukunai",
+			"hasEnd": "0",
+			"description": "Muy ecchi, pero muy bueno LARGA VIDA AL YURI Y A LOS SHIPPEOS!!!",
+			"date": "Desde mediados de enero a mediados de febrero"
+		},
+		{
+			"position": 177,
+			"name": "Ghost hunt",
+			"hasEnd": "1",
+			"description": "Habia una posibilidad de q fuera ESE anime, pero no lo era. Aún así, muy buen anime de suspenso/terror",
+			"date": "Desde mediados de febrero 21, hasta el 25 de febrero del 21"
+		},
+		{
+			"position": 178,
+			"name": "Gakkou No Kaidan",
+			"hasEnd": "1",
+			"description": "ES ESEEEEEEE !!!!!!!!!! POR FINNNNNNNNN!!!!!!!! DESPUES DE TANTO TIEMPOOOOOOO!!!!!!!!",
+			"date": "se perdió en el tiempo..."
+		},
+		{
+			"position": 179,
+			"name": "Non Non Biyori",
+			"hasEnd": "1",
+			"description": "Lo descargué y lo vi con esta vieja estupida mientras salía la 4ta temporada",
+			"date": "Se perdió en el tiempo..."
+		},
+		{
+			"position": 180,
+			"name": "Wotakoi - Wotaku Ni Koi Wa Muzukashii",
+			"hasEnd": "1",
+			"description": null,
+			"date": "Ee perdió en el tiempo..."
+		},
+		{
+			"position": 181,
+			"name": "Ani Ni Tsukeru Kusuri Wa Nai",
+			"hasEnd": "1",
+			"description": "La canción está en la 2da temp, cap 9. Buenísimo, aunque los capitulos duren solo 3 minutos... Lo ví después de intentar ver Meteoro",
+			"date": "Se perdió en el tiempo..."
+		},
+		{
+			"position": 182,
+			"name": "Comic Girls",
+			"hasEnd": "1",
+			"description": null,
+			"date": "Se perdió en el tiempo...."
+		},
+		{
+			"position": 183,
+			"name": "The God Of Highschool",
+			"hasEnd": "0",
+			"description": "Muy buena mezcla de culturas",
+			"date": "Lo ví entero el 1/6/21"
+		},
+		{
+			"position": 184,
+			"name": "Shinchou Yuusha Kono Yuusha Ga Ore Tueee Kuse Ni Shinchou Sugiru.mp4",
+			"hasEnd": "1",
+			"description": null,
+			"date": "Entre el 21 y 22 de junio 2021"
+		},
+		{
+			"position": 185,
+			"name": "Mars Red",
+			"hasEnd": "1",
+			"description": "La animación no era muy buena, nunca entendi muy bien la historia, pero estuvo bueno, creo",
+			"date": "Del 28/6 al 1/7 del 2021"
+		},
+		{
+			"position": 186,
+			"name": "Odd Taxi",
+			"hasEnd": "1",
+			"description": "Lo vi con esta vieja estupida, muy bueno 10/10",
+			"date": "del 2 al 10 de julio 2021"
+		},
+		{
+			"position": 187,
+			"name": "Noragami",
+			"hasEnd": "0",
+			"description": "Lo vi con esta vieja estúpida. Nunca me llamó la atención, y resultó ser muy bueno",
+			"date": "entre el 26 de agosto y el 3 de septiembre 2021"
+		},
+		{
+			"position": 188,
+			"name": "majo no tabitabi",
+			"hasEnd": "0",
+			"description": "Para variar, uno más que no estaba en la lista...",
+			"date": "la semana del 10 de sep de 2021"
+		},
+		{
+			"position": 189,
+			"name": "shakunetsu kabaddi",
+			"hasEnd": "0",
+			"description": "Alias: Burning Kabaddi",
+			"date": "lo vi entero el dom 12/09/21"
+		},
+		{
+			"position": 190,
+			"name": "86",
+			"hasEnd": "0",
+			"description": "También conocido como Eighty Six, lo ví con esta vieja estúpida un mes antes de la 2da temp, así que no se si tiene final o no",
+			"date": "la semana del 17 de sep de 2021"
+		},
+		{
+			"position": 191,
+			"name": "Robotic Notes",
+			"hasEnd": "1",
+			"description": "En el mismo mundo de Steins;Gate. Tiene la canción de un video de fate",
+			"date": "Semana del 20 / 09 / 21"
+		},
+		{
+			"position": 192,
+			"name": "jahy sama",
+			"hasEnd": "0",
+			"description": null,
+			"date": "lo vi mientras estaba en emisión, sep 2021"
+		},
+		{
+			"position": 193,
+			"name": "Gekkan Shoujo Nozaki-Kun",
+			"hasEnd": "0",
+			"description": "Es el q recomendó julia, con buen diseño de personajes, pero un final re choto",
+			"date": "El domingo 21 de noviembre de 2021"
+		}
+	]
+}
