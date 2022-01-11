@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
 								borderBottomLeftRadius: "0.25rem",
 								borderBottomRightRadius: "0.25rem",
 							}}
-							id={project.id}
+							id={project.slug}
 						/>
 					</a>
 				</div>
@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => {
 					</div>
 				</div>
 			</div>
-			<UncontrolledTooltip placement="top" target={project.id} delay={0}>
+			<UncontrolledTooltip placement="top" target={project.slug} delay={0}>
 				{"Click to visit " + project.name}
 			</UncontrolledTooltip>
 		</>

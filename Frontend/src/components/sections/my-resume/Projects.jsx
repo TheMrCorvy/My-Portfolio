@@ -3,15 +3,25 @@ import React, { useEffect, useState } from "react"
 import { Container, Col, Row, Card, CardBody } from "reactstrap"
 import ProjectCard from "../../utils/ProjectCard"
 
-import { projects } from "../../../temp/projects.json"
+import useApi from "../../../hooks/useApi"
 
 const Projects = () => {
 	const [loading, setLoading] = useState(true)
+	const [projects, setProjects] = useState([])
+
+	const callApi = useApi
 
 	useEffect(() => {
-		setTimeout(() => {
+		const req = {
+			method: "GET",
+			endpoint: "/projects/",
+		}
+
+		callApi(req).then((data) => {
+			setProjects(data)
+
 			setLoading(false)
-		}, 3000)
+		})
 	}, [])
 
 	return (
