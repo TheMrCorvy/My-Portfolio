@@ -9,7 +9,7 @@ export const create = async (req, res) => {
 }
 
 export const get = async (req, res) => {
-	const projects = await Project.find()
+	const projects = await Project.find().sort({ createdAt: -1 })
 
 	return res.status(200).json(projects)
 }
