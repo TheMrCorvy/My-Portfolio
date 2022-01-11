@@ -15,3 +15,9 @@ export const update = async (req, res) => {
 
 	return res.status(200).json(updatedWorld)
 }
+
+export const get = async (req, res) => {
+	const worlds = await World.find()
+
+	return res.status(200).json(worlds)
+}
