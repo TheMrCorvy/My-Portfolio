@@ -5,7 +5,7 @@ const useApi = async (request) => {
 
 	const baseUri = local ? "http://localhost:5000" : "http://backend.corvalangonzalo.xyz"
 
-	const headerToken = { Authorization: token ? "Bearer " + token : "" }
+	const headerToken = { "x-access-token": token ? token : "" }
 
 	const reqHeaders = headers
 		? new Headers({ ...headers, ...headerToken })
