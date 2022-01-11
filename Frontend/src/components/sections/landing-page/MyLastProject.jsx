@@ -61,7 +61,7 @@ const MyLastProject = (props) => {
 							<h1>My Last Project</h1>
 							<p dangerouslySetInnerHTML={{ __html: lastProject.description }}></p>
 							<br />
-							<p className="text-info">{lastProject.date}</p>
+							<p className="text-success">{lastProject.date}</p>
 							<br />
 
 							<Row>

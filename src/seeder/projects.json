@@ -93,7 +93,7 @@
 		{
 			"name": "Amazones",
 			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899000/projects/amazoness_tkmmln.jpg",
-			"description": "Amazoness is a project still in process.<br/><br/>This app is beign built with Next JS, TypeScript, MongoDB, and for the frontend, MaterialUI.",
+			"description": "Amazoness is a project still in process.<br/><br/>This app is planned to be a complete E-Commerce, including variants for products, login and register system, and an administration panel with graophics.<br/><br/>This app is beign built with Next JS, TypeScript, MongoDB, and for the frontend, MaterialUI.",
 			"date": "Oct 2021 - Still in progress",
 			"links": {
 				"github": "https://github.com/TheMrCorvy/amazoness",
