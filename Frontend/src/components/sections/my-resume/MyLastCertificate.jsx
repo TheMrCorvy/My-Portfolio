@@ -47,6 +47,8 @@ const MyLastCertificate = (props) => {
 							<p
 								dangerouslySetInnerHTML={{ __html: lastCertificate.description }}
 							></p>
+							<h5 className="title">{lastCertificate.institute}</h5>
+							<p className="text-success">{lastCertificate.date}</p>
 							<br />
 
 							<Link
