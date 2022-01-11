@@ -5,6 +5,7 @@ const projectSchema = new Schema(
 		name: String,
 		image: String,
 		date: String,
+		slug: String,
 		description: String,
 		links: {
 			github: {
