@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 
 const MyDescrption = () => {
 	return (
