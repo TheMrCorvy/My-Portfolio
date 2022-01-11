@@ -51,7 +51,7 @@ const AnimesForm = () => {
 		}
 
 		callApi(req).then((data) => {
-			if (data.status === 200) {
+			if (data.status === 201) {
 				setLoadingState("success")
 
 				setFormState({
