@@ -7,7 +7,7 @@ import BreadCrumbs from "../components/utils/BreadCrumbs"
 const Admin = () => {
 	return (
 		<>
-			<BreadCrumbs title="Admin" steps={{}} />
+			<BreadCrumbs title="Admin" steps={{ Animes: "animes", Mundos: "mundos" }} />
 
 			<Container>
 				<Row>
