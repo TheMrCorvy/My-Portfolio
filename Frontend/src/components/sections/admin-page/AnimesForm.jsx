@@ -15,6 +15,8 @@ import {
 	Alert,
 } from "reactstrap"
 
+import useApi from "../../../hooks/useApi"
+
 const AnimesForm = () => {
 	const [formState, setFormState] = useState({
 		name: "",
@@ -26,6 +28,8 @@ const AnimesForm = () => {
 	})
 
 	const [loadingState, setLoadingState] = useState("")
+
+	const callApi = useApi
 
 	const handleChange = (e) => {
 		setFormState({
@@ -39,15 +43,31 @@ const AnimesForm = () => {
 
 		setLoadingState("loading")
 
-		setTimeout(() => {
-			setLoadingState("error")
+		const req = {
+			method: "POST",
+			endpoint: "/animes/create",
+			body: formState,
+			token: localStorage.getItem("token"),
+		}
 
-			setTimeout(() => {
+		callApi(req).then((data) => {
+			if (data.status === 200) {
 				setLoadingState("success")
-			}, 3000)
-		}, 3000)
 
-		console.log(formState)
+				setFormState({
+					name: "",
+					position: 0,
+					date: "",
+					description: "",
+					disk: "",
+					hasEnd: false,
+				})
+			} else {
+				setLoadingState("error")
+			}
+
+			console.log(data)
+		})
 	}
 
 	const setHasEnd = () => {
