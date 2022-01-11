@@ -7,14 +7,23 @@ import { CardImg, Container } from "reactstrap"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import { projects } from "../temp/projects.json"
+import useApi from "../hooks/useApi"
 import BreadCrumbs from "../components/utils/BreadCrumbs"
 
 const MyStudies = () => {
 	const [certificates, setCertificates] = useState([])
 
+	const callApi = useApi
+
 	useEffect(() => {
-		setCertificates(projects)
+		const req = {
+			method: "GET",
+			endpoint: "/certificates/",
+		}
+
+		callApi(req).then((data) => {
+			setCertificates(data)
+		})
 	}, [])
 	return (
 		<>
@@ -56,7 +65,9 @@ const MyStudies = () => {
 							icon={<FontAwesomeIcon icon={["fas", "user-graduate"]} size="2x" />}
 						>
 							<h3 className="vertical-timeline-element-title">{certificate.name}</h3>
-							<h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+							<h4 className="vertical-timeline-element-subtitle title mt-3">
+								{certificate.institute}
+							</h4>
 							<p dangerouslySetInnerHTML={{ __html: certificate.description }}></p>
 							<CardImg
 								alt="alt..."

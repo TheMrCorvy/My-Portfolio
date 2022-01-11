@@ -23,7 +23,7 @@ const MyLastCertificate = (props) => {
 
 			setLoading(false)
 		})
-	})
+	}, [])
 
 	if (loading) {
 		return (
