@@ -1,6 +1,7 @@
 import express from "express"
 import morgan from "morgan"
 import bodyParser from "body-parser"
+import cors from "cors"
 
 import projectRoutes from "./routes/projects.routes"
 import authRoutes from "./routes/auth.routes"
@@ -10,7 +11,26 @@ import worldsRoutes from "./routes/worlds.routes"
 
 import { createUsers } from "./seeder/initialSetup"
 
+const whitelist = [
+	"http://localhost:3000",
+	"http://corvalangonzalo.xyz",
+	"https://corvalangonzalo.xyz",
+]
+
+const corsOptions = {
+	origin: (origin, callback) => {
+		if (whitelist.indexOf(origin) !== -1) {
+			callback(null, true)
+		} else {
+			callback(new Error("Not allowed by CORS"))
+		}
+	},
+}
+
 const app = express()
+
+app.use(cors(corsOptions))
+
 createUsers()
 
 // create application/json parser
