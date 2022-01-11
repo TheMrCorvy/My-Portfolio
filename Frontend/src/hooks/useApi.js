@@ -3,7 +3,7 @@ const useApi = async (request) => {
 
 	const local = process.env.NODE_ENV === "development"
 
-	const baseUri = local ? "http://localhost:5000/api" : "https://backend.corvalangonzalo.xyz/api"
+	const baseUri = local ? "http://localhost:5000/api" : "http://backend.corvalangonzalo.xyz/api"
 
 	const headerToken = { Authorization: token ? "Bearer " + token : "" }
 
