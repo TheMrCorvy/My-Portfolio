@@ -9,13 +9,13 @@ export const create = async (req, res) => {
 }
 
 export const get = async (req, res) => {
-	const projects = await Project.find().sort({ createdAt: -1 })
+	const projects = await Project.find().sort({ _id: -1 })
 
 	return res.status(200).json(projects)
 }
 
 export const getLast = async (req, res) => {
-	const projects = await Project.find().sort({ createdAt: -1 }).limit(1)
+	const projects = await Project.find().sort({ _id: -1 }).limit(1)
 
 	return res.status(200).json(projects[0])
 }
