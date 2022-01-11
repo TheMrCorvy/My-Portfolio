@@ -12,13 +12,7 @@ import MyCv from "./pages/MyCv.jsx"
 import NotFound from "./pages/NotFound.jsx"
 import MyStudies from "./pages/MyStudies"
 import AboutMe from "./pages/AboutMe"
-
-// import Beneficios from "./views/Beneficios.jsx"
-
-// import PricingPage from "./views/pricing.jsx"
-// import Animes from "./views/Privado/Animes"
-// import Mundos from "./views/Privado/Mundos"
-// import Admin from "./views/Privado/Admin"
+import Admin from "./pages/Admin"
 
 import Layout from "./components/utils/Layout.jsx"
 
@@ -40,17 +34,7 @@ ReactDOM.render(
 
 				<Route exact path="/about-me" render={() => <AboutMe />} />
 
-				{/* <Route exact path="/pricing" render={(props) => <PricingPage {...props} />} />
-
-				<Route exact path="/pricing/:combo" component={Combos} />
-
-				<Redirect exact from="/redirect" to="/animes" />
-
-				<Route exact path="/animes" render={(props) => <Animes {...props} />} />
-
-				<Route exact path="/mundos" render={(props) => <Mundos {...props} />} />
-
-				<Route exact path="/admin" render={(props) => <Admin {...props} />} /> */}
+				<Route exact path="/admin" render={() => <Admin />} />
 
 				<Route component={NotFound} />
 			</Switch>
