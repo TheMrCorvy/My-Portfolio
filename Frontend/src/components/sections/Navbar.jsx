@@ -27,6 +27,10 @@ const Navbar = () => {
 	useEffect(() => {
 		window.addEventListener("scroll", changeColor)
 
+		if (localStorage.getItem("token")) {
+			setIsAuthenticated(true)
+		}
+
 		return () => {
 			window.removeEventListener("scroll", changeColor)
 		}
@@ -71,6 +75,12 @@ const Navbar = () => {
 		setIsAuthenticated(true)
 
 		toggleModal()
+	}
+
+	const logout = () => {
+		localStorage.removeItem("token")
+
+		setIsAuthenticated(false)
 	}
 
 	return (
@@ -156,17 +166,28 @@ const Navbar = () => {
 									</NavLink>
 								</NavItem>
 							) : (
-								<NavItem>
-									<NavLink
-										className="btn btn-link"
-										tag={Link}
-										to="/admin"
-										id="admin"
-										onClick={scrollUp}
-									>
-										Administrar Sitio
-									</NavLink>
-								</NavItem>
+								<>
+									<NavItem>
+										<NavLink
+											className="btn btn-link"
+											tag={Link}
+											to="/admin"
+											id="admin"
+											onClick={scrollUp}
+										>
+											Administrar Sitio
+										</NavLink>
+									</NavItem>
+									<NavItem>
+										<NavLink
+											className="btn btn-link"
+											id="logout"
+											onClick={logout}
+										>
+											Logout
+										</NavLink>
+									</NavItem>
+								</>
 							)}
 						</Nav>
 					</Collapse>
