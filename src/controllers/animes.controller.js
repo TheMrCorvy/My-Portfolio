@@ -26,3 +26,37 @@ export const update = async (req, res) => {
 
 	return res.status(200).json(updatedAnime)
 }
+
+export const getPaginated = async (req, res) => {
+	const direction = req.params.direction === "ASC" ? 1 : -1
+
+	const animes = await Anime.paginate(
+		{},
+		{
+			limit: 30,
+			page: parseInt(req.query.page),
+			sort: {
+				[req.params.sortBy]: direction,
+			},
+		}
+	)
+
+	return res.status(200).json({ animes })
+}
+
+export const getByDisk = async (req, res) => {
+	const direction = req.params.direction === "ASC" ? 1 : -1
+
+	const animes = await Anime.paginate(
+		{ disk: parseInt(req.params.diskNumber) },
+		{
+			limit: 30,
+			page: parseInt(req.query.page),
+			sort: {
+				[req.params.sortBy]: direction,
+			},
+		}
+	)
+
+	return res.status(200).json({ animes })
+}
