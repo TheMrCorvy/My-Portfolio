@@ -4,9 +4,9 @@ import { verifyToken } from "../middlewares/auth"
 
 const router = Router()
 
-// router.get("/", animesController.get)
+router.get("/:sortBy/:direction", animesController.getPaginated)
 
-// router.get("/last-project", animesController.getLast)
+router.get("/disk/:diskNumber/:sortBy/:direction", animesController.getByDisk)
 
 router.post("/create", verifyToken, animesController.create)
 
