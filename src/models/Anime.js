@@ -1,4 +1,5 @@
 import { Schema, model } from "mongoose"
+import mongoosePaginate from "mongoose-paginate-v2"
 
 const animeSchema = new Schema(
 	{
@@ -6,7 +7,7 @@ const animeSchema = new Schema(
 		name: String,
 		date: String,
 		description: String,
-		disk: String,
+		disk: Number,
 		hasEnd: Boolean,
 	},
 	{
@@ -14,5 +15,7 @@ const animeSchema = new Schema(
 		versionKey: false,
 	}
 )
+
+animeSchema.plugin(mongoosePaginate)
 
 export default model("Anime", animeSchema)
