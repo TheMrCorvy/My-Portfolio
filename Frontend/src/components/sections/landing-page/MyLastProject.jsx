@@ -66,26 +66,26 @@ const MyLastProject = (props) => {
 
 							<Row>
 								<Col md="12" lg="6" xl="4" className="mb-3">
-									<Link
+									<a
 										className="font-weight-bold text-info mt-5 ml-3"
-										to={lastProject.links.github}
+										href={lastProject.links.github}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
 										See it on GitHub
 										<i className="tim-icons icon-minimal-right text-info" />
-									</Link>
+									</a>
 								</Col>
 								<Col md="12" lg="6" xl="4" className="mb-3">
-									<Link
+									<a
 										className="font-weight-bold text-info mt-5 ml-3"
-										to={lastProject.links.mainLink}
+										href={lastProject.links.mainLink}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
 										See it Live
 										<i className="tim-icons icon-minimal-right text-info" />
-									</Link>
+									</a>
 								</Col>
 								{!props.alt && (
 									<Col md="12" lg="6" xl="4" className="mb-3">
