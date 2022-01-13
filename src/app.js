@@ -15,6 +15,8 @@ const whitelist = [
 	"http://localhost:3000",
 	"http://corvalangonzalo.xyz",
 	"https://corvalangonzalo.xyz",
+	"https://www.corvalangonzalo.xyz",
+	"http://www.corvalangonzalo.xyz",
 ]
 
 const corsOptions = {
