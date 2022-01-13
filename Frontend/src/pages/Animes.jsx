@@ -13,12 +13,13 @@ const Animes = () => {
 	const [options, setOptions] = useState({
 		order: "DESC",
 		sortBy: "position",
-		pagination: {
-			currentPage: 1,
-			prevPage: null,
-			nextPage: 2,
-			totalPages: null,
-		},
+	})
+
+	const [paginationOptions, setPaginationOptions] = useState({
+		currentPage: 1,
+		prevPage: null,
+		nextPage: 2,
+		totalPages: null,
 	})
 
 	const callApi = useApi
@@ -27,29 +28,25 @@ const Animes = () => {
 		if (localStorage.getItem("token")) {
 			setIsuthorzed(true)
 		}
-		getAnimes()
+		getAnimes(options.order)
 	}, [])
 
-	const getAnimes = () => {
+	const getAnimes = (order) => {
 		const req = {
 			method: "GET",
-			endpoint: `/animes/${options.sortBy}/${options.order}?page=${options.pagination.currentPage}`,
+			endpoint: `/animes/${options.sortBy}/${order}?page=${paginationOptions.currentPage}`,
 		}
 
 		callApi(req).then((data) => {
 			setAnimeList(data.animes.docs)
 
-			console.log(options)
-
-			// setOptions({
-			// 	...options,
-			// 	pagination: {
-			// 		currentPage: data.animes.page,
-			// 		prevPage: data.animes.prevPage,
-			// 		nextPage: data.animes.nextPage,
-			// 		totalPages: data.animes.totalPages,
-			// 	},
-			// })
+			setPaginationOptions({
+				...paginationOptions,
+				currentPage: data.animes.page,
+				prevPage: data.animes.prevPage,
+				nextPage: data.animes.nextPage,
+				totalPages: data.animes.totalPages,
+			})
 		})
 	}
 
@@ -68,7 +65,7 @@ const Animes = () => {
 
 		setAnimeList([])
 
-		getAnimes()
+		getAnimes(oldOrder === "DESC" ? "ASC" : "DESC")
 	}
 
 	return (
