@@ -3,7 +3,7 @@ const useApi = async (request) => {
 
 	const local = process.env.NODE_ENV === "development"
 
-	const baseUri = local ? "http://localhost:5000" : "http://backend.corvalangonzalo.xyz"
+	const baseUri = local ? "http://localhost:5000" : "https://corvalangonzalo-node.herokuapp.com"
 
 	const headerToken = { "x-access-token": token ? token : "" }
 
