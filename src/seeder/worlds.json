@@ -45,15 +45,20 @@
 							"original": 0
 						},
 						{
-							"franchise": "Occultic;Nine",
-							"position": 92,
-							"positionInTimeline": 4,
-							"original": 0
-						},
-						{
 							"franchise": "Robotic;Notes",
 							"position": 191,
 							"positionInTimeline": 5,
+							"original": 0
+						}
+					]
+				},
+				{
+					"universe": 2,
+					"bubble": [
+						{
+							"franchise": "Occultic;Nine",
+							"position": 92,
+							"positionInTimeline": 1,
 							"original": 0
 						}
 					]
@@ -61,7 +66,7 @@
 			]
 		},
 		{
-			"godInCharge": "Desconocido.",
+			"godInCharge": "Yo.",
 			"status": 1,
 			"description": "",
 			"jurisdiction": [
@@ -188,9 +193,9 @@
 			]
 		},
 		{
-			"godInCharge": "Desconocido.",
+			"godInCharge": "Anos Voldigoad (El Rey Demonio)",
 			"status": "1",
-			"description": "",
+			"description": "Le asigno este mundo a Anos así no me queda sin una Deidad Regente.",
 			"jurisdiction": [
 				{
 					"universe": 1,
@@ -206,6 +211,51 @@
 							"position": 93,
 							"positionInTimeline": 1,
 							"original": 0
+						},
+						{
+							"franchise": "Sewayaki Kitsune No Senko-san",
+							"position": 137,
+							"positionInTimeline": 3,
+							"original": 0
+						}
+					]
+				},
+				{
+					"universe": 2,
+					"bubble": [
+						{
+							"franchise": "Tensei Shitara Slime Datta Ken",
+							"position": 130,
+							"positionInTimeline": 1,
+							"original": 0
+						},
+						{
+							"franchise": "Gate: Jieitai Kanochi Nite, Kaku Tatakaeri",
+							"position": 155,
+							"positionInTimeline": 2,
+							"original": 0
+						}
+					]
+				},
+				{
+					"universe": 3,
+					"bubble": [
+						{
+							"franchise": "Tate No Yuusha No Nariagari",
+							"position": 135,
+							"positionInTimeline": 1,
+							"original": 0
+						}
+					]
+				},
+				{
+					"universe": 4,
+					"bubble": [
+						{
+							"franchise": "Maou Gakuin no Futekigousha",
+							"position": 175,
+							"positionInTimeline": 1,
+							"original": 1
 						}
 					]
 				}
@@ -248,6 +298,12 @@
 							"position": 108,
 							"description": "Es un anime dentro del mundo de Shirobako / Re:creators.",
 							"positionInTimeline": 2.1,
+							"original": 0
+						},
+						{
+							"franchise": "Irozuku Sekai No Ashita Kara",
+							"position": 114,
+							"positionInTimeline": 5,
 							"original": 0
 						},
 						{
@@ -336,6 +392,18 @@
 							"original": 0
 						},
 						{
+							"franchise": "Nichijou",
+							"position": 90,
+							"positionInTimeline": 4,
+							"original": 0
+						},
+						{
+							"franchise": "Joshiraku",
+							"position": 128,
+							"positionInTimeline": 3,
+							"original": 0
+						},
+						{
 							"franchise": "Ghost Hunt",
 							"position": 177,
 							"positionInTimeline": 1.2,
@@ -357,6 +425,17 @@
 			"description": "Kanade quedó como gobernante, mientras que Otonashi y los demás sirven como \"Policía\".",
 			"jurisdiction": [
 				{
+					"universe": 2,
+					"bubble": [
+						{
+							"franchise": "Gabriel DropOut",
+							"position": 20,
+							"positionInTimeline": 1,
+							"original": 0
+						}
+					]
+				},
+				{
 					"universe": 1,
 					"bubble": [
 						{
@@ -364,38 +443,6 @@
 							"position": 82,
 							"positionInTimeline": 1,
 							"original": 1
-						},
-						{
-							"franchise": "Re:Creators",
-							"position": 38,
-							"positionInTimeline": 3,
-							"original": 1
-						},
-						{
-							"franchise": "Bakuman!",
-							"position": 41,
-							"positionInTimeline": 1,
-							"original": 0
-						},
-						{
-							"franchise": "Kiznaiver",
-							"position": 103,
-							"positionInTimeline": 4,
-							"original": 0
-						},
-						{
-							"franchise": "Rail Wars",
-							"position": 108,
-							"description": "Es un anime dentro del mundo de Shirobako / Re:creators.",
-							"positionInTimeline": 2.1,
-							"original": 0
-						},
-						{
-							"franchise": "Girly Air Force",
-							"position": 129,
-							"description": "Es un anime dentro del mundo de Shirobako / Re:creators.",
-							"positionInTimeline": 2.2,
-							"original": 0
 						}
 					]
 				}
@@ -410,9 +457,69 @@
 					"universe": 1,
 					"bubble": [
 						{
+							"franchise": "Blend-S",
+							"position": 55,
+							"positionInTimeline": 2,
+							"original": 0
+						},
+						{
 							"franchise": "Mahou Shoujo Madoka Magica",
 							"position": 84,
 							"positionInTimeline": 1,
+							"original": 1
+						},
+						{
+							"franchise": "Mitsuboshi Colors",
+							"position": 89,
+							"positionInTimeline": 3,
+							"original": 0
+						},
+						{
+							"franchise": "Kaguya-sama Love Is War",
+							"position": 118,
+							"positionInTimeline": 4,
+							"original": 0
+						}
+					]
+				}
+			]
+		},
+		{
+			"godInCharge": "Yatogami",
+			"status": "1",
+			"description": "",
+			"jurisdiction": [
+				{
+					"universe": 1,
+					"bubble": [
+						{
+							"franchise": "Net-juu no Susume",
+							"position": 54,
+							"positionInTimeline": 2,
+							"original": 0
+						},
+						{
+							"franchise": "Osake wa Fuufu ni Natte kara?",
+							"position": 62,
+							"positionInTimeline": 1,
+							"original": 0
+						},
+						{
+							"franchise": "Sousei No Onmyouji",
+							"position": 69,
+							"positionInTimeline": 5,
+							"original": 0
+						},
+						{
+							"franchise": "Uchouten Kazoku",
+							"position": 164,
+							"positionInTimeline": 4,
+							"original": 0
+						},
+						{
+							"franchise": "Noragami",
+							"position": 187,
+							"positionInTimeline": 3,
 							"original": 1
 						}
 					]
