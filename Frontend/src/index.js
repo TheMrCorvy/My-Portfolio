@@ -14,6 +14,7 @@ import MyStudies from "./pages/MyStudies"
 import AboutMe from "./pages/AboutMe"
 import Admin from "./pages/Admin"
 import Animes from "./pages/Animes"
+import Worlds from "./pages/Worlds"
 
 import Layout from "./components/utils/Layout.jsx"
 
@@ -38,6 +39,8 @@ ReactDOM.render(
 				<Route exact path="/admin" render={() => <Admin />} />
 
 				<Route exact path="/animes" render={() => <Animes />} />
+
+				<Route exact path="/mundos" render={() => <Worlds />} />
 
 				<Route component={NotFound} />
 			</Switch>
