@@ -997,7 +997,7 @@
 		},
 		{
 			"position": 143,
-			"name": "Hitoribocchi No Seikatsu",
+			"name": "Hitoribocchi No ○ ○ Seikatsu",
 			"hasEnd": "1",
 			"description": "",
 			"date": "septiembre 2019"
@@ -1081,7 +1081,7 @@
 		},
 		{
 			"position": 155,
-			"name": "Gate: Jieitai Kanochi Nite, Kaku Tatakaeri Episodio",
+			"name": "Gate: Jieitai Kanochi Nite, Kaku Tatakaeri",
 			"hasEnd": "1",
 			"description": "El Anime Del Portal Y Los Militares",
 			"date": "Del Viernes 22 Al Viernes 29 De Mayo 2020"
@@ -1221,7 +1221,7 @@
 		},
 		{
 			"position": 175,
-			"name": "Maou Gakuin no Futekigousha",
+			"name": "Maou Gakuin No Futekigousha",
 			"hasEnd": "1",
 			"description": null,
 			"date": "lo vi entero el dom 31/01/2021"
@@ -1351,6 +1351,55 @@
 			"hasEnd": "0",
 			"description": "Es el q recomendó julia, con buen diseño de personajes, pero un final re choto",
 			"date": "El domingo 21 de noviembre de 2021"
+		},
+		{
+			"position": 194,
+			"name": "Heion Seidan No Idaten Tachi",
+			"hasEnd": "0",
+			"description": "Simplemente buenisimo, y muy TENTADOR.",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 195,
+			"name": "Urasekai Picnic",
+			"hasEnd": "1",
+			"description": "El de las 2 chicas que van al mundo de las leyendas urbanas.",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 196,
+			"name": "Bokutachi Wa Benkyou Ga Dekimasen",
+			"hasEnd": "1",
+			"description": "El de los memes de la peliazul.",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 197,
+			"name": "Tower Of God",
+			"hasEnd": "0",
+			"description": "La traición al final se veía venir, en mi opinión...",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 198,
+			"name": "Gochuumon Wa Usagi Desu Ka?",
+			"hasEnd": "1",
+			"description": "El de las lolis bailando en el ending.",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 199,
+			"name": "Mahou Shoujo Site",
+			"hasEnd": "0",
+			"description": "",
+			"date": "Durante las refacciones de la página web."
+		},
+		{
+			"position": 200,
+			"name": "Fullmetal Alchemist & Brotherhood",
+			"hasEnd": "1",
+			"description": "No vale la pena, 6/10.",
+			"date": "Durante las refacciones de la página web."
 		}
 	]
 }
