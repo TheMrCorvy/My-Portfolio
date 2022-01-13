@@ -29,7 +29,7 @@ const Footer = () => {
 							</NavItem>
 							<NavItem>
 								<NavLink to="/my-cv" tag={Link} onClick={scrollTop}>
-									My CV
+									My Resume
 								</NavLink>
 							</NavItem>
 							<NavItem>

@@ -4,9 +4,7 @@ import { verifyToken } from "../middlewares/auth"
 
 const router = Router()
 
-// router.get("/", worldsController.get)
-
-// router.get("/last-project", worldsController.getLast)
+router.get("/", worldsController.get)
 
 router.post("/create", verifyToken, worldsController.create)
 

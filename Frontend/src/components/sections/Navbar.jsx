@@ -22,9 +22,14 @@ const Navbar = () => {
 	const [open, setOpen] = useState(false)
 	const [collapseOut, setCollapseOut] = useState("")
 	const [color, setColor] = useState("navbar-transparent")
+	const [isAuthenticated, setIsAuthenticated] = useState(false)
 
 	useEffect(() => {
 		window.addEventListener("scroll", changeColor)
+
+		if (localStorage.getItem("token")) {
+			setIsAuthenticated(true)
+		}
 
 		return () => {
 			window.removeEventListener("scroll", changeColor)
@@ -64,6 +69,18 @@ const Navbar = () => {
 
 	const toggleModal = () => {
 		setOpen(!open)
+	}
+
+	const handleAuthSuccess = () => {
+		setIsAuthenticated(true)
+
+		toggleModal()
+	}
+
+	const logout = () => {
+		localStorage.removeItem("token")
+
+		setIsAuthenticated(false)
 	}
 
 	return (
@@ -138,11 +155,40 @@ const Navbar = () => {
 									About Me
 								</NavLink>
 							</NavItem>
-							<NavItem>
-								<NavLink className="btn btn-link" id="login" onClick={toggleModal}>
-									Login
-								</NavLink>
-							</NavItem>
+							{!isAuthenticated ? (
+								<NavItem>
+									<NavLink
+										className="btn btn-link"
+										id="login"
+										onClick={toggleModal}
+									>
+										Login
+									</NavLink>
+								</NavItem>
+							) : (
+								<>
+									<NavItem>
+										<NavLink
+											className="btn btn-link"
+											tag={Link}
+											to="/admin"
+											id="admin"
+											onClick={scrollUp}
+										>
+											Administrar Sitio
+										</NavLink>
+									</NavItem>
+									<NavItem>
+										<NavLink
+											className="btn btn-link"
+											id="logout"
+											onClick={logout}
+										>
+											Logout
+										</NavLink>
+									</NavItem>
+								</>
+							)}
 						</Nav>
 					</Collapse>
 				</Container>
@@ -160,7 +206,11 @@ const Navbar = () => {
 				</UncontrolledTooltip>
 			</ReactstraptNavbar>
 
-			<LoginModal toggleModalLogin={toggleModal} modalLogin={open} />
+			<LoginModal
+				toggleModalLogin={toggleModal}
+				modalLogin={open}
+				onAuthSuccess={handleAuthSuccess}
+			/>
 		</>
 	)
 }

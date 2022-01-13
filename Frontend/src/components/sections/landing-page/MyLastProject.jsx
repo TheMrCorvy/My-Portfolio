@@ -4,18 +4,27 @@ import { Container, Row, Col, UncontrolledTooltip, Alert } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import projects from "../../../temp/projects"
+import useApi from "../../../hooks/useApi"
 
 const MyLastProject = (props) => {
 	const [lastProject, setLastProject] = useState(null)
 	const [loading, setLoading] = useState(true)
 
+	const callApi = useApi
+
 	useEffect(() => {
-		setTimeout(() => {
-			setLastProject(projects.projects[0])
-			setLoading(false)
-		}, 3000)
-	})
+		const req = {
+			method: "GET",
+			endpoint: "/projects/last",
+		}
+
+		callApi(req)
+			.then((data) => {
+				setLastProject(data)
+				setLoading(false)
+			})
+			.catch((data) => console.error(data))
+	}, [])
 
 	if (loading) {
 		return (
@@ -52,56 +61,32 @@ const MyLastProject = (props) => {
 							<h1>My Last Project</h1>
 							<p dangerouslySetInnerHTML={{ __html: lastProject.description }}></p>
 							<br />
+							<p className="text-success">{lastProject.date}</p>
+							<br />
 
 							<Row>
 								<Col md="12" lg="6" xl="4" className="mb-3">
-									<Link
+									<a
 										className="font-weight-bold text-info mt-5 ml-3"
-										to={lastProject.links.github}
+										href={lastProject.links.github}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
 										See it on GitHub
 										<i className="tim-icons icon-minimal-right text-info" />
-									</Link>
+									</a>
 								</Col>
 								<Col md="12" lg="6" xl="4" className="mb-3">
-									<Link
+									<a
 										className="font-weight-bold text-info mt-5 ml-3"
-										to={lastProject.links.mainLink}
+										href={lastProject.links.mainLink}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
 										See it Live
 										<i className="tim-icons icon-minimal-right text-info" />
-									</Link>
+									</a>
 								</Col>
-								{lastProject.links.playStore && (
-									<Col md="12" lg="6" xl="4" className="mb-3">
-										<Link
-											className="font-weight-bold text-info mt-5 ml-3"
-											to={lastProject.links.playStore}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											See it on the Play Store
-											<i className="tim-icons icon-minimal-right text-info" />
-										</Link>
-									</Col>
-								)}
-								{lastProject.links.appStore && (
-									<Col md="12" lg="6" xl="4" className="mb-3">
-										<Link
-											className="font-weight-bold text-info mt-5 ml-3"
-											to={lastProject.links.appStore}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											See it on the App Store
-											<i className="tim-icons icon-minimal-right text-info" />
-										</Link>
-									</Col>
-								)}
 								{!props.alt && (
 									<Col md="12" lg="6" xl="4" className="mb-3">
 										<Link

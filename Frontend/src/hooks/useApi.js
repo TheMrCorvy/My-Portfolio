@@ -3,9 +3,9 @@ const useApi = async (request) => {
 
 	const local = process.env.NODE_ENV === "development"
 
-	const baseUri = local ? "http://localhost:5000/api" : "https://backend.corvalangonzalo.xyz/api"
+	const baseUri = local ? "http://localhost:5000" : "http://backend.corvalangonzalo.xyz"
 
-	const headerToken = { Authorization: token ? "Bearer " + token : "" }
+	const headerToken = { "x-access-token": token ? token : "" }
 
 	const reqHeaders = headers
 		? new Headers({ ...headers, ...headerToken })
@@ -20,16 +20,8 @@ const useApi = async (request) => {
 
 	return await fetch(reqUrl, { method, headers: reqHeaders, body: JSON.stringify(body) })
 		.then((res) => res.json())
-		.then((data) => {
-			if (data.status !== 200) {
-				throw new Error(data)
-			}
-
-			return data
-		})
-		.catch((error) => {
-			return error
-		})
+		.then((data) => data)
+		.catch((error) => error)
 }
 /***
  * How to use this hook:

@@ -1,6 +1,6 @@
 import React from "react"
-
-import { Container, Row, Col, UncontrolledTooltip } from "reactstrap"
+import { Link } from "react-router-dom"
+import { Container, Row, Col } from "reactstrap"
 
 const MyDescrption = () => {
 	return (
@@ -47,8 +47,20 @@ const MyDescrption = () => {
 								<li className="mt-4">
 									<p>
 										I could never fully describe myself without saying that I am
-										a huge fan of Japanese anime. That{"'"}s one of my favorite
-										hobbies.
+										a huge fan of
+										<Link
+											className="font-weight-bold text-info mt-5 mx-3"
+											to="animes"
+											onClick={() =>
+												window.scrollTo({
+													top: 0,
+													left: 0,
+												})
+											}
+										>
+											Japanese Anime
+										</Link>
+										. That{"'"}s one of my favorite hobbies.
 									</p>
 								</li>
 								{/* <li className="mt-4">

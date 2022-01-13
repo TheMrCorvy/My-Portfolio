@@ -12,11 +12,7 @@ const Chess = () => {
 							<h2>Chess</h2>
 						</Col>
 						<Col xs="12" sm="6" md="4">
-							<img
-								alt="an image of chess"
-								className="img-raised"
-								src="/images/about-me/chess.jpeg"
-							/>
+							<img alt="" className="img-raised" src="/images/about-me/chess.jpeg" />
 						</Col>
 						<Col xs="12" sm="6" md="4" className="my-3">
 							<p>

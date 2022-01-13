@@ -27,7 +27,7 @@ const Yugioh = () => {
 			</Col>
 			<Col xs="12" sm="6" md="4" className="my-3">
 				<img
-					alt="an image of my yugioh card collection"
+					alt=""
 					className="img-raised"
 					src="https://img.yugioh-card.com/ygo_cms/ygo/all/uploads/01_Intro.jpg"
 				/>

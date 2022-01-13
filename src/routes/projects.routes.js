@@ -6,7 +6,7 @@ const router = Router()
 
 router.get("/", projectsController.get)
 
-router.get("/last-project", projectsController.getLast)
+router.get("/last", projectsController.getLast)
 
 router.post("/create", verifyToken, projectsController.create)
 

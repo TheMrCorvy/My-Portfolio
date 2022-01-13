@@ -6,6 +6,7 @@ const certificateSchema = new Schema(
 		image: String,
 		date: String,
 		description: String,
+		institute: String,
 	},
 	{
 		timestamps: true,

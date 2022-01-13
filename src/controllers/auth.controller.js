@@ -56,5 +56,5 @@ export const login = async (req, res) => {
 		}
 	)
 
-	return res.status(200).json({ token })
+	return res.status(200).json({ token, status: 200 })
 }

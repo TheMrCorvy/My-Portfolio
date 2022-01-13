@@ -4,18 +4,26 @@ import { Container, Row, Col, Alert } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
-import projects from "../../../temp/projects"
+import useApi from "../../../hooks/useApi"
 
 const MyLastCertificate = (props) => {
 	const [lastCertificate, setLastCertificate] = useState(null)
 	const [loading, setLoading] = useState(true)
 
+	const callApi = useApi
+
 	useEffect(() => {
-		setTimeout(() => {
-			setLastCertificate(projects.projects[0])
+		const req = {
+			method: "GET",
+			endpoint: "/certificates/last",
+		}
+
+		callApi(req).then((data) => {
+			setLastCertificate(data)
+
 			setLoading(false)
-		}, 3000)
-	})
+		})
+	}, [])
 
 	if (loading) {
 		return (
@@ -39,6 +47,8 @@ const MyLastCertificate = (props) => {
 							<p
 								dangerouslySetInnerHTML={{ __html: lastCertificate.description }}
 							></p>
+							<h5 className="title">{lastCertificate.institute}</h5>
+							<p className="text-success">{lastCertificate.date}</p>
 							<br />
 
 							<Link

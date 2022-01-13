@@ -1,0 +1,228 @@
+{
+	"data": [
+		{
+			"name": "Introduction to Object Oriented Programming",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899375/educacion%20it/intro_oop_qo6h4i.jpg",
+			"date": "Dec 2017",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Introduction to SQL Databases",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899405/educacion%20it/intro_db_tnr7jf.jpg",
+			"date": "Dec 2017",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Web Programming with PHP and MySQL",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899434/educacion%20it/php_y_mysql_f4d45w.jpg",
+			"date": "Feb 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Introduction to Web Design with HTML5 & CSS3",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899471/educacion%20it/maquetacion_html_css3_lzyveb.jpg",
+			"date": "Apr 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Introduction to JavaScript Programming Language",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899494/educacion%20it/intro_js_fftksq.jpg",
+			"date": "May 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "OOP with PHP Language",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899514/educacion%20it/oop_php_raah5n.jpg",
+			"date": "Jun 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "English Course, Level 5 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899556/certificados%20ingles/basico_5_g5sptw.jpg",
+			"date": "Jul 2018",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "JQuery for Web Design",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899588/educacion%20it/jquery_wpnty7.jpg",
+			"date": "Jul 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Introduction to Git",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899733/educacion%20it/git_collab_eekgur.jpg",
+			"date": "Aug 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Web Security & SQL Injection",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899753/educacion%20it/sql_injection_et4kfr.jpg",
+			"date": "Sep 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Responsive Design",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899774/educacion%20it/responsive_hdkeys.jpg",
+			"date": "Sep 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Angular JS",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899794/educacion%20it/angular_dw4skb.jpg",
+			"date": "Oct 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "SQL Programming",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899816/educacion%20it/sql_programming_qth77t.jpg",
+			"date": "Nov 2018",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Japanese Language Course, Level 1 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899847/certificados%20japo/basico_1_tibgsy.jpg",
+			"date": "Feb 2019",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "English Course, Level 6 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899877/certificados%20ingles/basico_6_qfmehp.jpg",
+			"date": "Feb 2019",
+			"description": "With a total Score of 98 out of 100.",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "Advanced FrontEnd Development with JavaScript",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899903/educacion%20it/js_avanzado_jfh4bq.jpg",
+			"date": "May 2019",
+			"description": "",
+			"institute": "EducaciónIT"
+		},
+		{
+			"name": "Japanese Language Course, Level 2 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899932/certificados%20japo/basico_2_vnm9fr.jpg",
+			"date": "Jul 2019",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "English Course, Level 1 (Consolidation Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899964/certificados%20ingles/conso_1_iuopqf.jpg",
+			"date": "Jul 2019",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "Japanese Language Course, Level 3 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900009/certificados%20japo/basico_3_uwlw3v.jpg",
+			"date": "Dec 2019",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "English Course, Level 2 (Consolidation Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900038/certificados%20ingles/conso_2_ge1fji.jpg",
+			"date": "Dec 2019",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "Japanese LanguageCourse, Level 4 (Basic Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900075/certificados%20japo/basico_4_t7bf2s.jpg",
+			"date": "Aug 2020",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "English Course, Level 3 (Consolidation Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900107/certificados%20ingles/conso_3_kr0crp.jpg",
+			"date": "Dec 2020",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "Japanese Language Course, Level 1 (Consolidation Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900136/certificados%20japo/conso_1_uyp9ji.jpg",
+			"date": "Dec 2020",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "Introduction to Git",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900512/ed%20team/git_0_nwvpxx.jpg",
+			"date": "Jan 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "Workflow with Git",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900542/ed%20team/git_collab_tnmg0f.jpg",
+			"date": "Jan 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "Introduction to TypeScript",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900565/ed%20team/ts_hyvxos.jpg",
+			"date": "Jan 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "Introduction to API REST",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900585/ed%20team/api_rest_i0xbcc.jpg",
+			"date": "Jan 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "NextsJS Complete Course",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900602/ed%20team/next_juj7lj.jpg",
+			"date": "Feb 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "Bitcoin Course",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900614/ed%20team/btc_gylzq5.jpg",
+			"date": "Apr 2021",
+			"description": "",
+			"institute": "ED.Team (Digital School Institute)"
+		},
+		{
+			"name": "Trading with Cryptocurrencies Course",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900215/Certificado_page-0001_gfmucl.jpg",
+			"date": "Apr 2021",
+			"description": "",
+			"institute": "UTN BA (National Technologichal Universiti of Buenos Aires)"
+		},
+		{
+			"name": "Japanese Language Course, Level 2 (Consolidation Cicle)",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900160/certificados%20japo/conso_2_ejuuii.jpg",
+			"date": "Jul 2021",
+			"description": "",
+			"institute": "CUI (Languages Institute of the University of Buenos Aires)"
+		},
+		{
+			"name": "TOEFL Certificate for the IBT Test",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641900185/certificados%20ingles/Certificado_TOFL_page-0001_nobqi8.jpg",
+			"date": "Aug 2021",
+			"description": "Achieving a total score of 95 out of 120 points.",
+			"institute": "TEOFL ETS"
+		}
+	]
+}

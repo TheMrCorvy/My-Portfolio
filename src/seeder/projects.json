@@ -1,0 +1,114 @@
+{
+	"data": [
+		{
+			"name": "Prices of Magic The Gathering",
+			"slug": "prices-of-magic-the-gathering",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898647/projects/magic_ug3jgc.jpg",
+			"description": "A simple frontend application that consumes an API in order to show ",
+			"date": "Aug 2020",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/precios-mtg",
+				"mainLink": "https://themrcorvy.github.io/precios-mtg/"
+			}
+		},
+		{
+			"name": "My Portfolio",
+			"slug": "my-portfolio",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898737/projects/mi_p8vhki.jpg",
+			"description": "My portfolio website, built with React JS and Laravel in first instance, but recently I updated it and migrated the backend to node JS.",
+			"date": "Nov 2021 - Jan 2022",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/My-Portfolio",
+				"mainLink": "https://corvalangonzalo.xyz"
+			}
+		},
+		{
+			"name": "Salud Y Derechos",
+			"slug": "salud-y-derechos",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898760/projects/salud_lqnvlq.jpg",
+			"description": "The web page that serves as presentation for the lawyer Dr. Juan Pablo Corvalán. <br/><br/>This web page explains the process to claim for the legal protection of the Human Right, as well as show the achievements and studies of the Dr.",
+			"date": "Jan 2021 - Nov 2021",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/salud-y-derechos",
+				"mainLink": "https://saludyderechos.com.ar"
+			}
+		},
+		{
+			"name": "Yu-Gi-Oh! Para El pueblo",
+			"slug": "yu-gi-oh-para-el-pueblo",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898862/projects/ygopep_jbnzjb.jpg",
+			"description": "An E-Commerce built using only Laravel (for both the frontend and backend), and MySQL for the database.",
+			"date": "Jul 2020 - Dec 2020",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/Yu-Gi-Oh-Para-El-Pueblo",
+				"mainLink": "https://yugiohparaelpueblo.herokuapp.com"
+			}
+		},
+		{
+			"name": "GBA Credionline",
+			"slug": "gba-online",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898892/projects/gba_iogzys.jpg",
+			"description": "A simple web page built with a layout based on Bootstrap 4.",
+			"date": "Aug 2020",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/gba-credionline",
+				"mainLink": "http://gba.credionline.com/"
+			}
+		},
+		{
+			"name": "Servicio Al Toque",
+			"slug": "servicio-al-toque",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898922/projects/servicio_oqy3ut.jpg",
+			"description": "A web application built with Laravel (for both the frontend and backend).<br/>In the case of the frontend, it was build using Laravel Blade with a Bootstrap 4 based layout.<br/><br/>This web application includes: Geolocation, Login System, Payments Options (PayPal & Stripe), and its fully responsive.",
+			"date": "Jun 2020 - Dec 2020",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/ServicioAlToqueWeb",
+				"mainLink": "https://servicioaltoque.herokuapp.com/"
+			}
+		},
+		{
+			"name": "Agromix",
+			"slug": "agromix",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898948/projects/agromix_lkzlbe.jpg",
+			"description": "A simple web page built with React JS and TypeScript, that serves as presentation for the agriculture-related products E-Commerce.",
+			"date": "Dec 2020",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/agromix",
+				"mainLink": "https://themrcorvy.github.io/agromix/"
+			}
+		},
+		{
+			"name": "Nihongo App",
+			"slug": "nihongo-app",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898967/projects/nihongo_app_qn4yss.jpg",
+			"description": "A prgressive Web Aplication for studying Japanese language.<br/><br/>This app was built using React JS and a layout for Reactstrap.",
+			"date": "Jun 2020 - Jan 2021",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/nihongo-app",
+				"mainLink": "https://themrcorvy.github.io/nihongo-app/"
+			}
+		},
+		{
+			"name": "Marroquinería Stallion",
+			"slug": "marroquineria-stallion",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641898984/projects/stallion_gcywin.jpg",
+			"description": "The web application for the E-Commerce of Stallion Marroquinería.<br/><br/>This app was built using Next JS, TypeScript, and MaterialUI for the frontend, and Laravel as backend API, with MySQL database.",
+			"date": "Jun 2021 - Sep 2021",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/Marroquineria-Stallion-Frontend",
+				"mainLink": "https://www.stallionmarroquineria.com/"
+			}
+		},
+		{
+			"name": "Amazones",
+			"slug": "amazoness",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1641899000/projects/amazoness_tkmmln.jpg",
+			"description": "Amazoness is a project still in process.<br/><br/>This app is planned to be a complete E-Commerce, including variants for products, login and register system, and an administration panel with graophics.<br/><br/>This app is beign built with Next JS, TypeScript, MongoDB, and for the frontend, MaterialUI.",
+			"date": "Oct 2021 - Still in progress",
+			"links": {
+				"github": "https://github.com/TheMrCorvy/amazoness",
+				"mainLink": "https://amazoness.vercel.app"
+			}
+		}
+	]
+}
