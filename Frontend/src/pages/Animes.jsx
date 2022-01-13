@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react"
 
 import { Row, Container, Alert, Col } from "reactstrap"
-import ListAnimes from "../components/sections/animes/ListAnimes"
 
+import ListAnimes from "../components/sections/animes/ListAnimes"
+import SetOrder from "../components/sections/animes/SetOrder"
 import BreadCrumbs from "../components/utils/BreadCrumbs"
 import useApi from "../hooks/useApi"
 
@@ -36,20 +37,38 @@ const Animes = () => {
 		}
 
 		callApi(req).then((data) => {
-			console.log(data)
-
 			setAnimeList(data.animes.docs)
 
+			console.log(options)
+
+			// setOptions({
+			// 	...options,
+			// 	pagination: {
+			// 		currentPage: data.animes.page,
+			// 		prevPage: data.animes.prevPage,
+			// 		nextPage: data.animes.nextPage,
+			// 		totalPages: data.animes.totalPages,
+			// 	},
+			// })
+		})
+	}
+
+	const toggleOrder = (oldOrder) => {
+		if (oldOrder === "DESC") {
 			setOptions({
 				...options,
-				pagination: {
-					currentPage: data.animes.page,
-					prevPage: data.animes.prevPage,
-					nextPage: data.animes.nextPage,
-					totalPages: data.animes.totalPages,
-				},
+				order: "ASC",
 			})
-		})
+		} else {
+			setOptions({
+				...options,
+				order: "DESC",
+			})
+		}
+
+		setAnimeList([])
+
+		getAnimes()
 	}
 
 	return (
@@ -60,6 +79,9 @@ const Animes = () => {
 					"About Me": "about-me",
 				}}
 			/>
+
+			<SetOrder order={options.order} updateOrder={toggleOrder}></SetOrder>
+
 			<Container className="py-5 my-5">
 				<Row className="justify-content-center">
 					{animeList.length !== 0 ? (
