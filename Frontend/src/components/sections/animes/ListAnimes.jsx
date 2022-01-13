@@ -21,14 +21,16 @@ const ListAnimes = ({ animes, isAuthorized }) => {
 				</CardBody>
 				<CardFooter>
 					<CardTitle>
-						{isAuthorized && (
-							<p className="card-category text-white text-capitalize">
-								Descripción: {anime.description}
+						{isAuthorized && anime.description && (
+							<p className="text-white mt-4">
+								<span style={{ fontWeight: "bold" }}>Descripción:</span>{" "}
+								{anime.description}
 							</p>
 						)}
-						{isAuthorized && (
-							<p className="card-category text-white text-capitalize">
-								Período visto: {anime.date}
+						{isAuthorized && anime.date && (
+							<p className="text-white mt-4">
+								<span style={{ fontWeight: "bold" }}>Período visto:</span>{" "}
+								{anime.date}
 							</p>
 						)}
 					</CardTitle>
