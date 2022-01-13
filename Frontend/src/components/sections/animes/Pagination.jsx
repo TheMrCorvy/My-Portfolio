@@ -15,12 +15,20 @@ const Pagination = ({ options, updatePage }) => {
 		e.preventDefault()
 		if (newPage === 0 || newPage > options.totalPages) return
 
-		updatePage(newPage)
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "smooth",
+		})
+
+		setTimeout(() => {
+			updatePage(newPage)
+		}, 1000)
 	}
 
 	return (
 		<Container>
-			<Row className="justify-content-center">
+			<Row className="justify-content-center py-5">
 				<ReactstrapPagination
 					className="pagination pagination-info"
 					listClassName="pagination-info"
