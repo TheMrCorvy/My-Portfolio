@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react"
 import { Row, Container, Alert, Col } from "reactstrap"
 
 import ListAnimes from "../components/sections/animes/ListAnimes"
+import Pagination from "../components/sections/animes/Pagination"
 import SetOrder from "../components/sections/animes/SetOrder"
 import BreadCrumbs from "../components/utils/BreadCrumbs"
 import useApi from "../hooks/useApi"
@@ -28,13 +29,13 @@ const Animes = () => {
 		if (localStorage.getItem("token")) {
 			setIsuthorzed(true)
 		}
-		getAnimes(options.order)
+		getAnimes(options.order, paginationOptions.currentPage)
 	}, [])
 
-	const getAnimes = (order) => {
+	const getAnimes = (order, page) => {
 		const req = {
 			method: "GET",
-			endpoint: `/animes/${options.sortBy}/${order}?page=${paginationOptions.currentPage}`,
+			endpoint: `/animes/${options.sortBy}/${order}?page=${page}`,
 		}
 
 		callApi(req).then((data) => {
@@ -65,7 +66,13 @@ const Animes = () => {
 
 		setAnimeList([])
 
-		getAnimes(oldOrder === "DESC" ? "ASC" : "DESC")
+		getAnimes(oldOrder === "DESC" ? "ASC" : "DESC", paginationOptions.currentPage)
+	}
+
+	const updatePage = (newPage) => {
+		setAnimeList([])
+
+		getAnimes(options.order, newPage)
 	}
 
 	return (
@@ -79,7 +86,11 @@ const Animes = () => {
 
 			<SetOrder order={options.order} updateOrder={toggleOrder}></SetOrder>
 
-			<Container className="py-5 my-5">
+			<Container className="pb-5 mb-5">
+				{animeList.length !== 0 && (
+					<Pagination options={paginationOptions} updatePage={updatePage} />
+				)}
+
 				<Row className="justify-content-center">
 					{animeList.length !== 0 ? (
 						<ListAnimes isAuthorized={isAuthorized} animes={animeList} />
@@ -89,6 +100,10 @@ const Animes = () => {
 						</Col>
 					)}
 				</Row>
+
+				{animeList.length !== 0 && (
+					<Pagination options={paginationOptions} updatePage={updatePage} />
+				)}
 			</Container>
 		</>
 	)
