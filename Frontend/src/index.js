@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound.jsx"
 import MyStudies from "./pages/MyStudies"
 import AboutMe from "./pages/AboutMe"
 import Admin from "./pages/Admin"
+import Animes from "./pages/Animes"
 
 import Layout from "./components/utils/Layout.jsx"
 
@@ -35,6 +36,8 @@ ReactDOM.render(
 				<Route exact path="/about-me" render={() => <AboutMe />} />
 
 				<Route exact path="/admin" render={() => <Admin />} />
+
+				<Route exact path="/animes" render={() => <Animes />} />
 
 				<Route component={NotFound} />
 			</Switch>
