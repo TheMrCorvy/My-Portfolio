@@ -8,9 +8,8 @@ import animes from "./animes.json"
 import certificates from "./certificates.json"
 import worlds from "./worlds.json"
 import projects from "./projects.json"
-import userJson from "./users.json"
 
-export const createUsers = async () => {
+export const setUpDb = async () => {
 	const userCount = await User.estimatedDocumentCount()
 
 	if (userCount > 0) return
@@ -34,14 +33,6 @@ export const createUsers = async () => {
 	await World.deleteMany({})
 
 	console.log("Deleted all of the worlds.")
-	console.log("- - - - - - - - - - - - - - -")
-
-	await new User({
-		email: userJson.user.email,
-		password: await User.encryptPassword(userJson.user.password),
-	}).save()
-
-	console.log("Inserted user.")
 	console.log("- - - - - - - - - - - - - - -")
 
 	await Anime.insertMany(animes.data)

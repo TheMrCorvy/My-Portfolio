@@ -9,7 +9,7 @@ import certificatesRoutes from "./routes/certificates.routes"
 import animesRoutes from "./routes/animes.routes"
 import worldsRoutes from "./routes/worlds.routes"
 
-import { createUsers } from "./seeder/initialSetup"
+import { setUpDb } from "./seeder/initialSetup"
 
 const whitelist = [
 	"http://localhost:3000",
@@ -31,7 +31,7 @@ const app = express()
 
 app.use(cors(corsOptions))
 
-createUsers()
+setUpDb()
 
 // create application/json parser
 const jsonParser = bodyParser.json()
