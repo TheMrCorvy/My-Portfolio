@@ -102,7 +102,7 @@
 		{
 			"name": "PasuNash",
 			"slug": "pasunashi",
-			"image": "",
+			"image": "https://res.cloudinary.com/dk61gssrr/image/upload/v1642176449/projects/pasunashi_jj0ic9.png",
 			"description": "A complete password manager app bult with React JS, TypeScrpt, and Material UI for the frontend, and Laravel with MySQL as the backend.<br/><br/>Ths app includes role managements for users, premium functions, payments handling wth PayPal and Coinbase.<br/><br/>It synchronizes all the stored passwords of the users across al the users' registered devices.",
 			"date": "Feb 2021 - Oct 2021",
 			"links": {
