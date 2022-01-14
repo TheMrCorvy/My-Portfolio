@@ -8,7 +8,7 @@ const SetOrder = ({ order, updateOrder }) => {
 			<Row style={{ height: "35vh" }}>
 				<Col lg="8" style={{ margin: "auto" }} className="text-center">
 					<h1 className="text-center text-neutral" style={{ lineHeight: "1.2" }}>
-						Toggle Sorting Direction
+						Toggle Order
 					</h1>
 					<Button color="info" onClick={() => updateOrder(order)}>
 						{order}

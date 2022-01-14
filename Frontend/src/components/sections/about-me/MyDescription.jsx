@@ -14,7 +14,7 @@ const MyDescrption = () => {
 								<li className="mt-4">
 									<p>
 										I am a young programmer with a great ability to learn, and
-										motivated by the curiosity to know how things work.
+										motivated by the curiosity to know how the things work.
 									</p>
 								</li>
 								{/* <li className="mt-4">
@@ -34,7 +34,7 @@ const MyDescrption = () => {
 								</li>
 								<li className="mt-4">
 									<p>
-										I am a very patient and orderly person. I always keep my
+										I am a very patient and organized person. I always keep my
 										desk clean and free of unnecessary things.
 									</p>
 								</li>
@@ -60,7 +60,7 @@ const MyDescrption = () => {
 										>
 											Japanese Anime
 										</Link>
-										. That{"'"}s one of my favorite hobbies.
+										. That{"'"}s one of my favorite things in the world.
 									</p>
 								</li>
 								{/* <li className="mt-4">

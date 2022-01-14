@@ -17,7 +17,7 @@ const SocialButtons = ({ tooltipPosition }) => {
 						<i className="fab fa-twitter"></i>
 					</a>
 				</Col>
-				<Col xs="4" sm="4" md="4" lg="1" xl="1">
+				{/* <Col xs="4" sm="4" md="4" lg="1" xl="1">
 					<a
 						href="#pablo"
 						target="_blank"
@@ -27,7 +27,7 @@ const SocialButtons = ({ tooltipPosition }) => {
 					>
 						<i className="fab fa-facebook-square"></i>
 					</a>
-				</Col>
+				</Col> */}
 				<Col xs="4" sm="4" md="4" lg="1" xl="1">
 					<a
 						href="https://www.linkedin.com/in/gonzalo-salvador-corvalan/"
@@ -39,7 +39,7 @@ const SocialButtons = ({ tooltipPosition }) => {
 						<i className="fab fa-linkedin"></i>
 					</a>
 				</Col>
-				<Col xs="4" sm="4" md="4" lg="1" xl="1">
+				{/* <Col xs="4" sm="4" md="4" lg="1" xl="1">
 					<a
 						href="#pablo"
 						target="_blank"
@@ -49,7 +49,7 @@ const SocialButtons = ({ tooltipPosition }) => {
 					>
 						<i className="fab fa-telegram"></i>
 					</a>
-				</Col>
+				</Col> */}
 				<Col xs="4" sm="4" md="4" lg="1" xl="1">
 					<a
 						href="https://api.whatsapp.com/send?phone=+5401150488031"
@@ -76,15 +76,15 @@ const SocialButtons = ({ tooltipPosition }) => {
 			<UncontrolledTooltip placement={tooltipPosition} target="twitter" delay={0}>
 				Find me on Twitter
 			</UncontrolledTooltip>
-			<UncontrolledTooltip placement={tooltipPosition} target="facebook" delay={0}>
+			{/* <UncontrolledTooltip placement={tooltipPosition} target="facebook" delay={0}>
 				Find me on Facebook
-			</UncontrolledTooltip>
+			</UncontrolledTooltip> */}
 			<UncontrolledTooltip placement={tooltipPosition} target="linkedin" delay={0}>
 				Find me on Linkedin
 			</UncontrolledTooltip>
-			<UncontrolledTooltip placement={tooltipPosition} target="telegram" delay={0}>
+			{/* <UncontrolledTooltip placement={tooltipPosition} target="telegram" delay={0}>
 				Find me on Telegram
-			</UncontrolledTooltip>
+			</UncontrolledTooltip> */}
 			<UncontrolledTooltip placement={tooltipPosition} target="whatsapp" delay={0}>
 				Find me on WhatsApp
 			</UncontrolledTooltip>
