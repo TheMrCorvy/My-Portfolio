@@ -41,11 +41,7 @@ const DownloadCV = () => {
 							</p>
 						</CardBody>
 						<CardFooter className="text-center">
-							<a
-								href="/downloads/corvalan%20gonzalo%20cv.pdf"
-								className="btn btn-warning"
-								download
-							>
+							<a href="/downloads/CV.pdf" className="btn btn-warning" download>
 								Download Resume
 							</a>
 						</CardFooter>
