@@ -3,7 +3,7 @@ const useApi = async (request) => {
 
 	const local = process.env.NODE_ENV === "development"
 
-	const baseUri = local ? "http://localhost:5000" : "https://corvalangonzalo-backend.netlify.app"
+	const baseUri = local ? "http://localhost:5000" : "https://corvalangonzalo-backend.onrender.com"
 
 	const headerToken = { "x-access-token": token ? token : "" }
 
