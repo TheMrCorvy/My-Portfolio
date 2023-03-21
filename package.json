@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "babel src --out-dir build",
+		"build": "npm install && babel src --out-dir build",
 		"start": "nodemon src/index.js --exec babel-node",
 		"dev": "nodemon src/index.js --exec babel-node"
 	},
