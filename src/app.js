@@ -17,6 +17,7 @@ const whitelist = [
 	"https://corvalangonzalo.xyz",
 	"https://www.corvalangonzalo.xyz",
 	"http://www.corvalangonzalo.xyz",
+	"https://my-porfolio-frontend.vercel.app/",
 ]
 
 const corsOptions = {
