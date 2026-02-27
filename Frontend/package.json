@@ -38,7 +38,7 @@
     "chart.js": "2.7.3",
     "classnames": "2.2.6",
     "emailjs-com": "^3.2.0",
-    "moment": "2.24.0",
+    "moment": "2.29.3",
     "node-sass": "~4.13.0",
     "nouislider": "13.1.1",
     "perfect-scrollbar": "1.4.0",
